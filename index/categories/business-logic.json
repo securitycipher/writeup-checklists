@@ -1,0 +1,39 @@
+{
+  "category": "business-logic",
+  "category_label": "Business Logic",
+  "count": 2,
+  "items": [
+    {
+      "id": "28807661b255",
+      "title": "How a $12,000 Bounty Was Earned via Broken Logic in Payment Webhooks",
+      "author": "T4nv1",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "hacking",
+        "bug-bounty",
+        "pentesting",
+        "security",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/28807661b255.md",
+      "source_url": "https://medium.com/@t4nv1/how-a-12-000-bounty-was-earned-via-broken-logic-in-payment-webhooks-0845dde48dd3",
+      "quick_test": "Test webhook endpoints for payment processing by sending manipulated payment status notifications to check for logic bypass vulnerabilities."
+    },
+    {
+      "id": "0cc8aada8fcd",
+      "title": "Is It Possible to Get an $850 Subscription Plan With Only $0?",
+      "author": "0xMo7areb",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "cybersecurity",
+        "technology",
+        "penetration-testing",
+        "writing",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/0cc8aada8fcd.md",
+      "source_url": "https://medium.com/@0xMo7areb/is-it-possible-to-get-an-850-subscription-plan-with-only-0-e175200b6549",
+      "quick_test": "Test for hidden subscription IDs by manipulating the subscriptionId parameter during the payment process."
+    }
+  ]
+}

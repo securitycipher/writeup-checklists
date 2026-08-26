@@ -1,0 +1,118 @@
+{
+  "category": "injection",
+  "category_label": "Injection (SQL / NoSQL)",
+  "count": 7,
+  "items": [
+    {
+      "id": "965da22b2c97",
+      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
+      "author": "Philip Garabandic",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "open-source",
+        "application-security",
+        "ai",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/injection/965da22b2c97.md",
+      "source_url": "https://infosecwriteups.com/agentgg-cli-found-100-zero-days-in-open-source-software-5269463d2e40",
+      "quick_test": "Run a targeted scan for SQL injection vulnerabilities on open source geospatial projects using AgentGG."
+    },
+    {
+      "id": "7cd3e02c1dd3",
+      "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",
+      "author": "Philip Garabandic",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "vulnerability",
+        "application-security",
+        "cybersecurity",
+        "open-source",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/7cd3e02c1dd3.md",
+      "source_url": "https://infosecwriteups.com/a-geoserver-zero-day-that-went-from-private-report-to-public-exploit-in-six-weeks-0fc3724f22d7",
+      "quick_test": "Test public GeoServer instances for unauthenticated SQL injection via the jsonArrayContains filter by sending crafted WFS or WMS requests."
+    },
+    {
+      "id": "d7cdfdbbed08",
+      "title": "The Story of How I Hacked one of the online payment system website",
+      "author": "Jonathan Christian",
+      "publication_date": "2023-11-20",
+      "tags": [
+        "bug-bounty-writeup",
+        "programming",
+        "technology",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/d7cdfdbbed08.md",
+      "source_url": "https://christmex.medium.com/the-story-of-how-i-hacked-one-of-the-online-payment-system-website-twice-b0ba48ed13db",
+      "quick_test": "Test for SQL injection on login pages of subdomains and check for default credentials."
+    },
+    {
+      "id": "158e19171837",
+      "title": "eWPTX Prepare Resources",
+      "author": "0UN390",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "web-security",
+        "penetration-testing"
+      ],
+      "path": "checklists/injection/158e19171837.md",
+      "source_url": "https://medium.com/@0UN390/ewptx-prepare-resources-a741220cf145",
+      "quick_test": "Test all user input fields for SQL injection by injecting a single quote and using Sqlmap for automated exploitation."
+    },
+    {
+      "id": "737c86cd0d1c",
+      "title": "AppSec Tales XXIII | XPathI",
+      "author": "Karol Mazurek",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "information-technology",
+        "cybersecurity",
+        "application-security",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "path": "checklists/injection/737c86cd0d1c.md",
+      "source_url": "https://karol-mazurek95.medium.com/appsec-tales-xxiii-xpathi-ca6171826d2a",
+      "quick_test": "Test user input fields that interact with XML data for XPath Injection by injecting crafted XPath queries."
+    },
+    {
+      "id": "7e3f042441ff",
+      "title": "How to find vulnerabilities in a web page in 10 minutes",
+      "author": "127.0.0.1 is safe.⚠️",
+      "publication_date": "2023-11-17",
+      "tags": [
+        "red-team",
+        "bug-bounty",
+        "error-message",
+        "cybersecurity",
+        "hacking"
+      ],
+      "path": "checklists/injection/7e3f042441ff.md",
+      "source_url": "https://medium.com/@l0calh0st/how-to-find-vulnerabilities-in-a-web-page-in-10-minutes-66cd052b4fbc",
+      "quick_test": "Check for SQL injection vulnerabilities by testing user input parameters with common SQL payloads and using sqlmap for enumeration."
+    },
+    {
+      "id": "0444d750666e",
+      "title": "AppSec Tales XXII | LDAPI",
+      "author": "Karol Mazurek",
+      "publication_date": "2023-11-11",
+      "tags": [
+        "information-technology",
+        "bug-bounty",
+        "cybersecurity",
+        "information-security",
+        "penetration-testing"
+      ],
+      "path": "checklists/injection/0444d750666e.md",
+      "source_url": "https://karol-mazurek95.medium.com/appsec-tales-xxii-ldapi-fcef1f40e9b2",
+      "quick_test": "Test input fields for LDAP injection by submitting crafted LDAP query strings and observing the application's response."
+    }
+  ]
+}

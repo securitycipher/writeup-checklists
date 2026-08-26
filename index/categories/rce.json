@@ -1,0 +1,71 @@
+{
+  "category": "rce",
+  "category_label": "RCE / Code Execution",
+  "count": 4,
+  "items": [
+    {
+      "id": "1bbb7ab6090a",
+      "title": "Unauthenticated Strapi Relational-Filter Leak → Super-Admin Takeover → Server-Side Code Execution",
+      "author": "redhunter01",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "ethical-hacking",
+        "api-security",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/1bbb7ab6090a.md",
+      "source_url": "https://medium.com/@redhunter01/unauthenticated-strapi-relational-filter-leak-super-admin-takeover-server-side-code-execution-34fb5822e5b2",
+      "quick_test": "Test public API endpoints for relational filters that may disclose sensitive admin fields and exploit them to recover authentication tokens."
+    },
+    {
+      "id": "0b468ba9a1a1",
+      "title": "SSTI bypass using CRLF (1337 UP CTF — Smarty Pants)",
+      "author": "TheWolf Sec",
+      "publication_date": "2023-11-19",
+      "tags": [
+        "intigriti",
+        "ssti",
+        "bug-bounty",
+        "ctf",
+        "php-developers"
+      ],
+      "path": "checklists/rce/0b468ba9a1a1.md",
+      "source_url": "https://medium.com/@thewolfsec/ssti-bypass-using-crlf-1337-up-ctf-smarty-pants-4ee8e1a72f98",
+      "quick_test": "Test for SSTI by injecting payloads with new line characters in user input fields that process Smarty templates."
+    },
+    {
+      "id": "f25e16b5582a",
+      "title": "Hackathon : KPU.GO.ID",
+      "author": "Angry Oval Egg",
+      "publication_date": "2023-11-14",
+      "tags": [
+        "hackathons",
+        "indo-hacker",
+        "bug-bounty",
+        "kpu",
+        "pemilu"
+      ],
+      "path": "checklists/rce/f25e16b5582a.md",
+      "source_url": "https://medium.com/@angryovalegg/hackathon-kpu-go-id-8fb6f3ce0d61",
+      "quick_test": "Test for remote code execution by manipulating file inclusion parameters to include external or sensitive local files."
+    },
+    {
+      "id": "7b09a85829ea",
+      "title": "Escalating Blind SSRF to a Remote Code Execution",
+      "author": "Mukilan Baskaran",
+      "publication_date": "2023-11-14",
+      "tags": [
+        "infosec",
+        "ssrf",
+        "cybersecurity",
+        "bug-bounty",
+        "hacking"
+      ],
+      "path": "checklists/rce/7b09a85829ea.md",
+      "source_url": "https://mukibas37.medium.com/escalating-blind-ssrf-to-a-remote-code-execution-be65ed9a7d0f",
+      "quick_test": "Test for Blind SSRF by manipulating User-Agent or Referer headers to execute commands on internal services."
+    }
+  ]
+}

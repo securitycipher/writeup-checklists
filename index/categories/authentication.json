@@ -1,0 +1,150 @@
+{
+  "category": "authentication",
+  "category_label": "Authentication / Password Reset",
+  "count": 9,
+  "items": [
+    {
+      "id": "ebedc43cd2aa",
+      "title": "IntroToBurp — picoCTF Writeup",
+      "author": "mayhack",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "bug-bounty",
+        "ctf"
+      ],
+      "path": "checklists/authentication/ebedc43cd2aa.md",
+      "source_url": "https://medium.com/@may.hack/introtoburp-picoctf-writeup-573152971547",
+      "quick_test": "Test for improper server-side validation by intercepting requests and modifying required parameters like OTP to check for authentication bypass."
+    },
+    {
+      "id": "6562a67bf13a",
+      "title": "From a Password Reset Form to Unauthenticated Database Access",
+      "author": "redhunter01",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "cybersecurity",
+        "sql-injection",
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security"
+      ],
+      "path": "checklists/authentication/6562a67bf13a.md",
+      "source_url": "https://medium.com/@redhunter01/from-a-password-reset-form-to-unauthenticated-database-access-dc88ae0abf32",
+      "quick_test": "Test password reset endpoints for SQL injection by manipulating the email parameter and observing response behavior."
+    },
+    {
+      "id": "c7f13698913f",
+      "title": "Default Credentials, P1 with $$$$ Reward in a Bug Bounty Program",
+      "author": "jedus0r",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "security-research",
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bug-bounty-hunter"
+      ],
+      "path": "checklists/authentication/c7f13698913f.md",
+      "source_url": "https://medium.com/@jedus0r/default-credentials-p1-with-reward-in-a-bug-bounty-program-1aad9c008619",
+      "quick_test": "Check for default credentials on admin panels by attempting common default username/password combinations."
+    },
+    {
+      "id": "c058d67beb3e",
+      "title": "Easy Admin Access — RVDP",
+      "author": "hackerdevil",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "bug-bounty-tips",
+        "web-app-security",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "vulnerability-assessment"
+      ],
+      "path": "checklists/authentication/c058d67beb3e.md",
+      "source_url": "https://infosecwriteups.com/easy-admin-access-rvdp-d1eb2c97cb3e",
+      "quick_test": "Check for hidden admin portals on subdomains and test for default credentials."
+    },
+    {
+      "id": "9d47614152c4",
+      "title": "#4 Session Fixation — Secure Code Explain",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-14",
+      "tags": [
+        "cybersecurity",
+        "technology",
+        "bug-bounty",
+        "vulnerability",
+        "coding"
+      ],
+      "path": "checklists/authentication/9d47614152c4.md",
+      "source_url": "https://securitycipher.medium.com/4-session-fixation-secure-code-explain-7d9567f25f38",
+      "quick_test": "Test if the application allows setting a custom session ID via a parameter during authentication."
+    },
+    {
+      "id": "63b278100da9",
+      "title": "Authentication Vulnerabilities- Lab #8 2FA (Two Factor Authentication) broken logic",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-12",
+      "tags": [
+        "portswigger",
+        "cybersecurity",
+        "2fa-hacking",
+        "web-security",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/63b278100da9.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-8-2fa-two-factor-authentication-broken-logic-b3c6cd8923b9",
+      "quick_test": "Test if changing the verify cookie allows bypassing 2FA by manipulating the mfa-code parameter."
+    },
+    {
+      "id": "b80bd98ecc59",
+      "title": "Authentication Vulnerabilities- Lab #6 Broken brute-force protection, IP block",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-11",
+      "tags": [
+        "brute-force",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty",
+        "portswigger"
+      ],
+      "path": "checklists/authentication/b80bd98ecc59.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-6-broken-brute-force-protection-ip-block-b3afca0a2ea7",
+      "quick_test": "Test for broken brute-force protection by attempting to insert a valid login request between incorrect password attempts."
+    },
+    {
+      "id": "dd19dde7f284",
+      "title": "Authentication Vulnerabilities- Lab #3 Password reset broken logic",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-10",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "portswigger",
+        "web-security",
+        "password-reset"
+      ],
+      "path": "checklists/authentication/dd19dde7f284.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-3-password-reset-broken-logic-95bc62a7b92a",
+      "quick_test": "Test the password reset functionality by manipulating the username parameter to see if it allows resetting another user's password."
+    },
+    {
+      "id": "901fcaa707e3",
+      "title": "Authentication Vulnerabilities- Lab #2 2FA simple bypass",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-10",
+      "tags": [
+        "web-security",
+        "cybersecurity",
+        "bug-bounty",
+        "portswigger",
+        "two-factor-authentication"
+      ],
+      "path": "checklists/authentication/901fcaa707e3.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-2-2fa-simple-bypass-6bd390cf92bc",
+      "quick_test": "Test if the application enforces 2FA by attempting to access protected resources directly after login without providing the 2FA code."
+    }
+  ]
+}

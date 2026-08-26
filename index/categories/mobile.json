@@ -1,0 +1,70 @@
+{
+  "category": "mobile",
+  "category_label": "Mobile / JS Bridge",
+  "count": 4,
+  "items": [
+    {
+      "id": "f61bd56ccee4",
+      "title": "One .contains() Away From a Full JavaScript Bridge Takeover",
+      "author": "Hussein Ayoub",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "bug-bounty",
+        "android-security",
+        "ai-agent",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/mobile/f61bd56ccee4.md",
+      "source_url": "https://medium.com/@husein.ayoub/one-contains-away-from-a-full-javascript-bridge-takeover-e0c05eb066f8",
+      "quick_test": "Check for exported activities in Android apps that use a WebView with a JavaScript bridge and validate the host using substring matching instead of strict equality."
+    },
+    {
+      "id": "4fd6d185c879",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 3",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-19",
+      "tags": [
+        "android",
+        "android-pentesting",
+        "penetration-testing",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/mobile/4fd6d185c879.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-3-99e86d021190",
+      "quick_test": "Check the AndroidManifest.xml for allowBackup, debuggable, and usesCleartextTraffic attributes to ensure secure configurations."
+    },
+    {
+      "id": "70a241a21d64",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 2",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-17",
+      "tags": [
+        "android-pentesting",
+        "android",
+        "penetration-testing",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/mobile/70a241a21d64.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-2-9c33c319a696",
+      "quick_test": "Inject a Frida script into the target application to test for insecure JavaScript interfaces."
+    },
+    {
+      "id": "3aed592a0002",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 1",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "android-pentesting",
+        "hacking",
+        "android",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/mobile/3aed592a0002.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-1-392cf9abf93f",
+      "quick_test": "Check for insecure JavaScript bridges in mobile applications by hooking into the app and testing for unauthorized access to sensitive methods."
+    }
+  ]
+}

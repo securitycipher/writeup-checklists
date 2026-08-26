@@ -1,0 +1,181 @@
+{
+  "month": "2026-08",
+  "count": 25,
+  "items": [
+    {
+      "id": "3d66f939419d",
+      "title": "Fixing a Dead Upstream URL in OpenPrinting: A Small but Important Contribution",
+      "category": "ssrf",
+      "path": "checklists/ssrf/3d66f939419d.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "3ac9b680a6fb",
+      "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/3ac9b680a6fb.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "1bbb7ab6090a",
+      "title": "Unauthenticated Strapi Relational-Filter Leak → Super-Admin Takeover → Server-Side Code Execution",
+      "category": "rce",
+      "path": "checklists/rce/1bbb7ab6090a.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "28807661b255",
+      "title": "How a $12,000 Bounty Was Earned via Broken Logic in Payment Webhooks",
+      "category": "business-logic",
+      "path": "checklists/business-logic/28807661b255.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "4129e3da82aa",
+      "title": "The Two Headers That Turn CORS Into Account Data Theft",
+      "category": "cors",
+      "path": "checklists/cors/4129e3da82aa.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "2ce5903abf71",
+      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/2ce5903abf71.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "ebedc43cd2aa",
+      "title": "IntroToBurp — picoCTF Writeup",
+      "category": "authentication",
+      "path": "checklists/authentication/ebedc43cd2aa.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "ea9cf3b71385",
+      "title": "I Found a Critical BOLA Vulnerability in a Cybersecurity AI Platform — Here’s Exactly How",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/ea9cf3b71385.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "6ba482eb3315",
+      "title": "I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/6ba482eb3315.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "1058b4ea7899",
+      "title": "Getting Started in Bug Bounty Hunting",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/1058b4ea7899.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "718517b70573",
+      "title": "The art of Race Condition:how a simple race condition can leads to ATO!",
+      "category": "race-condition",
+      "path": "checklists/race-condition/718517b70573.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "965da22b2c97",
+      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
+      "category": "injection",
+      "path": "checklists/injection/965da22b2c97.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "bca3e9dc9ccc",
+      "title": "I Ranked 252 Disclosed IDOR Reports by Bounty. Severity Barely Mattered.",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/bca3e9dc9ccc.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "6562a67bf13a",
+      "title": "From a Password Reset Form to Unauthenticated Database Access",
+      "category": "authentication",
+      "path": "checklists/authentication/6562a67bf13a.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "7cd3e02c1dd3",
+      "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",
+      "category": "injection",
+      "path": "checklists/injection/7cd3e02c1dd3.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "1ebb1c10cf1f",
+      "title": "NetBIOS & SMB Enumeration :",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/1ebb1c10cf1f.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "63e76b2c30ed",
+      "title": "How an Unsanitized Header Generated a $6,000 Bounty via Cache Poisoning",
+      "category": "cache-poisoning",
+      "path": "checklists/cache-poisoning/63e76b2c30ed.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "dd8790784500",
+      "title": "How I Hacked A Telecom Company",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/dd8790784500.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "11cd53d892dd",
+      "title": "The Bug You Exploit by Clicking “Create”",
+      "category": "subdomain-takeover",
+      "path": "checklists/subdomain-takeover/11cd53d892dd.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "fd0cda5bfb10",
+      "title": "How Broken OAuth Flows Turn Into One-Click Account Takeovers",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/fd0cda5bfb10.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "0cc8aada8fcd",
+      "title": "Is It Possible to Get an $850 Subscription Plan With Only $0?",
+      "category": "business-logic",
+      "path": "checklists/business-logic/0cc8aada8fcd.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "7acf705d6703",
+      "title": "The Server Had No Secrets — A Complete Guide to Path Traversal",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/7acf705d6703.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "e8f8a7f03cd0",
+      "title": "Hijacking Web3 Extensions: Unvalidated Storage & TOCTOU Patch Bypass in Coin98",
+      "category": "race-condition",
+      "path": "checklists/race-condition/e8f8a7f03cd0.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "b603580f4ad4",
+      "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/b603580f4ad4.md",
+      "publication_date": "2026-08-23"
+    },
+    {
+      "id": "f61bd56ccee4",
+      "title": "One .contains() Away From a Full JavaScript Bridge Takeover",
+      "category": "mobile",
+      "path": "checklists/mobile/f61bd56ccee4.md",
+      "publication_date": "2026-08-23"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "privilege-escalation",
+  "category_label": "Privilege Escalation",
+  "count": 1,
+  "items": [
+    {
+      "id": "99d0bb813cde",
+      "title": "Privilege Escalation: Unauthorized Low-Privilege Users Creating Feature Bundles",
+      "author": "Abhi Sharma",
+      "publication_date": "2023-11-19",
+      "tags": [
+        "bug-bounty",
+        "programming",
+        "cybersecurity",
+        "hacking",
+        "api"
+      ],
+      "path": "checklists/privilege-escalation/99d0bb813cde.md",
+      "source_url": "https://medium.com/@a13h1/privilege-escalation-unauthorized-low-privilege-users-creating-feature-bundles-75f6125eec78",
+      "quick_test": "Test if low-privilege users can create feature bundles by submitting a request to the feature bundle creation endpoint."
+    }
+  ]
+}

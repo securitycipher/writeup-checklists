@@ -144,13 +144,14 @@ Ethics: these are **testing checklists for authorized targets** (bug bounty / pe
 
 ## Status
 
-Early bootstrap. Pipeline lives in the SecurityCipher tooling repo; this public repo is the clean, shareable output.
+**73 checklist cards** in `22` categories (updated 2026-08-26).
+
+Browse [`checklists/`](./checklists) or load [`index/manifest.json`](./index/manifest.json) for UI integrations.
 
 Coming next:
 
-- [ ] Seed first curated batch (Top techniques from recent writeups)
-- [ ] Index builder script
-- [ ] Category READMEs with counts
+- [x] Seed first batch from Daily Bug Bounty Writeups extract
+- [ ] Index builder CI
 - [ ] Site page on [securitycipher.com](https://securitycipher.com) that reads `index/`
 
 ---

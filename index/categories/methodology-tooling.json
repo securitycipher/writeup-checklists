@@ -1,0 +1,117 @@
+{
+  "category": "methodology-tooling",
+  "category_label": "Methodology / Tooling",
+  "count": 7,
+  "items": [
+    {
+      "id": "2ce5903abf71",
+      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "artificial-intelligence",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "android"
+      ],
+      "path": "checklists/methodology-tooling/2ce5903abf71.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/pdf-exploit-scanner-patcher-detect-malicious-pdfs-block-threats-9ba86004e1a3",
+      "quick_test": "Always hash and analyze PDF documents for suspicious features before opening them in a production environment."
+    },
+    {
+      "id": "6ba482eb3315",
+      "title": "I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "pentesting",
+        "infosec",
+        "bug-bounty"
+      ],
+      "path": "checklists/methodology-tooling/6ba482eb3315.md",
+      "source_url": "https://cyphernova1337.medium.com/i-watched-an-app-lie-to-me-and-found-the-bug-no-scanner-would-ever-see-2c366feedc7a",
+      "quick_test": "Intercept mobile app traffic using mitmproxy to identify undocumented API endpoints and manipulate requests for testing."
+    },
+    {
+      "id": "1058b4ea7899",
+      "title": "Getting Started in Bug Bounty Hunting",
+      "author": "Bearded Viking",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "hacking",
+        "careers",
+        "bug-bounty"
+      ],
+      "path": "checklists/methodology-tooling/1058b4ea7899.md",
+      "source_url": "https://beardedviking.medium.com/getting-started-in-bug-bounty-hunting-5a2da7978813",
+      "quick_test": "Today, set up a bug bounty account and start testing a target application using Burp Suite to identify and document vulnerabilities."
+    },
+    {
+      "id": "b603580f4ad4",
+      "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
+      "author": "Muneebahmedkhan",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "tutorial",
+        "web-security",
+        "cybersecurity",
+        "burpsuite",
+        "bug-bounty"
+      ],
+      "path": "checklists/methodology-tooling/b603580f4ad4.md",
+      "source_url": "https://medium.com/@muneebahmedkhan0903/burp-repeater-decoder-and-comparer-resend-re-encode-and-diff-requests-2ee34d992aa8",
+      "quick_test": "Use Burp Repeater to modify and resend HTTP requests to identify differences in responses, focusing on authentication headers and URL paths."
+    },
+    {
+      "id": "90823aefdde8",
+      "title": "#2 Different Burp Suite Tools — Guide for Burp Suite",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-19",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "security",
+        "cybersecurity",
+        "news"
+      ],
+      "path": "checklists/methodology-tooling/90823aefdde8.md",
+      "source_url": "https://securitycipher.medium.com/2-different-burp-suite-tools-guide-for-burp-suite-7c5aa2ad05ed",
+      "quick_test": "Test the application by using Burp Suite's Proxy and Repeater tools to manipulate and resend requests, checking for unexpected behavior."
+    },
+    {
+      "id": "0418e2242b6c",
+      "title": "#1 Introduction to Burp Suite — Guide for Burp Suite",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "technology",
+        "security"
+      ],
+      "path": "checklists/methodology-tooling/0418e2242b6c.md",
+      "source_url": "https://securitycipher.medium.com/1-introduction-to-burp-suite-guide-for-burp-suite-4054b64f10a0",
+      "quick_test": "Set up Burp Suite as a proxy to intercept and analyze HTTP traffic for vulnerabilities in web applications."
+    },
+    {
+      "id": "8db9dd410089",
+      "title": "SSL Search — A tool to identify infrastructure and discover attack surfaces.",
+      "author": "Harsh Varagiya",
+      "publication_date": "2023-11-13",
+      "tags": [
+        "bug-bounty",
+        "gcp",
+        "ssl-certificate",
+        "aws",
+        "internet"
+      ],
+      "path": "checklists/methodology-tooling/8db9dd410089.md",
+      "source_url": "https://medium.com/@harsh8v/ssl-search-a-tool-to-identify-infrastructure-and-discover-attack-surfaces-449c83269574",
+      "quick_test": "Run SSL Search to identify and assess the public attack surface of a target's infrastructure using SSL certificate scanning."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "category": "information-disclosure",
+  "category_label": "Information Disclosure",
+  "count": 2,
+  "items": [
+    {
+      "id": "0a9be624b29a",
+      "title": "Unveiling Sensitive Information Exposure: IIS Tilde Enumeration Vulnerability",
+      "author": "Nas",
+      "publication_date": "2023-11-15",
+      "tags": [
+        "bug-bounty",
+        "hacking",
+        "cybersecurity",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/information-disclosure/0a9be624b29a.md",
+      "source_url": "https://medium.com/@mohammed0anas/unveiling-sensitive-information-exposure-iis-tilde-enumeration-vulnerability-ffe034073288",
+      "quick_test": "Test for IIS tilde enumeration by appending '~1\\' to known paths and observing the response for unauthorized access."
+    },
+    {
+      "id": "72eca79b00e3",
+      "title": "How I stopped a Wallet Hack and Got Almost Nothing.",
+      "author": "Muhammad Abdullah",
+      "publication_date": "2023-11-10",
+      "tags": [
+        "web3",
+        "blockchain",
+        "bug-bounty",
+        "security"
+      ],
+      "path": "checklists/information-disclosure/72eca79b00e3.md",
+      "source_url": "https://medium.com/@mahitman1/how-i-stopped-a-wallet-hack-and-got-almost-nothing-68babd824854",
+      "quick_test": "Test for plaintext sensitive information being logged in third-party services during user interactions with wallet applications."
+    }
+  ]
+}

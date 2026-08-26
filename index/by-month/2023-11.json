@@ -1,0 +1,342 @@
+{
+  "month": "2023-11",
+  "count": 48,
+  "items": [
+    {
+      "id": "d7cdfdbbed08",
+      "title": "The Story of How I Hacked one of the online payment system website",
+      "category": "injection",
+      "path": "checklists/injection/d7cdfdbbed08.md",
+      "publication_date": "2023-11-20"
+    },
+    {
+      "id": "90823aefdde8",
+      "title": "#2 Different Burp Suite Tools — Guide for Burp Suite",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/90823aefdde8.md",
+      "publication_date": "2023-11-19"
+    },
+    {
+      "id": "0b468ba9a1a1",
+      "title": "SSTI bypass using CRLF (1337 UP CTF — Smarty Pants)",
+      "category": "rce",
+      "path": "checklists/rce/0b468ba9a1a1.md",
+      "publication_date": "2023-11-19"
+    },
+    {
+      "id": "99d0bb813cde",
+      "title": "Privilege Escalation: Unauthorized Low-Privilege Users Creating Feature Bundles",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/99d0bb813cde.md",
+      "publication_date": "2023-11-19"
+    },
+    {
+      "id": "4fd6d185c879",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 3",
+      "category": "mobile",
+      "path": "checklists/mobile/4fd6d185c879.md",
+      "publication_date": "2023-11-19"
+    },
+    {
+      "id": "158e19171837",
+      "title": "eWPTX Prepare Resources",
+      "category": "injection",
+      "path": "checklists/injection/158e19171837.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "737c86cd0d1c",
+      "title": "AppSec Tales XXIII | XPathI",
+      "category": "injection",
+      "path": "checklists/injection/737c86cd0d1c.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "69ba032f8110",
+      "title": "#Day6 Bug Bounty Recon Part 2: ( Subdomains and S3 buckets )",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/69ba032f8110.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "7952407903cc",
+      "title": "Hacking Microsoft IIS : Enumerating IIS for V",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/7952407903cc.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "b13b950d40b7",
+      "title": "OAuth Misconfiguration Leads To Pre-Account Takeover(snapchat)",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/b13b950d40b7.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "c7bd7ae8eeb1",
+      "title": "CVE-2023–36025: An In-Depth Analysis of Circumventing Windows SmartScreen Security",
+      "category": "general-web",
+      "path": "checklists/general-web/c7bd7ae8eeb1.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "c7f13698913f",
+      "title": "Default Credentials, P1 with $$$$ Reward in a Bug Bounty Program",
+      "category": "authentication",
+      "path": "checklists/authentication/c7f13698913f.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "993bf3370ad5",
+      "title": "CVE-2023–35078 Unveiled: Ethical Vulnerability Discovery and Reporting By Me and My Hunting Buddy…",
+      "category": "api-security",
+      "path": "checklists/api-security/993bf3370ad5.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "32b9be78a585",
+      "title": "Project 2510: Bug Bounty Challenge — Day 13/25",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/32b9be78a585.md",
+      "publication_date": "2023-11-18"
+    },
+    {
+      "id": "0ee24488d408",
+      "title": "Dastardly — Web Application Security Scanner — CI/CD",
+      "category": "xss",
+      "path": "checklists/xss/0ee24488d408.md",
+      "publication_date": "2023-11-17"
+    },
+    {
+      "id": "70a241a21d64",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 2",
+      "category": "mobile",
+      "path": "checklists/mobile/70a241a21d64.md",
+      "publication_date": "2023-11-17"
+    },
+    {
+      "id": "7e3f042441ff",
+      "title": "How to find vulnerabilities in a web page in 10 minutes",
+      "category": "injection",
+      "path": "checklists/injection/7e3f042441ff.md",
+      "publication_date": "2023-11-17"
+    },
+    {
+      "id": "118b2a563182",
+      "title": "AuditOne Roundtable with Alexey from Aurora and Guido Vranken",
+      "category": "general-web",
+      "path": "checklists/general-web/118b2a563182.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "0418e2242b6c",
+      "title": "#1 Introduction to Burp Suite — Guide for Burp Suite",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/0418e2242b6c.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "c058d67beb3e",
+      "title": "Easy Admin Access — RVDP",
+      "category": "authentication",
+      "path": "checklists/authentication/c058d67beb3e.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "21a615380bdc",
+      "title": "Exploiting Blind XXE: Going Out of Band",
+      "category": "xxe",
+      "path": "checklists/xxe/21a615380bdc.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "426c1411a997",
+      "title": "Introducing Bug Bounty Boosts: Supercharging Security With Timebound Events",
+      "category": "general-web",
+      "path": "checklists/general-web/426c1411a997.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "3aed592a0002",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 1",
+      "category": "mobile",
+      "path": "checklists/mobile/3aed592a0002.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "e387c76aa30c",
+      "title": "How I got a $500 reward for finding an unacclaimed bucket on GitHub",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/e387c76aa30c.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "107114ab65ba",
+      "title": "$1000 Bounty: How I scaled a Self-Redirect to an XSS in a web 3.0 system at Hackenproof",
+      "category": "xss",
+      "path": "checklists/xss/107114ab65ba.md",
+      "publication_date": "2023-11-16"
+    },
+    {
+      "id": "909c0300ef91",
+      "title": "DNS C2 — When Malware Goes Incognito!",
+      "category": "general-web",
+      "path": "checklists/general-web/909c0300ef91.md",
+      "publication_date": "2023-11-15"
+    },
+    {
+      "id": "93ed5a507ead",
+      "title": "HackerOne Surpasses $300 Million in Rewards for Ethical Hackers",
+      "category": "general-web",
+      "path": "checklists/general-web/93ed5a507ead.md",
+      "publication_date": "2023-11-15"
+    },
+    {
+      "id": "076ee0f4bedc",
+      "title": "LandRocker Bug Bounty Program",
+      "category": "general-web",
+      "path": "checklists/general-web/076ee0f4bedc.md",
+      "publication_date": "2023-11-15"
+    },
+    {
+      "id": "e0cf34d47a93",
+      "title": "Idor That allowed me to get access to sensitive users files and share them -.-",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/e0cf34d47a93.md",
+      "publication_date": "2023-11-15"
+    },
+    {
+      "id": "0a9be624b29a",
+      "title": "Unveiling Sensitive Information Exposure: IIS Tilde Enumeration Vulnerability",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/0a9be624b29a.md",
+      "publication_date": "2023-11-15"
+    },
+    {
+      "id": "f25e16b5582a",
+      "title": "Hackathon : KPU.GO.ID",
+      "category": "rce",
+      "path": "checklists/rce/f25e16b5582a.md",
+      "publication_date": "2023-11-14"
+    },
+    {
+      "id": "9d47614152c4",
+      "title": "#4 Session Fixation — Secure Code Explain",
+      "category": "authentication",
+      "path": "checklists/authentication/9d47614152c4.md",
+      "publication_date": "2023-11-14"
+    },
+    {
+      "id": "7b09a85829ea",
+      "title": "Escalating Blind SSRF to a Remote Code Execution",
+      "category": "rce",
+      "path": "checklists/rce/7b09a85829ea.md",
+      "publication_date": "2023-11-14"
+    },
+    {
+      "id": "8db9dd410089",
+      "title": "SSL Search — A tool to identify infrastructure and discover attack surfaces.",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/8db9dd410089.md",
+      "publication_date": "2023-11-13"
+    },
+    {
+      "id": "6075812a6b56",
+      "title": "Google VRP -[IDOR] Deleted Victim Data & Leaked",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/6075812a6b56.md",
+      "publication_date": "2023-11-13"
+    },
+    {
+      "id": "1500a9e037fa",
+      "title": "Announcing IWCON 2023 Speakers Second Batch",
+      "category": "prompt-injection",
+      "path": "checklists/prompt-injection/1500a9e037fa.md",
+      "publication_date": "2023-11-13"
+    },
+    {
+      "id": "7b0fe2725803",
+      "title": "I created posts on the newsletter page dedicated to the program administrator",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/7b0fe2725803.md",
+      "publication_date": "2023-11-12"
+    },
+    {
+      "id": "6e8c9b9a6e43",
+      "title": "1200$ IDOR Flaw: Allow Attacker To Approve Project Time Tracking",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/6e8c9b9a6e43.md",
+      "publication_date": "2023-11-12"
+    },
+    {
+      "id": "71f5e8c217ac",
+      "title": "Crafting XSS (Cross-Site Scripting) payloads",
+      "category": "xss",
+      "path": "checklists/xss/71f5e8c217ac.md",
+      "publication_date": "2023-11-12"
+    },
+    {
+      "id": "63b278100da9",
+      "title": "Authentication Vulnerabilities- Lab #8 2FA (Two Factor Authentication) broken logic",
+      "category": "authentication",
+      "path": "checklists/authentication/63b278100da9.md",
+      "publication_date": "2023-11-12"
+    },
+    {
+      "id": "e50f1ff70242",
+      "title": "Introduction to API Hacking: A Free Course to Level Up Your Skills",
+      "category": "api-security",
+      "path": "checklists/api-security/e50f1ff70242.md",
+      "publication_date": "2023-11-11"
+    },
+    {
+      "id": "0444d750666e",
+      "title": "AppSec Tales XXII | LDAPI",
+      "category": "injection",
+      "path": "checklists/injection/0444d750666e.md",
+      "publication_date": "2023-11-11"
+    },
+    {
+      "id": "329c139dda2b",
+      "title": "Downloading files using POST request (unorthodox method)",
+      "category": "general-web",
+      "path": "checklists/general-web/329c139dda2b.md",
+      "publication_date": "2023-11-11"
+    },
+    {
+      "id": "b80bd98ecc59",
+      "title": "Authentication Vulnerabilities- Lab #6 Broken brute-force protection, IP block",
+      "category": "authentication",
+      "path": "checklists/authentication/b80bd98ecc59.md",
+      "publication_date": "2023-11-11"
+    },
+    {
+      "id": "7884d430997a",
+      "title": "Project 2510: Bug Bounty Challenge — Day 6/25",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/7884d430997a.md",
+      "publication_date": "2023-11-11"
+    },
+    {
+      "id": "dd19dde7f284",
+      "title": "Authentication Vulnerabilities- Lab #3 Password reset broken logic",
+      "category": "authentication",
+      "path": "checklists/authentication/dd19dde7f284.md",
+      "publication_date": "2023-11-10"
+    },
+    {
+      "id": "901fcaa707e3",
+      "title": "Authentication Vulnerabilities- Lab #2 2FA simple bypass",
+      "category": "authentication",
+      "path": "checklists/authentication/901fcaa707e3.md",
+      "publication_date": "2023-11-10"
+    },
+    {
+      "id": "72eca79b00e3",
+      "title": "How I stopped a Wallet Hack and Got Almost Nothing.",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/72eca79b00e3.md",
+      "publication_date": "2023-11-10"
+    }
+  ]
+}

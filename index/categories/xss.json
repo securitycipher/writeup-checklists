@@ -1,0 +1,54 @@
+{
+  "category": "xss",
+  "category_label": "XSS",
+  "count": 3,
+  "items": [
+    {
+      "id": "0ee24488d408",
+      "title": "Dastardly — Web Application Security Scanner — CI/CD",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-17",
+      "tags": [
+        "technology",
+        "security",
+        "bug-bounty",
+        "cybersecurity",
+        "penetration-testing"
+      ],
+      "path": "checklists/xss/0ee24488d408.md",
+      "source_url": "https://securitycipher.medium.com/dastardly-web-application-security-scanner-ci-cd-3a4eea08719a",
+      "quick_test": "Test for reflected XSS by injecting payloads into user input fields and checking if they are executed in the response."
+    },
+    {
+      "id": "107114ab65ba",
+      "title": "$1000 Bounty: How I scaled a Self-Redirect to an XSS in a web 3.0 system at Hackenproof",
+      "author": "Erick Fernando",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "bug-bounty",
+        "hackenproof",
+        "open-redirect",
+        "xss-bypass"
+      ],
+      "path": "checklists/xss/107114ab65ba.md",
+      "source_url": "https://erickfernandox.medium.com/1000-bounty-how-i-scaled-a-self-redirect-to-an-xss-in-a-web-3-0-system-at-hackenproof-37380f701892",
+      "quick_test": "Test for self-redirect vulnerabilities by injecting JavaScript payloads into URL parameters and observing if they execute."
+    },
+    {
+      "id": "71f5e8c217ac",
+      "title": "Crafting XSS (Cross-Site Scripting) payloads",
+      "author": "Security Lit Limited",
+      "publication_date": "2023-11-12",
+      "tags": [
+        "xss-vulnerability",
+        "bug-bounty",
+        "xss-attack",
+        "technology",
+        "cybersecurity"
+      ],
+      "path": "checklists/xss/71f5e8c217ac.md",
+      "source_url": "https://infosecwriteups.com/crafting-xss-cross-site-scripting-payloads-919f62171bd0",
+      "quick_test": "Test all user input fields for XSS by injecting common payloads and observing for execution."
+    }
+  ]
+}

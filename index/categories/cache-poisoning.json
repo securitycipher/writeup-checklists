@@ -1,0 +1,23 @@
+{
+  "category": "cache-poisoning",
+  "category_label": "Cache Poisoning",
+  "count": 1,
+  "items": [
+    {
+      "id": "63e76b2c30ed",
+      "title": "How an Unsanitized Header Generated a $6,000 Bounty via Cache Poisoning",
+      "author": "T4nv1",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "pentesting",
+        "bug-bounty-writeup",
+        "security"
+      ],
+      "path": "checklists/cache-poisoning/63e76b2c30ed.md",
+      "source_url": "https://medium.com/@t4nv1/how-an-unsanitized-header-generated-a-6-000-bounty-via-cache-poisoning-da7757cc6f18",
+      "quick_test": "Test for unkeyed headers in cacheable responses by manipulating header values and verifying if the changes persist across requests."
+    }
+  ]
+}

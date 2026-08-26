@@ -1,0 +1,21 @@
+{
+  "category": "xxe",
+  "category_label": "XXE / XML",
+  "count": 1,
+  "items": [
+    {
+      "id": "21a615380bdc",
+      "title": "Exploiting Blind XXE: Going Out of Band",
+      "author": "Mohamed Taha",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "security",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/xxe/21a615380bdc.md",
+      "source_url": "https://medium.com/@mohamedtaha_42562/exploiting-blind-xxe-going-out-of-band-f04e3c1ea7ef",
+      "quick_test": "Test XML endpoints for blind XXE by sending payloads that reference external DTDs to retrieve sensitive data."
+    }
+  ]
+}

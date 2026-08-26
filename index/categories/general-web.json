@@ -1,0 +1,115 @@
+{
+  "category": "general-web",
+  "category_label": "General Web Security",
+  "count": 7,
+  "items": [
+    {
+      "id": "c7bd7ae8eeb1",
+      "title": "CVE-2023–36025: An In-Depth Analysis of Circumventing Windows SmartScreen Security",
+      "author": "Security Lit Limited",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "penetration-testing",
+        "threat-intelligence",
+        "cybersecurity",
+        "microsoft",
+        "bug-bounty"
+      ],
+      "path": "checklists/general-web/c7bd7ae8eeb1.md",
+      "source_url": "https://infosecwriteups.com/cve-2023-36025-an-in-depth-analysis-of-circumventing-windows-smartscreen-security-6ff05c8b69d0",
+      "quick_test": "Test if crafted .URL files can bypass Windows SmartScreen warnings by creating and delivering a malicious Internet Shortcut file."
+    },
+    {
+      "id": "118b2a563182",
+      "title": "AuditOne Roundtable with Alexey from Aurora and Guido Vranken",
+      "author": "AuditOne",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "bug-bounty",
+        "defi",
+        "web3",
+        "aurora",
+        "fuzzing"
+      ],
+      "path": "checklists/general-web/118b2a563182.md",
+      "source_url": "https://medium.com/@auditone.io/auditone-roundtable-with-alexey-from-aurora-and-guido-vranken-3d7c709289c0",
+      "quick_test": "Inspect smart contract functions for vulnerabilities by using fuzzing techniques to identify unexpected behaviors."
+    },
+    {
+      "id": "426c1411a997",
+      "title": "Introducing Bug Bounty Boosts: Supercharging Security With Timebound Events",
+      "author": "Immunefi Editor",
+      "publication_date": "2023-11-16",
+      "tags": [
+        "bug-bounty",
+        "web3",
+        "immunefi",
+        "cybersecurity",
+        "degate"
+      ],
+      "path": "checklists/general-web/426c1411a997.md",
+      "source_url": "https://medium.com/immunefi/introducing-bug-bounty-boosts-supercharging-security-with-timebound-events-51e3a1f208c3",
+      "quick_test": "Join a bug bounty program that offers boosted rewards and actively search for vulnerabilities in newly released code."
+    },
+    {
+      "id": "909c0300ef91",
+      "title": "DNS C2 — When Malware Goes Incognito!",
+      "author": "Paritosh",
+      "publication_date": "2023-11-15",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "information-security",
+        "dns",
+        "hacking"
+      ],
+      "path": "checklists/general-web/909c0300ef91.md",
+      "source_url": "https://medium.com/@paritoshblogs/dns-c2-when-malware-goes-incognito-03fdc2e82057",
+      "quick_test": "Monitor DNS traffic for unusual queries and responses that may indicate DNS-based command and control communication."
+    },
+    {
+      "id": "93ed5a507ead",
+      "title": "HackerOne Surpasses $300 Million in Rewards for Ethical Hackers",
+      "author": "ZeroSecurity",
+      "publication_date": "2023-11-15",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/general-web/93ed5a507ead.md",
+      "source_url": "https://medium.com/@zerosecurity/hackerone-surpasses-300-million-in-rewards-for-ethical-hackers-eba7be4f106c",
+      "quick_test": "Identify and exploit common vulnerabilities in web applications to assess their security posture and report findings through a bug bounty program."
+    },
+    {
+      "id": "076ee0f4bedc",
+      "title": "LandRocker Bug Bounty Program",
+      "author": "LandRocker",
+      "publication_date": "2023-11-15",
+      "tags": [
+        "bug-bounty",
+        "bitcoin",
+        "cryptocurrency-investment",
+        "token-sale",
+        "web3"
+      ],
+      "path": "checklists/general-web/076ee0f4bedc.md",
+      "source_url": "https://landrocker.medium.com/landrocker-bug-bounty-program-aa2f55f47297",
+      "quick_test": "Test the token purchase and bug reporting features for input validation vulnerabilities by submitting unexpected payloads."
+    },
+    {
+      "id": "329c139dda2b",
+      "title": "Downloading files using POST request (unorthodox method)",
+      "author": "Paritosh",
+      "publication_date": "2023-11-11",
+      "tags": [
+        "cybersecurity",
+        "programming",
+        "bug-bounty",
+        "hacking",
+        "html"
+      ],
+      "path": "checklists/general-web/329c139dda2b.md",
+      "source_url": "https://medium.com/@paritoshblogs/downloading-files-using-post-request-unorthodox-method-d042bb06c1ce",
+      "quick_test": "Test if files can be downloaded using a POST request by sending a request to the download endpoint with file parameters."
+    }
+  ]
+}

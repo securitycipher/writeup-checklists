@@ -1,0 +1,39 @@
+{
+  "category": "api-security",
+  "category_label": "API Security",
+  "count": 2,
+  "items": [
+    {
+      "id": "993bf3370ad5",
+      "title": "CVE-2023–35078 Unveiled: Ethical Vulnerability Discovery and Reporting By Me and My Hunting Buddy…",
+      "author": "Rj07",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "responsible-disclosure",
+        "information-technology",
+        "zero-day",
+        "bug-bounty",
+        "information-security"
+      ],
+      "path": "checklists/api-security/993bf3370ad5.md",
+      "source_url": "https://medium.com/@jaini.rutvik/cve-2023-35078-unveiled-ethical-vulnerability-discovery-and-reporting-by-me-and-my-hunting-buddy-507582baf5c3",
+      "quick_test": "Run a Shodan search for devices with known vulnerable software versions and attempt to exploit using a tailored script."
+    },
+    {
+      "id": "e50f1ff70242",
+      "title": "Introduction to API Hacking: A Free Course to Level Up Your Skills",
+      "author": "Maisam Noyan",
+      "publication_date": "2023-11-11",
+      "tags": [
+        "hacking",
+        "bug-bounty",
+        "free-course",
+        "api",
+        "course"
+      ],
+      "path": "checklists/api-security/e50f1ff70242.md",
+      "source_url": "https://medium.com/@maisamnoyan/introduction-to-api-hacking-a-free-course-to-level-up-your-skills-537bfc70180d",
+      "quick_test": "Test API endpoints for authentication vulnerabilities by manipulating login parameters and observing responses."
+    }
+  ]
+}

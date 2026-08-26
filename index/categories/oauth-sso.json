@@ -1,0 +1,34 @@
+{
+  "category": "oauth-sso",
+  "category_label": "OAuth / SSO",
+  "count": 2,
+  "items": [
+    {
+      "id": "fd0cda5bfb10",
+      "title": "How Broken OAuth Flows Turn Into One-Click Account Takeovers",
+      "author": "cyber security",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/oauth-sso/fd0cda5bfb10.md",
+      "source_url": "https://medium.com/@tanvir.infosec/how-broken-oauth-flows-turn-into-one-click-account-takeovers-a13a67aa36c0",
+      "quick_test": "Verify that the OAuth implementation includes state and PKCE to bind the authorization response to the original login transaction."
+    },
+    {
+      "id": "b13b950d40b7",
+      "title": "OAuth Misconfiguration Leads To Pre-Account Takeover(snapchat)",
+      "author": "Ahmed Mahmoued",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "hacking",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "path": "checklists/oauth-sso/b13b950d40b7.md",
+      "source_url": "https://medium.com/@a7med.ctf/oauth-misconfiguration-leads-to-pre-account-takeover-snapchat-129b118661f6",
+      "quick_test": "Test if signing up with the same email via different OAuth providers allows access to the same account."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": "subdomain-takeover",
+  "category_label": "Subdomain Takeover",
+  "count": 1,
+  "items": [
+    {
+      "id": "11cd53d892dd",
+      "title": "The Bug You Exploit by Clicking “Create”",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "info-sec-writeups",
+        "infosec",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "path": "checklists/subdomain-takeover/11cd53d892dd.md",
+      "source_url": "https://kd-200.medium.com/the-bug-you-exploit-by-clicking-create-390cf3e86abb",
+      "quick_test": "Run subdomain enumeration tools to identify dangling CNAME records and check their status for potential takeover."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "category": "broken-access-control",
+  "category_label": "Broken Access Control / IDOR",
+  "count": 10,
+  "items": [
+    {
+      "id": "3ac9b680a6fb",
+      "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
+      "author": "Rajdip Chavan",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/3ac9b680a6fb.md",
+      "source_url": "https://infosecwriteups.com/i-changed-one-user-id-and-the-api-said-sure-from-password-reset-to-mass-account-takeover-9d4d4e15e022",
+      "quick_test": "Test password reset endpoints for IDOR by changing the User_Id parameter to another user's ID without authentication."
+    },
+    {
+      "id": "ea9cf3b71385",
+      "title": "I Found a Critical BOLA Vulnerability in a Cybersecurity AI Platform — Here’s Exactly How",
+      "author": "Divakarvasani",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/ea9cf3b71385.md",
+      "source_url": "https://medium.com/@divakarvasani3938/i-found-a-critical-bola-vulnerability-in-a-cybersecurity-ai-platform-heres-exactly-how-ba84332bbb9d",
+      "quick_test": "Test if authenticated users can access and modify each other's resources by using their session tokens and known resource identifiers."
+    },
+    {
+      "id": "bca3e9dc9ccc",
+      "title": "I Ranked 252 Disclosed IDOR Reports by Bounty. Severity Barely Mattered.",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "cybersecurity",
+        "web-security",
+        "bug-bounty",
+        "ethical-hacking",
+        "idor"
+      ],
+      "path": "checklists/broken-access-control/bca3e9dc9ccc.md",
+      "source_url": "https://medium.com/@rajnamdev/i-ranked-252-disclosed-idor-reports-by-bounty-severity-barely-mattered-3ba306bfa595",
+      "quick_test": "Test for IDOR by swapping user identifiers in API requests to access unauthorized data."
+    },
+    {
+      "id": "dd8790784500",
+      "title": "How I Hacked A Telecom Company",
+      "author": "the_phreak",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "pentesting",
+        "penetration-testing",
+        "bug-bounty",
+        "bug-hunting",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/broken-access-control/dd8790784500.md",
+      "source_url": "https://medium.com/@the_phreak/how-i-hacked-a-telecom-company-edc5455e4443",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating user identifiers in account-related requests to access unauthorized data."
+    },
+    {
+      "id": "32b9be78a585",
+      "title": "Project 2510: Bug Bounty Challenge — Day 13/25",
+      "author": "Wallotry",
+      "publication_date": "2023-11-18",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-hunter",
+        "bug-bounty-hunting",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/broken-access-control/32b9be78a585.md",
+      "source_url": "https://wallotry.medium.com/project-2510-bug-bounty-challenge-day-13-25-f6e21379749b",
+      "quick_test": "Test file upload and address retrieval functionalities for IDOR and RCE vulnerabilities by manipulating file uploads and address IDs."
+    },
+    {
+      "id": "e0cf34d47a93",
+      "title": "Idor That allowed me to get access to sensitive users files and share them -.-",
+      "author": "Hamzadzworm",
+      "publication_date": "2023-11-15",
+      "tags": [
+        "bugbounty-writeup",
+        "bug-bounty-tips",
+        "hackerone",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/e0cf34d47a93.md",
+      "source_url": "https://hamzadzworm.medium.com/idor-that-allowed-me-to-get-access-to-sensitive-users-files-and-share-them-f7da741e9f63",
+      "quick_test": "Test for IDOR by manipulating itemid and ownerid parameters in share requests to access files from other user accounts."
+    },
+    {
+      "id": "6075812a6b56",
+      "title": "Google VRP -[IDOR] Deleted Victim Data & Leaked",
+      "author": "Gilang Romadon",
+      "publication_date": "2023-11-13",
+      "tags": [
+        "bug-bounty",
+        "idor-vulnerability",
+        "bug-bounty-tips",
+        "ggilangromadon",
+        "google-vrp"
+      ],
+      "path": "checklists/broken-access-control/6075812a6b56.md",
+      "source_url": "https://medium.com/@ggilang1135/google-vrp-idor-deleted-victim-data-leaked-0b3cba8e3f7a",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating identifiers in API requests to access or delete unauthorized data."
+    },
+    {
+      "id": "7b0fe2725803",
+      "title": "I created posts on the newsletter page dedicated to the program administrator",
+      "author": "Hossam Hamada",
+      "publication_date": "2023-11-12",
+      "tags": [
+        "bug-bounty",
+        "penetration-testing",
+        "idor",
+        "idor-vulnerability",
+        "bug-hunting"
+      ],
+      "path": "checklists/broken-access-control/7b0fe2725803.md",
+      "source_url": "https://medium.com/@hossam_hamada/i-created-posts-on-the-newsletter-page-dedicated-to-the-program-administrator-aa271980aa53",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating section identifiers in post requests to verify unauthorized access to restricted features."
+    },
+    {
+      "id": "6e8c9b9a6e43",
+      "title": "1200$ IDOR Flaw: Allow Attacker To Approve Project Time Tracking",
+      "author": "Abhi Sharma",
+      "publication_date": "2023-11-12",
+      "tags": [
+        "bug-bounty",
+        "programming",
+        "hacking",
+        "information-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/6e8c9b9a6e43.md",
+      "source_url": "https://medium.com/@a13h1/1200-idor-flaw-allow-attacker-to-approve-project-time-tracking-a9f64c06732a",
+      "quick_test": "Test for IDOR by manipulating object identifiers in requests to sensitive endpoints."
+    },
+    {
+      "id": "7884d430997a",
+      "title": "Project 2510: Bug Bounty Challenge — Day 6/25",
+      "author": "Wallotry",
+      "publication_date": "2023-11-11",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-hunter",
+        "bug-bounty-tips",
+        "bug-bounty-hunting"
+      ],
+      "path": "checklists/broken-access-control/7884d430997a.md",
+      "source_url": "https://wallotry.medium.com/project-2510-bug-bounty-challenge-day-6-25-fe340a54386c",
+      "quick_test": "Test for unauthorized access to admin endpoints by manipulating authentication tokens or session IDs."
+    }
+  ]
+}

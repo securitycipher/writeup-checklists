@@ -1,0 +1,23 @@
+{
+  "category": "cors",
+  "category_label": "CORS Misconfiguration",
+  "count": 1,
+  "items": [
+    {
+      "id": "4129e3da82aa",
+      "title": "The Two Headers That Turn CORS Into Account Data Theft",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "info-sec-writeups",
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/cors/4129e3da82aa.md",
+      "source_url": "https://kd-200.medium.com/the-two-headers-that-turn-cors-into-account-data-theft-92112046e12b",
+      "quick_test": "Test for CORS misconfiguration by sending requests with a custom Origin header to sensitive endpoints and checking the Access-Control-Allow-Origin response."
+    }
+  ]
+}

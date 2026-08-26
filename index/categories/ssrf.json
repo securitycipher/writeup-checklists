@@ -1,0 +1,23 @@
+{
+  "category": "ssrf",
+  "category_label": "SSRF",
+  "count": 1,
+  "items": [
+    {
+      "id": "3d66f939419d",
+      "title": "Fixing a Dead Upstream URL in OpenPrinting: A Small but Important Contribution",
+      "author": "Ayush Singh",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "linux",
+        "github",
+        "bug-bounty",
+        "software-engineering",
+        "gsoc"
+      ],
+      "path": "checklists/ssrf/3d66f939419d.md",
+      "source_url": "https://singhcod3r.medium.com/fixing-a-dead-upstream-url-in-openprinting-a-small-but-important-contribution-e07f94526d09",
+      "quick_test": "Verify that all upstream URLs in metadata files are accessible and point to valid resources."
+    }
+  ]
+}

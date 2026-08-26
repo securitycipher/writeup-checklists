@@ -1,0 +1,23 @@
+{
+  "category": "path-traversal",
+  "category_label": "Path Traversal / Arbitrary File Read",
+  "count": 1,
+  "items": [
+    {
+      "id": "7acf705d6703",
+      "title": "The Server Had No Secrets — A Complete Guide to Path Traversal",
+      "author": "// l1m1nal_3ntr0py",
+      "publication_date": "2026-08-23",
+      "tags": [
+        "penetration-testing",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security"
+      ],
+      "path": "checklists/path-traversal/7acf705d6703.md",
+      "source_url": "https://medium.com/@l1m1nal_3ntr0py/the-server-had-no-secrets-a-complete-guide-to-path-traversal-fcf5c1377f72",
+      "quick_test": "Test any file path parameters with traversal payloads to check for arbitrary file read vulnerabilities."
+    }
+  ]
+}
