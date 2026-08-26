@@ -1,6 +1,6 @@
 {
   "month": "2023-11",
-  "count": 48,
+  "count": 47,
   "items": [
     {
       "id": "d7cdfdbbed08",
@@ -245,13 +245,6 @@
       "title": "Google VRP -[IDOR] Deleted Victim Data & Leaked",
       "category": "broken-access-control",
       "path": "checklists/broken-access-control/6075812a6b56.md",
-      "publication_date": "2023-11-13"
-    },
-    {
-      "id": "1500a9e037fa",
-      "title": "Announcing IWCON 2023 Speakers Second Batch",
-      "category": "prompt-injection",
-      "path": "checklists/prompt-injection/1500a9e037fa.md",
       "publication_date": "2023-11-13"
     },
     {

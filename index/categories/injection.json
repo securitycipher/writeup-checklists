@@ -1,24 +1,8 @@
 {
   "category": "injection",
   "category_label": "Injection (SQL / NoSQL)",
-  "count": 7,
+  "count": 6,
   "items": [
-    {
-      "id": "965da22b2c97",
-      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
-      "author": "Philip Garabandic",
-      "publication_date": "2026-08-23",
-      "tags": [
-        "open-source",
-        "application-security",
-        "ai",
-        "bug-bounty",
-        "cybersecurity"
-      ],
-      "path": "checklists/injection/965da22b2c97.md",
-      "source_url": "https://infosecwriteups.com/agentgg-cli-found-100-zero-days-in-open-source-software-5269463d2e40",
-      "quick_test": "Run a targeted scan for SQL injection vulnerabilities on open source geospatial projects using AgentGG."
-    },
     {
       "id": "7cd3e02c1dd3",
       "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",

@@ -1,8 +1,7 @@
 # Methodology / Tooling
 
-7 checklist card(s).
+6 checklist card(s).
 
-- [PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats](./2ce5903abf71.md) - Pentester Club
 - [I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE](./6ba482eb3315.md) - CypherNova1337
 - [Getting Started in Bug Bounty Hunting](./1058b4ea7899.md) - Bearded Viking
 - [Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests](./b603580f4ad4.md) - Muneebahmedkhan

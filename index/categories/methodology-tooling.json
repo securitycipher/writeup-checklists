@@ -1,24 +1,8 @@
 {
   "category": "methodology-tooling",
   "category_label": "Methodology / Tooling",
-  "count": 7,
+  "count": 6,
   "items": [
-    {
-      "id": "2ce5903abf71",
-      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
-      "author": "Pentester Club",
-      "publication_date": "2026-08-24",
-      "tags": [
-        "artificial-intelligence",
-        "bug-bounty",
-        "cybersecurity",
-        "hacking",
-        "android"
-      ],
-      "path": "checklists/methodology-tooling/2ce5903abf71.md",
-      "source_url": "https://medium.com/@pentesterclubpvtltd/pdf-exploit-scanner-patcher-detect-malicious-pdfs-block-threats-9ba86004e1a3",
-      "quick_test": "Always hash and analyze PDF documents for suspicious features before opening them in a production environment."
-    },
     {
       "id": "6ba482eb3315",
       "title": "I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE",

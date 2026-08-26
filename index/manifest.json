@@ -2,7 +2,7 @@
   "name": "writeup-checklists",
   "version": "0.2.0",
   "updated": "2026-08-26",
-  "total_checklists": 73,
+  "total_checklists": 69,
   "categories": [
     {
       "id": "api-security",
@@ -55,13 +55,13 @@
     {
       "id": "injection",
       "label": "Injection (SQL / NoSQL)",
-      "count": 7,
+      "count": 6,
       "index": "index/categories/injection.json"
     },
     {
       "id": "methodology-tooling",
       "label": "Methodology / Tooling",
-      "count": 7,
+      "count": 6,
       "index": "index/categories/methodology-tooling.json"
     },
     {
@@ -89,12 +89,6 @@
       "index": "index/categories/privilege-escalation.json"
     },
     {
-      "id": "prompt-injection",
-      "label": "Prompt Injection / AI Agent",
-      "count": 1,
-      "index": "index/categories/prompt-injection.json"
-    },
-    {
       "id": "race-condition",
       "label": "Race Condition",
       "count": 2,
@@ -111,12 +105,6 @@
       "label": "Recon / OSINT",
       "count": 4,
       "index": "index/categories/recon-osint.json"
-    },
-    {
-      "id": "ssrf",
-      "label": "SSRF",
-      "count": 1,
-      "index": "index/categories/ssrf.json"
     },
     {
       "id": "subdomain-takeover",

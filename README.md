@@ -29,8 +29,8 @@ Search, filter by category, expand a card, copy the markdown.
 
 | | |
 |---|---|
-| Checklist cards | **73** |
-| Categories | **22** |
+| Checklist cards | **69** |
+| Categories | **20** |
 | Last updated | **26 Aug 2026** |
 | Format | One Markdown file per card |
 | Live UI | [securitycipher.com/writeup-checklists](https://securitycipher.com/writeup-checklists/) |
@@ -43,30 +43,26 @@ Growing as new writeups are curated. Expect this number to keep climbing.
 
 | Category | Cards |
 |----------|------:|
-| [Broken Access Control / IDOR](./checklists/broken-access-control/) | 10 |
+| [API Security](./checklists/api-security/) | 2 |
 | [Authentication / Password Reset](./checklists/authentication/) | 9 |
-| [Injection (SQL / NoSQL)](./checklists/injection/) | 7 |
+| [Broken Access Control / IDOR](./checklists/broken-access-control/) | 10 |
+| [Business Logic](./checklists/business-logic/) | 2 |
+| [Cache Poisoning](./checklists/cache-poisoning/) | 1 |
+| [CORS Misconfiguration](./checklists/cors/) | 1 |
 | [General Web Security](./checklists/general-web/) | 7 |
-| [Methodology / Tooling](./checklists/methodology-tooling/) | 7 |
+| [Information Disclosure](./checklists/information-disclosure/) | 2 |
+| [Injection (SQL / NoSQL)](./checklists/injection/) | 6 |
+| [Methodology / Tooling](./checklists/methodology-tooling/) | 6 |
 | [Mobile / JS Bridge](./checklists/mobile/) | 4 |
+| [OAuth / SSO](./checklists/oauth-sso/) | 2 |
+| [Path Traversal / Arbitrary File Read](./checklists/path-traversal/) | 1 |
+| [Privilege Escalation](./checklists/privilege-escalation/) | 1 |
+| [Race Condition](./checklists/race-condition/) | 2 |
 | [RCE / Code Execution](./checklists/rce/) | 4 |
 | [Recon / OSINT](./checklists/recon-osint/) | 4 |
-| [XSS](./checklists/xss/) | 3 |
-| [API Security](./checklists/api-security/) | 2 |
-| [Business Logic](./checklists/business-logic/) | 2 |
-| [Information Disclosure](./checklists/information-disclosure/) | 2 |
-| [OAuth / SSO](./checklists/oauth-sso/) | 2 |
-| [Race Condition](./checklists/race-condition/) | 2 |
-| [Cache Poisoning](./checklists/cache-poisoning/) | 1 |
-| [CORS](./checklists/cors/) | 1 |
-| [Path Traversal](./checklists/path-traversal/) | 1 |
-| [Privilege Escalation](./checklists/privilege-escalation/) | 1 |
-| [Prompt Injection / AI](./checklists/prompt-injection/) | 1 |
-| [SSRF](./checklists/ssrf/) | 1 |
 | [Subdomain Takeover](./checklists/subdomain-takeover/) | 1 |
+| [XSS](./checklists/xss/) | 3 |
 | [XXE / XML](./checklists/xxe/) | 1 |
-
-Full folder list: [`checklists/`](./checklists/)
 
 ---
 

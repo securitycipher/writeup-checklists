@@ -1,30 +1,7 @@
 {
   "updated": "2026-08-26",
-  "count": 73,
+  "count": 69,
   "items": [
-    {
-      "id": "3d66f939419d",
-      "title": "Fixing a Dead Upstream URL in OpenPrinting: A Small but Important Contribution",
-      "author": "Ayush Singh",
-      "publication_date": "2026-08-24",
-      "category": "ssrf",
-      "category_label": "SSRF",
-      "content_type": "vuln_writeup",
-      "steps_source": "extracted",
-      "tags": [
-        "linux",
-        "github",
-        "bug-bounty",
-        "software-engineering",
-        "gsoc"
-      ],
-      "tools": [
-        "curl"
-      ],
-      "path": "checklists/ssrf/3d66f939419d.md",
-      "source_url": "https://singhcod3r.medium.com/fixing-a-dead-upstream-url-in-openprinting-a-small-but-important-contribution-e07f94526d09",
-      "quick_test": "Verify that all upstream URLs in metadata files are accessible and point to valid resources."
-    },
     {
       "id": "3ac9b680a6fb",
       "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
@@ -133,25 +110,26 @@
       "quick_test": "Test for CORS misconfiguration by sending requests with a custom Origin header to sensitive endpoints and checking the Access-Control-Allow-Origin response."
     },
     {
-      "id": "2ce5903abf71",
-      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
-      "author": "Pentester Club",
+      "id": "ebedc43cd2aa",
+      "title": "IntroToBurp — picoCTF Writeup",
+      "author": "mayhack",
       "publication_date": "2026-08-24",
-      "category": "methodology-tooling",
-      "category_label": "Methodology / Tooling",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
       "content_type": "vuln_writeup",
       "steps_source": "extracted",
       "tags": [
-        "artificial-intelligence",
-        "bug-bounty",
         "cybersecurity",
         "hacking",
-        "android"
+        "bug-bounty",
+        "ctf"
       ],
-      "tools": [],
-      "path": "checklists/methodology-tooling/2ce5903abf71.md",
-      "source_url": "https://medium.com/@pentesterclubpvtltd/pdf-exploit-scanner-patcher-detect-malicious-pdfs-block-threats-9ba86004e1a3",
-      "quick_test": "Always hash and analyze PDF documents for suspicious features before opening them in a production environment."
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/authentication/ebedc43cd2aa.md",
+      "source_url": "https://medium.com/@may.hack/introtoburp-picoctf-writeup-573152971547",
+      "quick_test": "Test for improper server-side validation by intercepting requests and modifying required parameters like OTP to check for authentication bypass."
     },
     {
       "id": "6ba482eb3315",
@@ -206,28 +184,6 @@
       "path": "checklists/methodology-tooling/1058b4ea7899.md",
       "source_url": "https://beardedviking.medium.com/getting-started-in-bug-bounty-hunting-5a2da7978813",
       "quick_test": "Today, set up a bug bounty account and start testing a target application using Burp Suite to identify and document vulnerabilities."
-    },
-    {
-      "id": "ebedc43cd2aa",
-      "title": "IntroToBurp — picoCTF Writeup",
-      "author": "mayhack",
-      "publication_date": "2026-08-24",
-      "category": "authentication",
-      "category_label": "Authentication / Password Reset",
-      "content_type": "vuln_writeup",
-      "steps_source": "extracted",
-      "tags": [
-        "cybersecurity",
-        "hacking",
-        "bug-bounty",
-        "ctf"
-      ],
-      "tools": [
-        "Burp Suite"
-      ],
-      "path": "checklists/authentication/ebedc43cd2aa.md",
-      "source_url": "https://medium.com/@may.hack/introtoburp-picoctf-writeup-573152971547",
-      "quick_test": "Test for improper server-side validation by intercepting requests and modifying required parameters like OTP to check for authentication bypass."
     },
     {
       "id": "718517b70573",
@@ -314,6 +270,29 @@
       "quick_test": "Test for hidden subscription IDs by manipulating the subscriptionId parameter during the payment process."
     },
     {
+      "id": "6562a67bf13a",
+      "title": "From a Password Reset Form to Unauthenticated Database Access",
+      "author": "redhunter01",
+      "publication_date": "2026-08-23",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "sql-injection",
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security"
+      ],
+      "tools": [
+        "Frida"
+      ],
+      "path": "checklists/authentication/6562a67bf13a.md",
+      "source_url": "https://medium.com/@redhunter01/from-a-password-reset-form-to-unauthenticated-database-access-dc88ae0abf32",
+      "quick_test": "Test password reset endpoints for SQL injection by manipulating the email parameter and observing response behavior."
+    },
+    {
       "id": "b603580f4ad4",
       "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
       "author": "Muneebahmedkhan",
@@ -338,29 +317,6 @@
       "quick_test": "Use Burp Repeater to modify and resend HTTP requests to identify differences in responses, focusing on authentication headers and URL paths."
     },
     {
-      "id": "6562a67bf13a",
-      "title": "From a Password Reset Form to Unauthenticated Database Access",
-      "author": "redhunter01",
-      "publication_date": "2026-08-23",
-      "category": "authentication",
-      "category_label": "Authentication / Password Reset",
-      "content_type": "vuln_writeup",
-      "steps_source": "extracted",
-      "tags": [
-        "cybersecurity",
-        "sql-injection",
-        "ethical-hacking",
-        "bug-bounty",
-        "web-security"
-      ],
-      "tools": [
-        "Frida"
-      ],
-      "path": "checklists/authentication/6562a67bf13a.md",
-      "source_url": "https://medium.com/@redhunter01/from-a-password-reset-form-to-unauthenticated-database-access-dc88ae0abf32",
-      "quick_test": "Test password reset endpoints for SQL injection by manipulating the email parameter and observing response behavior."
-    },
-    {
       "id": "e8f8a7f03cd0",
       "title": "Hijacking Web3 Extensions: Unvalidated Storage & TOCTOU Patch Bypass in Coin98",
       "author": "raz-uh",
@@ -380,27 +336,6 @@
       "path": "checklists/race-condition/e8f8a7f03cd0.md",
       "source_url": "https://infosecwriteups.com/hijacking-web3-extensions-unvalidated-storage-toctou-patch-bypass-in-coin98-b8a655f793d4",
       "quick_test": "Test for unvalidated localStorage access in Web3 extensions by injecting scripts that manipulate localStorage before the extension initializes."
-    },
-    {
-      "id": "965da22b2c97",
-      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
-      "author": "Philip Garabandic",
-      "publication_date": "2026-08-23",
-      "category": "injection",
-      "category_label": "Injection (SQL / NoSQL)",
-      "content_type": "vuln_writeup",
-      "steps_source": "extracted",
-      "tags": [
-        "open-source",
-        "application-security",
-        "ai",
-        "bug-bounty",
-        "cybersecurity"
-      ],
-      "tools": [],
-      "path": "checklists/injection/965da22b2c97.md",
-      "source_url": "https://infosecwriteups.com/agentgg-cli-found-100-zero-days-in-open-source-software-5269463d2e40",
-      "quick_test": "Run a targeted scan for SQL injection vulnerabilities on open source geospatial projects using AgentGG."
     },
     {
       "id": "7cd3e02c1dd3",
@@ -955,30 +890,6 @@
       "quick_test": "Test for reflected XSS by injecting payloads into user input fields and checking if they are executed in the response."
     },
     {
-      "id": "0418e2242b6c",
-      "title": "#1 Introduction to Burp Suite — Guide for Burp Suite",
-      "author": "Piyush Kumawat (securitycipher)",
-      "publication_date": "2023-11-16",
-      "category": "methodology-tooling",
-      "category_label": "Methodology / Tooling",
-      "content_type": "vuln_writeup",
-      "steps_source": "ai_inferred",
-      "tags": [
-        "penetration-testing",
-        "bug-bounty",
-        "cybersecurity",
-        "technology",
-        "security"
-      ],
-      "tools": [
-        "Burp Suite",
-        "Owasp Zap"
-      ],
-      "path": "checklists/methodology-tooling/0418e2242b6c.md",
-      "source_url": "https://securitycipher.medium.com/1-introduction-to-burp-suite-guide-for-burp-suite-4054b64f10a0",
-      "quick_test": "Set up Burp Suite as a proxy to intercept and analyze HTTP traffic for vulnerabilities in web applications."
-    },
-    {
       "id": "c058d67beb3e",
       "title": "Easy Admin Access — RVDP",
       "author": "hackerdevil",
@@ -1002,6 +913,30 @@
       "path": "checklists/authentication/c058d67beb3e.md",
       "source_url": "https://infosecwriteups.com/easy-admin-access-rvdp-d1eb2c97cb3e",
       "quick_test": "Check for hidden admin portals on subdomains and test for default credentials."
+    },
+    {
+      "id": "0418e2242b6c",
+      "title": "#1 Introduction to Burp Suite — Guide for Burp Suite",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-16",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "technology",
+        "security"
+      ],
+      "tools": [
+        "Burp Suite",
+        "Owasp Zap"
+      ],
+      "path": "checklists/methodology-tooling/0418e2242b6c.md",
+      "source_url": "https://securitycipher.medium.com/1-introduction-to-burp-suite-guide-for-burp-suite-4054b64f10a0",
+      "quick_test": "Set up Burp Suite as a proxy to intercept and analyze HTTP traffic for vulnerabilities in web applications."
     },
     {
       "id": "e387c76aa30c",
@@ -1341,27 +1276,6 @@
       "path": "checklists/methodology-tooling/8db9dd410089.md",
       "source_url": "https://medium.com/@harsh8v/ssl-search-a-tool-to-identify-infrastructure-and-discover-attack-surfaces-449c83269574",
       "quick_test": "Run SSL Search to identify and assess the public attack surface of a target's infrastructure using SSL certificate scanning."
-    },
-    {
-      "id": "1500a9e037fa",
-      "title": "Announcing IWCON 2023 Speakers Second Batch",
-      "author": "InfoSec Write-ups",
-      "publication_date": "2023-11-13",
-      "category": "prompt-injection",
-      "category_label": "Prompt Injection / AI Agent",
-      "content_type": "vuln_writeup",
-      "steps_source": "ai_inferred",
-      "tags": [
-        "infosec",
-        "security",
-        "bug-bounty",
-        "conference",
-        "hacking"
-      ],
-      "tools": [],
-      "path": "checklists/prompt-injection/1500a9e037fa.md",
-      "source_url": "https://infosecwriteups.com/announcing-iwcon-2023-speakers-second-batch-26762dc93491",
-      "quick_test": "Test AI applications for prompt injection by submitting crafted inputs to see if you can manipulate the output."
     },
     {
       "id": "7b0fe2725803",

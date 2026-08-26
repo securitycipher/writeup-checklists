@@ -1,14 +1,7 @@
 {
   "month": "2026-08",
-  "count": 25,
+  "count": 22,
   "items": [
-    {
-      "id": "3d66f939419d",
-      "title": "Fixing a Dead Upstream URL in OpenPrinting: A Small but Important Contribution",
-      "category": "ssrf",
-      "path": "checklists/ssrf/3d66f939419d.md",
-      "publication_date": "2026-08-24"
-    },
     {
       "id": "3ac9b680a6fb",
       "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
@@ -35,13 +28,6 @@
       "title": "The Two Headers That Turn CORS Into Account Data Theft",
       "category": "cors",
       "path": "checklists/cors/4129e3da82aa.md",
-      "publication_date": "2026-08-24"
-    },
-    {
-      "id": "2ce5903abf71",
-      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
-      "category": "methodology-tooling",
-      "path": "checklists/methodology-tooling/2ce5903abf71.md",
       "publication_date": "2026-08-24"
     },
     {
@@ -78,13 +64,6 @@
       "category": "race-condition",
       "path": "checklists/race-condition/718517b70573.md",
       "publication_date": "2026-08-24"
-    },
-    {
-      "id": "965da22b2c97",
-      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
-      "category": "injection",
-      "path": "checklists/injection/965da22b2c97.md",
-      "publication_date": "2026-08-23"
     },
     {
       "id": "bca3e9dc9ccc",

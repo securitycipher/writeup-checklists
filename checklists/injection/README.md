@@ -1,8 +1,7 @@
 # Injection (SQL / NoSQL)
 
-7 checklist card(s).
+6 checklist card(s).
 
-- [AgentGG Found 100+ Zero-Days in Open Source Software](./965da22b2c97.md) - Philip Garabandic
 - [A GeoServer Zero-Day That Went From Private Report to Public Exploit](./7cd3e02c1dd3.md) - Philip Garabandic
 - [The Story of How I Hacked one of the online payment system website](./d7cdfdbbed08.md) - Jonathan Christian
 - [eWPTX Prepare Resources](./158e19171837.md) - 0UN390
