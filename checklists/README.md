@@ -2,7 +2,7 @@
 
 **349** cards across **30** categories.
 
-One Markdown file per card. Browse a category folder, or use `index/` for UI loading.
+One Markdown file per card. Browse a category folder, or use `index/catalog.json` for the live UI.
 
 | Category | Cards |
 |----------|------:|
@@ -37,4 +37,3 @@ One Markdown file per card. Browse a category folder, or use `index/` for UI loa
 | [XSS](./xss/) | 19 |
 | [XXE / XML](./xxe/) | 3 |
 
-See the sample format in [`../examples/sample-checklist.md`](../examples/sample-checklist.md).
