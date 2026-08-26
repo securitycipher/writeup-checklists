@@ -146,13 +146,16 @@ Ethics: these are **testing checklists for authorized targets** (bug bounty / pe
 
 **73 checklist cards** in `22` categories (updated 2026-08-26).
 
-Browse [`checklists/`](./checklists) or load [`index/manifest.json`](./index/manifest.json) for UI integrations.
+Live UI: [securitycipher.com/writeup-checklists](https://securitycipher.com/writeup-checklists/)
+
+Browse [`checklists/`](./checklists) or load [`index/catalog.json`](./index/catalog.json) for UI integrations.
 
 Coming next:
 
 - [x] Seed first batch from Daily Bug Bounty Writeups extract
+- [x] Fast catalog index for live site loading
+- [x] Site page on [securitycipher.com](https://securitycipher.com) that reads `index/`
 - [ ] Index builder CI
-- [ ] Site page on [securitycipher.com](https://securitycipher.com) that reads `index/`
 
 ---
 
