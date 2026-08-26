@@ -1,6 +1,6 @@
 {
   "month": "2023-11",
-  "count": 47,
+  "count": 45,
   "items": [
     {
       "id": "d7cdfdbbed08",
@@ -206,13 +206,6 @@
       "publication_date": "2023-11-15"
     },
     {
-      "id": "0a9be624b29a",
-      "title": "Unveiling Sensitive Information Exposure: IIS Tilde Enumeration Vulnerability",
-      "category": "information-disclosure",
-      "path": "checklists/information-disclosure/0a9be624b29a.md",
-      "publication_date": "2023-11-15"
-    },
-    {
       "id": "f25e16b5582a",
       "title": "Hackathon : KPU.GO.ID",
       "category": "rce",
@@ -232,13 +225,6 @@
       "category": "rce",
       "path": "checklists/rce/7b09a85829ea.md",
       "publication_date": "2023-11-14"
-    },
-    {
-      "id": "8db9dd410089",
-      "title": "SSL Search — A tool to identify infrastructure and discover attack surfaces.",
-      "category": "methodology-tooling",
-      "path": "checklists/methodology-tooling/8db9dd410089.md",
-      "publication_date": "2023-11-13"
     },
     {
       "id": "6075812a6b56",

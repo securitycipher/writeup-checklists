@@ -1,8 +1,179 @@
 {
   "category": "privilege-escalation",
   "category_label": "Privilege Escalation",
-  "count": 1,
+  "count": 12,
   "items": [
+    {
+      "id": "c4b8c8c72033",
+      "title": "Server-3: Vulnerable CryptoPalace Casino— VulnerabilityWeb Walkthrough (7 Flags)",
+      "author": "Enric-xX",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "web-privilege-escalation",
+        "javascript",
+        "web-security",
+        "bug-bounty",
+        "ctf"
+      ],
+      "path": "checklists/privilege-escalation/c4b8c8c72033.md",
+      "source_url": "https://enric-xx.medium.com/server-3-vulnerable-cryptopalace-casino-vulnerabilityweb-walkthrough-7-flags-2094aedb606c",
+      "quick_test": "Check for localStorage manipulation vulnerabilities that allow privilege escalation by setting unauthorized tokens."
+    },
+    {
+      "id": "579a27432555",
+      "title": "That Escalated Quickly",
+      "author": "Shmulik Cohen",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "artificial-intelligence",
+        "ai-agent",
+        "ctf",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/privilege-escalation/579a27432555.md",
+      "source_url": "https://shmulc.medium.com/that-escalated-quickly-c76be3b6ab6a",
+      "quick_test": "Evaluate the permissions granted to AI agents and ensure they do not allow for unintended command execution or privilege escalation."
+    },
+    {
+      "id": "6b3405e6cf76",
+      "title": "Privilege Escalation: Modeler Can Grant Administrator Access to Any User",
+      "author": "Mahmoud Elsaidy",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "privilege-escalation",
+        "bug-bounty"
+      ],
+      "path": "checklists/privilege-escalation/6b3405e6cf76.md",
+      "source_url": "https://medium.com/@m.elsaidy35/privilege-escalation-modeler-can-grant-administrator-access-to-any-user-d655718211f0",
+      "quick_test": "Test if lower-privileged roles can perform actions reserved for Admins by manipulating session tokens in API requests."
+    },
+    {
+      "id": "19822e7a6199",
+      "title": "The Ghost in the Machine: How a Single Line of JavaScript Unlocked an Entire Admin Panel",
+      "author": "Sbcoomputer",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "penetration-testing",
+        "ethical-hacking",
+        "javascript-security",
+        "bug-bounty"
+      ],
+      "path": "checklists/privilege-escalation/19822e7a6199.md",
+      "source_url": "https://medium.com/@sbcoomputer/the-ghost-in-the-machine-how-a-single-line-of-javascript-unlocked-an-entire-admin-panel-252b046ebd65",
+      "quick_test": "Check for client-side trust assumptions in Single Page Applications by manipulating global object prototypes."
+    },
+    {
+      "id": "ad7ee916e72b",
+      "title": "This Is How a Hacker Hacks: Part 4 — Root, and the Backup Server That Gave Up Everything",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "hacking",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "path": "checklists/privilege-escalation/ad7ee916e72b.md",
+      "source_url": "https://cyphernova1337.medium.com/this-is-how-a-hacker-hacks-part-4-root-and-the-backup-server-that-gave-up-everything-f847412de4a4",
+      "quick_test": "Check for outdated polkit versions and enumerate SUID binaries to identify potential privilege escalation vectors."
+    },
+    {
+      "id": "1cbf279e6ced",
+      "title": "This Is How a Hacker Hacks: Part 2 — Through the Admin Door",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "penetration-testing",
+        "infosec",
+        "cybersecurity",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/privilege-escalation/1cbf279e6ced.md",
+      "source_url": "https://cyphernova1337.medium.com/this-is-how-a-hacker-hacks-part-2-through-the-admin-door-16ba29c3c50c",
+      "quick_test": "Test the password reset functionality of Joomla 1.5.0 and check for WAF weaknesses by uploading a ZIP file with a webshell."
+    },
+    {
+      "id": "2e34152ffc76",
+      "title": "Bounty Hacker — TryHackMe Walkthrough",
+      "author": "5um1t0x",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "penetration-testing",
+        "infosec",
+        "bug-bounty"
+      ],
+      "path": "checklists/privilege-escalation/2e34152ffc76.md",
+      "source_url": "https://medium.com/@5um1t0x/bounty-hacker-tryhackme-walkthrough-131073e2592f",
+      "quick_test": "Always check for misconfigured sudo permissions and explore GTFOBins for potential privilege escalation techniques."
+    },
+    {
+      "id": "a6d7fd53d401",
+      "title": "How a Tampered role_id Gave Me Permanent, Invisible Control Over Other Users’ Organizations",
+      "author": "HASG",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "information-security",
+        "cybersecuirty",
+        "web-security"
+      ],
+      "path": "checklists/privilege-escalation/a6d7fd53d401.md",
+      "source_url": "https://hamzaelgarhy.medium.com/how-a-tampered-role-id-gave-me-permanent-invisible-control-over-other-users-organizations-c968e0e633ec",
+      "quick_test": "Test if modifying role_id in invitation requests allows unauthorized privilege escalation to Owner level."
+    },
+    {
+      "id": "5eddcc937be1",
+      "title": "Vikunja CVE-2026–55064: The Vulnerability Hidden in the Previous Security Fix",
+      "author": "Antariksha Akhilesh Sharma",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "golang",
+        "application-security",
+        "vulnerability"
+      ],
+      "path": "checklists/privilege-escalation/5eddcc937be1.md",
+      "source_url": "https://medium.com/@Infosec-Arsenal-Diaries/vikunja-cve-2026-55064-the-vulnerability-hidden-in-the-previous-security-fix-3f84f84c35bc",
+      "quick_test": "Test if a user with Write access can detach a project from its parent by setting parent_project_id to 0 and verify if the operation succeeds without Admin privileges."
+    },
+    {
+      "id": "5d11a77b88f7",
+      "title": "Client-Controlled Role Assignment: A Critical Privilege Escalation Vulnerability",
+      "author": "Devkumaoni",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "application-security",
+        "secure-coding",
+        "cybersecurity",
+        "bug-bounty",
+        "infosec"
+      ],
+      "path": "checklists/privilege-escalation/5d11a77b88f7.md",
+      "source_url": "https://medium.com/@devkumaoni9/client-controlled-role-assignment-a-critical-privilege-escalation-vulnerability-a2f0cbae4674",
+      "quick_test": "Intercept user profile update requests and test for role manipulation by modifying role fields."
+    },
+    {
+      "id": "ee816e2e48e9",
+      "title": "Meterpreter Cheat Sheet (Part 2)",
+      "author": "Mohamed Sameh",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "hacking",
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/privilege-escalation/ee816e2e48e9.md",
+      "source_url": "https://medium.com/@Mohamed_Sameh/meterpreter-cheat-sheet-part-2-4d6d241482d6",
+      "quick_test": "Run 'getsystem' in a Meterpreter session to check for privilege escalation opportunities on a similar target."
+    },
     {
       "id": "99d0bb813cde",
       "title": "Privilege Escalation: Unauthorized Low-Privilege Users Creating Feature Bundles",

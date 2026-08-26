@@ -1,8 +1,247 @@
 {
   "category": "api-security",
   "category_label": "API Security",
-  "count": 2,
+  "count": 18,
   "items": [
+    {
+      "id": "8b1cd5c90ff5",
+      "title": "From API Access Bypass to Campaign Takeover",
+      "author": "Udaytrivedi",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "2fa-bypass"
+      ],
+      "path": "checklists/api-security/8b1cd5c90ff5.md",
+      "source_url": "https://medium.com/@udaytrivedi35/from-api-access-bypass-to-campaign-takeover-e20c7db6c999",
+      "quick_test": "Test if API access can be obtained using only an email address and check for 2FA enforcement when obtaining tokens."
+    },
+    {
+      "id": "674f9c887aea",
+      "title": "When the Frontend Says “Invite Only” but the Backend Says Otherwise",
+      "author": "redhunter01",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "vulnerability-research",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty",
+        "api-security"
+      ],
+      "path": "checklists/api-security/674f9c887aea.md",
+      "source_url": "https://medium.com/@redhunter01/when-the-frontend-says-invite-only-but-the-backend-says-otherwise-5ea00c16da34",
+      "quick_test": "Always verify if the backend allows account creation through hidden endpoints, even if the frontend suggests otherwise."
+    },
+    {
+      "id": "268e2c6ac161",
+      "title": "How an Unsecured API Endpoint Exposed 5,200+ Global Bank Records",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "hacking",
+        "infosec",
+        "pentesting",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/api-security/268e2c6ac161.md",
+      "source_url": "https://cyphernova1337.medium.com/how-an-unsecured-api-endpoint-exposed-5-200-global-bank-records-e51036c6043c",
+      "quick_test": "Test API endpoints for unauthenticated access to sensitive data by sending requests with valid parameters and observing the responses."
+    },
+    {
+      "id": "c7e1f2361930",
+      "title": "How I Discovered an API Authorization Flaw Exposing 100+ User Phone Numbers and Sensitive Campaign…",
+      "author": "4osp3l",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/api-security/c7e1f2361930.md",
+      "source_url": "https://medium.com/@4osp3l/how-i-discovered-an-api-authorization-flaw-exposing-100-user-phone-numbers-and-sensitive-campaign-8632760ebc2a",
+      "quick_test": "Test API endpoints for sensitive data exposure by analyzing responses for user information and financial data."
+    },
+    {
+      "id": "49794c3fb80d",
+      "title": "How a Simple API Misconfiguration Leaked PII of 100,000+ Users",
+      "author": "Sagar Kirola",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty-tips",
+        "information-security",
+        "bug-bounty",
+        "hacking"
+      ],
+      "path": "checklists/api-security/49794c3fb80d.md",
+      "source_url": "https://medium.com/@sagar_kirola-G35638/how-a-simple-api-misconfiguration-leaked-pii-of-100-000-users-326a1a29bf44",
+      "quick_test": "Test for unauthenticated API endpoints that expose sensitive user data without proper authorization checks."
+    },
+    {
+      "id": "f87c144c0412",
+      "title": "Critical Exposure Of Algolia Key That Led to Production, Staging, and Draft Data",
+      "author": "Adham Mohamed",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/api-security/f87c144c0412.md",
+      "source_url": "https://medium.com/@am8337/critical-exposure-of-algolia-key-that-led-to-production-staging-and-draft-data-ade1c34774eb",
+      "quick_test": "Check if any exposed API keys allow access to sensitive data by enumerating indices and querying them without authentication."
+    },
+    {
+      "id": "4cfe12af1419",
+      "title": "How a Locale Path Bypass Exposed 339,000 Media Objects and Multiple Cloud Backends",
+      "author": "Tarek ElDemerdash",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cloud-security",
+        "bug-bounty",
+        "cybersecurity",
+        "web-security",
+        "ethical-hacking"
+      ],
+      "path": "checklists/api-security/4cfe12af1419.md",
+      "source_url": "https://medium.com/@tarekeldemerdash/how-a-locale-path-bypass-exposed-339-000-media-objects-and-multiple-cloud-backends-7dd110a89bc0",
+      "quick_test": "Test for unauthenticated access to WordPress REST API endpoints by using locale-specific prefixes to bypass security controls."
+    },
+    {
+      "id": "d138b3f74ee3",
+      "title": "Modern web applications depend heavily on JavaScript.",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/api-security/d138b3f74ee3.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/modern-web-applications-depend-heavily-on-javascript-320cfdd2570a",
+      "quick_test": "Inspect JavaScript files for exposed API endpoints and authentication mechanisms to identify potential security vulnerabilities."
+    },
+    {
+      "id": "abb2fb59c85d",
+      "title": "A Couple’s Hunt: Hardcoded Credentials Lead to Internal Data Exposure & a $300 Bounty",
+      "author": "Utaa",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/api-security/abb2fb59c85d.md",
+      "source_url": "https://medium.com/@mhrdkaa._/a-couples-hunt-hardcoded-credentials-lead-to-internal-data-exposure-a-300-bounty-933db89ac98c",
+      "quick_test": "Inspect JavaScript bundles for hardcoded credentials and test GraphQL endpoints with found tokens and headers."
+    },
+    {
+      "id": "487d102d63bf",
+      "title": "How an exposed eXist-db REST interface revealed application collections, configuration files, and…",
+      "author": "oldman",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "cybersecurity",
+        "netclouts",
+        "bug-bounty"
+      ],
+      "path": "checklists/api-security/487d102d63bf.md",
+      "source_url": "https://medium.com/@ioldman/how-an-exposed-exist-db-rest-interface-revealed-application-collections-configuration-files-and-01da25eb872f",
+      "quick_test": "Check for unauthenticated access to REST API endpoints and ensure sensitive features are protected."
+    },
+    {
+      "id": "d5b732a4ccce",
+      "title": "Rate Limiting & API Abuse Bugs",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "rate-limiting",
+        "ethical-hacking",
+        "infosec",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/api-security/d5b732a4ccce.md",
+      "source_url": "https://kd-200.medium.com/rate-limiting-api-abuse-bugs-fef88379c968",
+      "quick_test": "Test API endpoints for rate limiting by sending rapid successive requests and observing for any restrictions."
+    },
+    {
+      "id": "adc0121b1d5d",
+      "title": "How One Exposed API Cost a Shipping Company $10,000 in a Few Hours",
+      "author": "cyber security",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "business",
+        "startup",
+        "cybersecurity",
+        "bug-bounty",
+        "shipping"
+      ],
+      "path": "checklists/api-security/adc0121b1d5d.md",
+      "source_url": "https://medium.com/@tanvir.infosec/how-one-exposed-api-cost-a-shipping-company-10-000-in-a-few-hours-cfc021e7df21",
+      "quick_test": "Audit all API endpoints for authentication requirements and ensure proper access controls are implemented."
+    },
+    {
+      "id": "00f321fe2cf3",
+      "title": "Bounty for an Out-of-Scope Vulnerability",
+      "author": "Hemandhemanth",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "technology",
+        "hacking",
+        "bug-bounty",
+        "cybersecurity",
+        "ethical-hacking"
+      ],
+      "path": "checklists/api-security/00f321fe2cf3.md",
+      "source_url": "https://medium.com/@hemand390hemanth/bounty-for-an-out-of-scope-vulnerability-96dd0a6ba536",
+      "quick_test": "Test if the API enforces the same input validation as the client-side by modifying parameters directly in intercepted requests."
+    },
+    {
+      "id": "3cb7f6f83022",
+      "title": "API Recon — Mapping Every Hidden Endpoint",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "ethical-hacking",
+        "reconnaissance",
+        "web-security"
+      ],
+      "path": "checklists/api-security/3cb7f6f83022.md",
+      "source_url": "https://kd-200.medium.com/api-recon-mapping-every-hidden-endpoint-dc09936cc596",
+      "quick_test": "Map all API endpoints by routing the application through a proxy and analyzing both the proxy history and JavaScript files for hidden endpoints."
+    },
+    {
+      "id": "2eb37fda73a2",
+      "title": "Abusing Samsung Find’s Notification API to Send Trusted Emails to Arbitrary Recipients",
+      "author": "danielelpsy",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "samsung",
+        "api-security",
+        "bug-bounty",
+        "application-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/api-security/2eb37fda73a2.md",
+      "source_url": "https://medium.com/@danielelpsy/abusing-samsung-finds-notification-api-to-send-trusted-emails-to-arbitrary-recipients-083775f74bc1",
+      "quick_test": "Test if an API endpoint allows client-controlled fields without proper validation against the authenticated user's account."
+    },
+    {
+      "id": "a8810edafebb",
+      "title": "Why HTTP QUERY Changes API Security Forever",
+      "author": "Dhruv",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty",
+        "owasp-top-10",
+        "api-security",
+        "cybersecurity",
+        "http-query-method"
+      ],
+      "path": "checklists/api-security/a8810edafebb.md",
+      "source_url": "https://medium.com/@dhruva0/why-http-query-changes-api-security-forever-5c34b33995aa",
+      "quick_test": "Enumerate all supported HTTP methods, including QUERY, and test for consistent handling of authentication and authorization across different request types."
+    },
     {
       "id": "993bf3370ad5",
       "title": "CVE-2023–35078 Unveiled: Ethical Vulnerability Discovery and Reporting By Me and My Hunting Buddy…",

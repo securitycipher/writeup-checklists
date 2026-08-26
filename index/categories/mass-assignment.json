@@ -1,0 +1,51 @@
+{
+  "category": "mass-assignment",
+  "category_label": "Mass Assignment",
+  "count": 3,
+  "items": [
+    {
+      "id": "1b2d688dd6ae",
+      "title": "Mass assignment led to ATO",
+      "author": "Ahmed yasser",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/mass-assignment/1b2d688dd6ae.md",
+      "source_url": "https://medium.com/@ay01011017/mass-assignment-led-to-ato-6a9d0f081871",
+      "quick_test": "Check if the application allows mass assignment of sensitive fields not exposed in the UI, such as email addresses, during profile updates."
+    },
+    {
+      "id": "ccec2fb176c9",
+      "title": "Mass Assignment: How “isAdmin”:true Still Works in 2026",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "bug-bounty-tips",
+        "infosec",
+        "bug-bounty",
+        "info-sec-writeups",
+        "cybersecurity"
+      ],
+      "path": "checklists/mass-assignment/ccec2fb176c9.md",
+      "source_url": "https://kd-200.medium.com/mass-assignment-how-isadmin-true-still-works-in-2026-599a0f6b61ba",
+      "quick_test": "Check if the application allows mass assignment by modifying user profile fields that are not exposed in the UI."
+    },
+    {
+      "id": "6d3dad9d3ed3",
+      "title": "I Bypassed Email Verification in One Request",
+      "author": "Parth Narula",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "penetration-testing",
+        "bug-bounty-tips",
+        "cybersecurity"
+      ],
+      "path": "checklists/mass-assignment/6d3dad9d3ed3.md",
+      "source_url": "https://scriptjacker.medium.com/i-bypassed-email-verification-in-one-request-569a3c87590d",
+      "quick_test": "Always inspect API requests for sensitive fields that may be modified, even if the frontend does not expose them."
+    }
+  ]
+}

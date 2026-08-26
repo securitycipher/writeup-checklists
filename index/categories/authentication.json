@@ -1,7 +1,7 @@
 {
   "category": "authentication",
   "category_label": "Authentication / Password Reset",
-  "count": 9,
+  "count": 38,
   "items": [
     {
       "id": "ebedc43cd2aa",
@@ -33,6 +33,462 @@
       "path": "checklists/authentication/6562a67bf13a.md",
       "source_url": "https://medium.com/@redhunter01/from-a-password-reset-form-to-unauthenticated-database-access-dc88ae0abf32",
       "quick_test": "Test password reset endpoints for SQL injection by manipulating the email parameter and observing response behavior."
+    },
+    {
+      "id": "b790b9f94675",
+      "title": "This Is How a Hacker Hacks: Part 5 — The Central Database, the Cleanup, and What It All Means",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "hacking",
+        "bug-bounty",
+        "pentesting"
+      ],
+      "path": "checklists/authentication/b790b9f94675.md",
+      "source_url": "https://cyphernova1337.medium.com/this-is-how-a-hacker-hacks-part-5-the-central-database-the-cleanup-and-what-it-all-means-ee1642fa58d5",
+      "quick_test": "Always verify the security of password reset mechanisms and ensure they do not expose sensitive information or allow unauthorized access."
+    },
+    {
+      "id": "caa11908d42b",
+      "title": "Broken Authentication: A Bug Bounty Hunter’s Guide to Finding and Bypassing It",
+      "author": "Muhammad Kashif",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "broken-authentication",
+        "broken-access-control",
+        "bug-bounty",
+        "cybersecurity",
+        "appsec"
+      ],
+      "path": "checklists/authentication/caa11908d42b.md",
+      "source_url": "https://muhammadkashifsecurityengineer.medium.com/broken-authentication-a-bug-bounty-hunters-guide-to-finding-and-bypassing-it-02b16db443e5",
+      "quick_test": "Test for weak login checks by attempting credential stuffing with a list of leaked credentials against the login endpoint."
+    },
+    {
+      "id": "b3cd5d10ca07",
+      "title": "Auth Bypass : A Story of LinkedIn's Sneaky Session Update Bypass",
+      "author": "Torious",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "hacking",
+        "cybersecurity",
+        "hackerone",
+        "penetration-testing"
+      ],
+      "path": "checklists/authentication/b3cd5d10ca07.md",
+      "source_url": "https://adebayosec.medium.com/auth-bypass-a-story-of-linkedins-sneaky-session-update-bypass-2c9ee712b48c",
+      "quick_test": "Test if session revalidation can be bypassed by intercepting and modifying requests during multi-platform authentication flows."
+    },
+    {
+      "id": "e7ae4e65cebc",
+      "title": "2FA Bypass: The Patterns That Keep Coming Back",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "cybersecurity",
+        "info-sec-writeups",
+        "infosec",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/e7ae4e65cebc.md",
+      "source_url": "https://kd-200.medium.com/2fa-bypass-the-patterns-that-keep-coming-back-19ea618df1f2",
+      "quick_test": "Test if the application trusts client-side responses for 2FA verification without server-side enforcement."
+    },
+    {
+      "id": "886a7e4a63d2",
+      "title": "This Is How a Hacker Hacks: Part 1 — Finding the Door",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "infosec",
+        "pentesting",
+        "bug-bounty",
+        "hacking",
+        "cybersecurity"
+      ],
+      "path": "checklists/authentication/886a7e4a63d2.md",
+      "source_url": "https://cyphernova1337.medium.com/this-is-how-a-hacker-hacks-part-1-finding-the-door-23a50407bf5b",
+      "quick_test": "Check for outdated Joomla installations and test the password reset functionality for token validation flaws."
+    },
+    {
+      "id": "ced9ab08c682",
+      "title": "Email Security Testing Explained | Complete Penetration Testing Walkthrough",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "web-development",
+        "artificial-intelligence",
+        "hacking"
+      ],
+      "path": "checklists/authentication/ced9ab08c682.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/email-security-testing-explained-complete-penetration-testing-walkthrough-a5dae3de948c",
+      "quick_test": "Verify that the password reset tokens are unpredictable, expire after a short duration, and are single-use to prevent unauthorized access."
+    },
+    {
+      "id": "be3a36ffbcb3",
+      "title": "Modern Authentication Attacks Explained",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "infosec",
+        "ethical-hacking"
+      ],
+      "path": "checklists/authentication/be3a36ffbcb3.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/modern-authentication-attacks-explained-b1d341c9bfe8",
+      "quick_test": "Verify that the application properly invalidates sessions upon logout and does not expose account existence through error messages."
+    },
+    {
+      "id": "3b55183f5c50",
+      "title": "PortSwigger Lab: Password reset broken logic",
+      "author": "sa0k0",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "authentication",
+        "bug-bounty",
+        "web-security",
+        "portswigger"
+      ],
+      "path": "checklists/authentication/3b55183f5c50.md",
+      "source_url": "https://medium.com/@sa0k0/portswigger-lab-password-reset-broken-logic-7730003d461b",
+      "quick_test": "Verify that the password reset token is bound to the specific user account and that the username parameter is validated against it."
+    },
+    {
+      "id": "139c2b455504",
+      "title": "Password Reset Vulnerability — Full Bug Bounty Walkthrough",
+      "author": "Z3DX",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "cyper-security",
+        "ctf",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/139c2b455504.md",
+      "source_url": "https://medium.com/@ksreemosmar/password-reset-vulnerability-full-bug-bounty-walkthrough-d0d7c413ea63",
+      "quick_test": "Always check for rate limiting on password reset requests to prevent email bombing and resource abuse."
+    },
+    {
+      "id": "72ca7bcdd667",
+      "title": "A $1,337 bug let anyone forge a session - if they already knew a UUID and a login was live",
+      "author": "Pawan Jaiswal",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "infosec",
+        "bug-bounty",
+        "application-security"
+      ],
+      "path": "checklists/authentication/72ca7bcdd667.md",
+      "source_url": "https://pawanjswal.medium.com/a-1-337-bug-let-anyone-forge-a-session-if-they-already-knew-a-uuid-and-a-login-was-live-b25943b20ffc",
+      "quick_test": "Check if the API enforces algorithm pinning for JWTs, ensuring only RS256 tokens are accepted."
+    },
+    {
+      "id": "269dfdac2c24",
+      "title": "Two-Factor Authentication Bypass on *** — Access Token Issued Before Second Factor Is Ever Checked",
+      "author": "Joko Purwanto",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "authentication-bypass",
+        "bug-hunting",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/269dfdac2c24.md",
+      "source_url": "https://medium.com/@jokodfir/two-factor-authentication-bypass-on-access-token-issued-before-second-factor-is-ever-checked-096b2304df2f",
+      "quick_test": "Check if the access token is issued before the second factor is validated during the login process."
+    },
+    {
+      "id": "1b38fa1ce660",
+      "title": "He Sent 200,000 Reset Codes to Instagram in 10 Minutes. Instagram Paid Him $30,000.",
+      "author": "Vivek PS",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "bug-bounty",
+        "ethical-hacking",
+        "programming"
+      ],
+      "path": "checklists/authentication/1b38fa1ce660.md",
+      "source_url": "https://infosecwriteups.com/he-sent-200-000-reset-codes-to-instagram-in-10-minutes-instagram-paid-him-30-000-0afd2bcaa3b2",
+      "quick_test": "Test the password reset functionality of similar applications to identify if rate limiting is properly implemented."
+    },
+    {
+      "id": "67f58d2dd132",
+      "title": "How I Found an Authentication Bypass in a Target’s MCP Server",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bugcrowd",
+        "hacking",
+        "bug-bounty",
+        "cybersecurity",
+        "infosec"
+      ],
+      "path": "checklists/authentication/67f58d2dd132.md",
+      "source_url": "https://cyphernova1337.medium.com/how-i-found-an-authentication-bypass-in-a-targets-mcp-server-852442072907",
+      "quick_test": "Test if client-side environment IDs can authenticate to admin endpoints and expose sensitive data."
+    },
+    {
+      "id": "4b2595282c19",
+      "title": "When the CDN Was Secure but the Origin Wasn’t: Bypassing SSO Through Direct-to-Origin Access",
+      "author": "redhunter01",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bug-bounty",
+        "ethical-hacking",
+        "cybersecurity",
+        "cloud-security",
+        "authentication-bypass"
+      ],
+      "path": "checklists/authentication/4b2595282c19.md",
+      "source_url": "https://medium.com/@redhunter01/when-the-cdn-was-secure-but-the-origin-wasnt-bypassing-sso-through-direct-to-origin-access-96cf9c765a5f",
+      "quick_test": "Check if the origin server can be accessed directly without going through the CDN and if it serves content without authentication."
+    },
+    {
+      "id": "4552240fb344",
+      "title": "How I Took Over Any Employee Account With Just a Username",
+      "author": "reox17",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "pentesting",
+        "cybersecurity",
+        "bug-bounty-writeup",
+        "bugcrowd",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/4552240fb344.md",
+      "source_url": "https://medium.com/@yassine.hasnaoui.cyber/how-i-took-over-any-employee-account-with-just-a-username-f7c5cae5a5c2",
+      "quick_test": "Test if the password reset and change-password endpoints require authentication before allowing changes to user accounts."
+    },
+    {
+      "id": "b56aa184c7b0",
+      "title": "Bypassing MFA: 10 Real Techniques Used in 2026 (with Step-by-Step Examples)",
+      "author": "Very Lazy Tech",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "hacking",
+        "mfa",
+        "penetration-testing"
+      ],
+      "path": "checklists/authentication/b56aa184c7b0.md",
+      "source_url": "https://medium.com/@verylazytech/bypassing-mfa-10-real-techniques-used-in-2026-with-step-by-step-examples-1debd7f9a173",
+      "quick_test": "Test for MFA fatigue by sending multiple push notifications to users and observing their response behavior."
+    },
+    {
+      "id": "9fef02384d75",
+      "title": "How to Exploit JWT Authentication & Authorization Bypasses",
+      "author": "Haroon Shahid",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "jwt-token",
+        "cybersecurity",
+        "bug-bounty",
+        "jwt-authentication",
+        "jwt-exploitation"
+      ],
+      "path": "checklists/authentication/9fef02384d75.md",
+      "source_url": "https://medium.com/@gdefault830/how-to-exploit-jwt-authentication-authorization-bypasses-4066fd2e5a69",
+      "quick_test": "Test if the application accepts an unsigned JWT token where a signed token is required."
+    },
+    {
+      "id": "30f20f2358cd",
+      "title": "How a Forgot-Password “Feature” Let Me Impersonate Any Executive for a $5,500 Bounty",
+      "author": "T4nv1",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "pentesting",
+        "bug-bounty-tips",
+        "cybersecurity",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/30f20f2358cd.md",
+      "source_url": "https://medium.com/@t3nv1/how-a-forgot-password-feature-let-me-impersonate-any-executive-for-a-5-500-bounty-7a21297a18ca",
+      "quick_test": "Test the Emergency Password Recovery feature for potential account takeover by submitting known corporate emails and analyzing the recovery process."
+    },
+    {
+      "id": "dfa628c244e3",
+      "title": "I Legally Hacked My Own WiFi in Under an Hour — Here’s Exactly How (2026 Guide)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "bug-bounty",
+        "penetration-testing",
+        "cybersecurity",
+        "red-team",
+        "hacking"
+      ],
+      "path": "checklists/authentication/dfa628c244e3.md",
+      "source_url": "https://medium.com/@b0dj0x/i-legally-hacked-my-own-wifi-in-under-an-hour-heres-exactly-how-2026-guide-2539617e9b24",
+      "quick_test": "Capture a WPA2 handshake from your own network and test the passphrase strength using aircrack-ng or hashcat."
+    },
+    {
+      "id": "c487f8dd035f",
+      "title": "Walkthrough: PortSwigger — Password Reset Broken Logic",
+      "author": "Ayeshaaghafoor",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "cybersecurity",
+        "api",
+        "penetration-testing",
+        "bug-bounty",
+        "cyber-security-awareness"
+      ],
+      "path": "checklists/authentication/c487f8dd035f.md",
+      "source_url": "https://medium.com/@ayeshaaghafoor48/walkthrough-portswigger-password-reset-broken-logic-1230b75f016a",
+      "quick_test": "Check if the password reset functionality validates the reset token against the username server-side to prevent unauthorized password changes."
+    },
+    {
+      "id": "83924ffa56f4",
+      "title": "The Ghost Email: How I Took Over Any Account With a Missing Check",
+      "author": "SudoHunt",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "ethical-hacking",
+        "hacking",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/authentication/83924ffa56f4.md",
+      "source_url": "https://sudohunt.medium.com/the-ghost-email-how-i-took-over-any-account-with-a-missing-check-81f06091e3cb",
+      "quick_test": "Test if the application allows OTP requests to arbitrary email addresses during the 2FA setup process without verifying ownership."
+    },
+    {
+      "id": "4b040d418112",
+      "title": "GitLab account takeover, no clicks required — $35,000 bounty",
+      "author": "Pawan Jaiswal",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "infosec",
+        "hacking",
+        "bug-bounty",
+        "penetration-testing",
+        "cybersecurity"
+      ],
+      "path": "checklists/authentication/4b040d418112.md",
+      "source_url": "https://pawanjswal.medium.com/gitlab-account-takeover-no-clicks-required-35-000-bounty-5eed7fcc467d",
+      "quick_test": "Test if the password reset endpoint accepts an array for the email parameter instead of a single string."
+    },
+    {
+      "id": "92abe8a5636f",
+      "title": "JWT Algorithm Confusion → Admin Account Takeover",
+      "author": "Mehrankiya",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "hacking"
+      ],
+      "path": "checklists/authentication/92abe8a5636f.md",
+      "source_url": "https://medium.com/@mehrankiya272/jwt-algorithm-confusion-admin-account-takeover-fe3779fd026d",
+      "quick_test": "Test if the application accepts JWT tokens with the 'none' algorithm and allows modification of user identity in the payload."
+    },
+    {
+      "id": "52120920ffd2",
+      "title": "CAPTCHA Bypass Bug on a Bug Bounty Program",
+      "author": "Mohamed Naser",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "captcha",
+        "bug-bounty",
+        "authentication-bypass",
+        "cybersecurity",
+        "hackerone"
+      ],
+      "path": "checklists/authentication/52120920ffd2.md",
+      "source_url": "https://medium.com/@mo_0xnaser/captcha-bypass-bug-on-a-bug-bounty-program-94ec4f6add57",
+      "quick_test": "Test registration flows with both well-known and arbitrary email domains to identify potential CAPTCHA bypass vulnerabilities."
+    },
+    {
+      "id": "62ee476b2a78",
+      "title": "How I Almost Made $1,000 with a Pre-Account Takeover",
+      "author": "Ahmad Farel Pratama",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty",
+        "bugbounty-writeup"
+      ],
+      "path": "checklists/authentication/62ee476b2a78.md",
+      "source_url": "https://medium.com/@zheverxploit/how-i-almost-made-1-000-with-a-pre-account-takeover-68e1b00742da",
+      "quick_test": "Test the Change Email feature in applications using OAuth to ensure proper verification is in place before allowing email changes."
+    },
+    {
+      "id": "3b2d147852ed",
+      "title": "How I Bypassed Authentication on a Fintech Platform Using a Broken Password Reset Flow (Bug Bounty…",
+      "author": "T4nv1",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "pentesting",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "security",
+        "cybersecurity"
+      ],
+      "path": "checklists/authentication/3b2d147852ed.md",
+      "source_url": "https://medium.com/@t3nv1/how-i-bypassed-authentication-on-a-fintech-platform-using-a-broken-password-reset-flow-bug-bounty-0abc5f54f144",
+      "quick_test": "Test the password reset flow for potential bypass vulnerabilities by intercepting and modifying reset links."
+    },
+    {
+      "id": "84c2859bcf81",
+      "title": "How I Found a Bug That Could Let Anyone Hijack Your Account — Without Touching Your Email",
+      "author": "Rahul Masal",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "penetration-testing",
+        "web-security",
+        "idor",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/authentication/84c2859bcf81.md",
+      "source_url": "https://medium.com/@Rahul.Masal/how-i-found-a-bug-that-could-let-anyone-hijack-your-account-without-touching-your-email-2acc76e33bfa",
+      "quick_test": "Verify that the password reset process checks the token against the user account and ignores any email parameter provided by the client."
+    },
+    {
+      "id": "e3b746b6de7f",
+      "title": "How I Found a Serious Security Problem in Magadh University’s Website and Why I Had to Contact the…",
+      "author": "Mayank Kumar",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "infosec-write-ups",
+        "technology-news",
+        "cybersecurity",
+        "bug-bounty",
+        "news"
+      ],
+      "path": "checklists/authentication/e3b746b6de7f.md",
+      "source_url": "https://m4y4nk.medium.com/how-i-found-a-serious-security-problem-in-magadh-universitys-website-and-why-i-had-to-contact-the-bb80c6de457f",
+      "quick_test": "Test the login functionality for improper credential validation by submitting invalid credentials and checking for unauthorized access."
+    },
+    {
+      "id": "8cd005281d20",
+      "title": "When Usernames Give Away Too Much: Weak Username Policies and Predictable Accounts",
+      "author": "Z3r0D4y",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "penetration-testing",
+        "web-security"
+      ],
+      "path": "checklists/authentication/8cd005281d20.md",
+      "source_url": "https://medium.com/@pritamtare029/when-usernames-give-away-too-much-weak-username-policies-and-predictable-accounts-e32f1058596b",
+      "quick_test": "Check if the application reveals whether a username exists through login or password reset responses."
     },
     {
       "id": "c7f13698913f",

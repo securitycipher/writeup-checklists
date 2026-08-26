@@ -1,8 +1,24 @@
 {
   "category": "cache-poisoning",
   "category_label": "Cache Poisoning",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "id": "2d5d012711de",
+      "title": "Web Cache Poisoning: One Response, Every Victim",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "cybersecurity",
+        "bugbounty-writeup",
+        "bug-bounty",
+        "hacking",
+        "infosec"
+      ],
+      "path": "checklists/cache-poisoning/2d5d012711de.md",
+      "source_url": "https://kd-200.medium.com/web-cache-poisoning-one-response-every-victim-63bed1727e1f",
+      "quick_test": "Check for unkeyed inputs in cached responses by manipulating headers and observing if the response changes."
+    },
     {
       "id": "63e76b2c30ed",
       "title": "How an Unsanitized Header Generated a $6,000 Bounty via Cache Poisoning",

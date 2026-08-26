@@ -2,126 +2,186 @@
   "name": "writeup-checklists",
   "version": "0.2.0",
   "updated": "2026-08-26",
-  "total_checklists": 69,
+  "total_checklists": 349,
   "categories": [
     {
       "id": "api-security",
       "label": "API Security",
-      "count": 2,
+      "count": 18,
       "index": "index/categories/api-security.json"
     },
     {
       "id": "authentication",
       "label": "Authentication / Password Reset",
-      "count": 9,
+      "count": 38,
       "index": "index/categories/authentication.json"
     },
     {
       "id": "broken-access-control",
       "label": "Broken Access Control / IDOR",
-      "count": 10,
+      "count": 53,
       "index": "index/categories/broken-access-control.json"
     },
     {
       "id": "business-logic",
       "label": "Business Logic",
-      "count": 2,
+      "count": 31,
       "index": "index/categories/business-logic.json"
     },
     {
       "id": "cache-poisoning",
       "label": "Cache Poisoning",
-      "count": 1,
+      "count": 2,
       "index": "index/categories/cache-poisoning.json"
     },
     {
       "id": "cors",
       "label": "CORS Misconfiguration",
-      "count": 1,
+      "count": 3,
       "index": "index/categories/cors.json"
+    },
+    {
+      "id": "denial-of-service",
+      "label": "Denial of Service",
+      "count": 3,
+      "index": "index/categories/denial-of-service.json"
+    },
+    {
+      "id": "file-upload-stored-xss",
+      "label": "File Upload / Stored XSS",
+      "count": 3,
+      "index": "index/categories/file-upload-stored-xss.json"
     },
     {
       "id": "general-web",
       "label": "General Web Security",
-      "count": 7,
+      "count": 12,
       "index": "index/categories/general-web.json"
+    },
+    {
+      "id": "host-header-injection",
+      "label": "Host Header Injection",
+      "count": 2,
+      "index": "index/categories/host-header-injection.json"
+    },
+    {
+      "id": "http-request-smuggling",
+      "label": "HTTP Request Smuggling",
+      "count": 1,
+      "index": "index/categories/http-request-smuggling.json"
+    },
+    {
+      "id": "idor",
+      "label": "IDOR",
+      "count": 8,
+      "index": "index/categories/idor.json"
     },
     {
       "id": "information-disclosure",
       "label": "Information Disclosure",
-      "count": 2,
+      "count": 12,
       "index": "index/categories/information-disclosure.json"
     },
     {
       "id": "injection",
       "label": "Injection (SQL / NoSQL)",
-      "count": 6,
+      "count": 28,
       "index": "index/categories/injection.json"
+    },
+    {
+      "id": "mass-assignment",
+      "label": "Mass Assignment",
+      "count": 3,
+      "index": "index/categories/mass-assignment.json"
     },
     {
       "id": "methodology-tooling",
       "label": "Methodology / Tooling",
-      "count": 6,
+      "count": 8,
       "index": "index/categories/methodology-tooling.json"
     },
     {
       "id": "mobile",
       "label": "Mobile / JS Bridge",
-      "count": 4,
+      "count": 5,
       "index": "index/categories/mobile.json"
     },
     {
       "id": "oauth-sso",
       "label": "OAuth / SSO",
-      "count": 2,
+      "count": 11,
       "index": "index/categories/oauth-sso.json"
+    },
+    {
+      "id": "open-redirect-csrf",
+      "label": "Open Redirect / CSRF",
+      "count": 3,
+      "index": "index/categories/open-redirect-csrf.json"
     },
     {
       "id": "path-traversal",
       "label": "Path Traversal / Arbitrary File Read",
-      "count": 1,
+      "count": 5,
       "index": "index/categories/path-traversal.json"
     },
     {
       "id": "privilege-escalation",
       "label": "Privilege Escalation",
-      "count": 1,
+      "count": 12,
       "index": "index/categories/privilege-escalation.json"
+    },
+    {
+      "id": "prompt-injection",
+      "label": "Prompt Injection / AI Agent",
+      "count": 1,
+      "index": "index/categories/prompt-injection.json"
     },
     {
       "id": "race-condition",
       "label": "Race Condition",
-      "count": 2,
+      "count": 6,
       "index": "index/categories/race-condition.json"
     },
     {
       "id": "rce",
       "label": "RCE / Code Execution",
-      "count": 4,
+      "count": 23,
       "index": "index/categories/rce.json"
     },
     {
       "id": "recon-osint",
       "label": "Recon / OSINT",
-      "count": 4,
+      "count": 22,
       "index": "index/categories/recon-osint.json"
+    },
+    {
+      "id": "ssrf",
+      "label": "SSRF",
+      "count": 10,
+      "index": "index/categories/ssrf.json"
+    },
+    {
+      "id": "ssrf-host-header-injection",
+      "label": "SSRF, Host Header Injection",
+      "count": 1,
+      "index": "index/categories/ssrf-host-header-injection.json"
     },
     {
       "id": "subdomain-takeover",
       "label": "Subdomain Takeover",
-      "count": 1,
+      "count": 3,
       "index": "index/categories/subdomain-takeover.json"
     },
     {
       "id": "xss",
       "label": "XSS",
-      "count": 3,
+      "count": 19,
       "index": "index/categories/xss.json"
     },
     {
       "id": "xxe",
       "label": "XXE / XML",
-      "count": 1,
+      "count": 3,
       "index": "index/categories/xxe.json"
     }
   ],

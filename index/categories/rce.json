@@ -1,8 +1,24 @@
 {
   "category": "rce",
   "category_label": "RCE / Code Execution",
-  "count": 4,
+  "count": 23,
   "items": [
+    {
+      "id": "3c0303d7e456",
+      "title": "How a Blind SSTI in an Email Template Engine Led to Remote Code Execution and a $25,000 Bounty",
+      "author": "T4nv1",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "security",
+        "cybersecurity",
+        "bug-bounty",
+        "pentesting",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/rce/3c0303d7e456.md",
+      "source_url": "https://medium.com/@t4nv1/how-a-blind-ssti-in-an-email-template-engine-led-to-remote-code-execution-and-a-25-000-bounty-8f1e4f8633d1",
+      "quick_test": "Test for Server-Side Template Injection by inserting payloads into user-controlled template fields and observing the server's response."
+    },
     {
       "id": "1bbb7ab6090a",
       "title": "Unauthenticated Strapi Relational-Filter Leak → Super-Admin Takeover → Server-Side Code Execution",
@@ -18,6 +34,287 @@
       "path": "checklists/rce/1bbb7ab6090a.md",
       "source_url": "https://medium.com/@redhunter01/unauthenticated-strapi-relational-filter-leak-super-admin-takeover-server-side-code-execution-34fb5822e5b2",
       "quick_test": "Test public API endpoints for relational filters that may disclose sensitive admin fields and exploit them to recover authentication tokens."
+    },
+    {
+      "id": "1ef182fdba22",
+      "title": "Log4Shell (CVE-2021–44228): A Hands-On Guide to Understanding and Testing the Vulnerability",
+      "author": "Dinara",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "pentesting",
+        "log4shell",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/1ef182fdba22.md",
+      "source_url": "https://medium.com/@dinara_dosqoja/log4shell-cve-2021-44228-a-hands-on-guide-to-understanding-and-testing-the-vulnerability-b940566cec9f",
+      "quick_test": "Verify if user-controlled input in logging functions can trigger JNDI lookups in Log4j configurations."
+    },
+    {
+      "id": "eb865868f306",
+      "title": "How I Got RCE Through a Simple Collaboration Invitation in a Desktop Application",
+      "author": "0xvar",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "red-team",
+        "bug-bounty",
+        "rce",
+        "pentesting"
+      ],
+      "path": "checklists/rce/eb865868f306.md",
+      "source_url": "https://medium.com/@0xvar/how-i-got-rce-through-a-simple-collaboration-invitation-in-a-desktop-application-8ca7a601dc84",
+      "quick_test": "Test if a collaboration invitation allows file synchronization without user acceptance in a similar desktop application."
+    },
+    {
+      "id": "3fe597f246cc",
+      "title": "From a Contact Form to RCE: How I Found Blind PHP Code Injection",
+      "author": "Hossein Zarei",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "pentesting",
+        "web-app-security",
+        "ethical-hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/3fe597f246cc.md",
+      "source_url": "https://medium.com/@hossein.za68/from-a-contact-form-to-rce-how-i-found-blind-php-code-injection-b56e51846ce8",
+      "quick_test": "Test input fields for PHP code injection by submitting payloads that trigger server errors or execute commands."
+    },
+    {
+      "id": "edfeaf613ca2",
+      "title": "$12,000 for one GraphQL field: unauthenticated RCE on the servers that build Firefox",
+      "author": "Pawan Jaiswal",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "infosec",
+        "graphql-security",
+        "bug-bounty",
+        "hacking",
+        "cybersecurity"
+      ],
+      "path": "checklists/rce/edfeaf613ca2.md",
+      "source_url": "https://pawanjswal.medium.com/12-000-for-one-graphql-field-unauthenticated-rce-on-the-servers-that-build-firefox-fc3ec1467fa0",
+      "quick_test": "Test any GraphQL API that accepts free-form JSON filters for the presence of $where operators and check if unauthenticated requests can execute code."
+    },
+    {
+      "id": "13da2954ed58",
+      "title": "Python Web Penetration Testing — Day 11: Remote Code Execution — The Ultimate Prize",
+      "author": "Aman Sharma",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "programming",
+        "bug-bounty",
+        "technology",
+        "penetration-testing",
+        "cybersecurity"
+      ],
+      "path": "checklists/rce/13da2954ed58.md",
+      "source_url": "https://osintteam.blog/python-web-penetration-testing-day-11-remote-code-execution-the-ultimate-prize-a8999c3d8658",
+      "quick_test": "Test file upload features by attempting to upload files with executable code disguised as images."
+    },
+    {
+      "id": "f1b283adaaf7",
+      "title": "picoCTF Web Exploitation — SSTI1",
+      "author": "Suman sutradhar",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "cybersecurity",
+        "ssti1",
+        "picoctf",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/f1b283adaaf7.md",
+      "source_url": "https://medium.com/@sumansutradhar5744/picoctf-web-exploitation-ssti1-b74afe4f0830",
+      "quick_test": "Test user input in template engines by injecting simple expressions to confirm if they are evaluated, then escalate to command execution payloads."
+    },
+    {
+      "id": "9c08a5d4b8dc",
+      "title": "Confirmed Should Mean Executed",
+      "author": "ahmad kabiri",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "security",
+        "penetration-testing",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/9c08a5d4b8dc.md",
+      "source_url": "https://medium.com/@ad.kabiri/confirmed-should-mean-executed-3532cdf85373",
+      "quick_test": "Test for command execution by sending payloads to parameters and confirming execution through observable side effects or computed values."
+    },
+    {
+      "id": "06475f86d8ae",
+      "title": "From a 2008 Web Server to Every Customer Record: How One Upload Took Down an Entire Hosting…",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "infosec",
+        "hacking"
+      ],
+      "path": "checklists/rce/06475f86d8ae.md",
+      "source_url": "https://cyphernova1337.medium.com/from-a-2008-web-server-to-every-customer-record-how-one-upload-took-down-an-entire-hosting-454fd0571375",
+      "quick_test": "Always validate file uploads by checking both the MIME type and file extension server-side, and store uploads outside the web root."
+    },
+    {
+      "id": "e1204b559f99",
+      "title": "Casino | HackSmarter | OSCP Preparation",
+      "author": "SilentExploit",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "ctf-writeup",
+        "hacking",
+        "bug-bounty",
+        "ctf",
+        "infosec"
+      ],
+      "path": "checklists/rce/e1204b559f99.md",
+      "source_url": "https://medium.com/@SilentExploit/casino-hacksmarter-oscp-preparation-141911b3a731",
+      "quick_test": "Test for SSTI vulnerabilities by injecting template syntax into user input fields and observe for code execution."
+    },
+    {
+      "id": "18742a23254a",
+      "title": "I Was Treating Header Injection as Low-Impact.",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty",
+        "infosec",
+        "github",
+        "rce"
+      ],
+      "path": "checklists/rce/18742a23254a.md",
+      "source_url": "https://medium.com/@Aacle/i-was-treating-header-injection-as-low-impact-eff29d47c5f4",
+      "quick_test": "Test for header injection by sending crafted requests with '\\r\\n' or ';' in header values to see if they are reflected in the response."
+    },
+    {
+      "id": "f43961f37c09",
+      "title": "Template Injection Is Hiding in Your “Personalization” Features",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "cybersecurity",
+        "ethical-hacking",
+        "hacking",
+        "bug-bounty",
+        "infosec"
+      ],
+      "path": "checklists/rce/f43961f37c09.md",
+      "source_url": "https://kd-200.medium.com/template-injection-is-hiding-in-your-personalization-features-d67087dad15b",
+      "quick_test": "Test any user input field that renders dynamic content with a math expression to check for SSTI vulnerabilities."
+    },
+    {
+      "id": "60aa2dd8dc2b",
+      "title": "Lab: Using PHAR deserialization to deploy a custom gadget chain",
+      "author": "Amrsmooke",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "portswigger",
+        "bug-bounty",
+        "hacking",
+        "penetration-testing",
+        "burpsuite"
+      ],
+      "path": "checklists/rce/60aa2dd8dc2b.md",
+      "source_url": "https://medium.com/@amrsmooke321/lab-using-phar-deserialization-to-deploy-a-custom-gadget-chain-62715de7bd27",
+      "quick_test": "Test any file upload feature for PHAR deserialization vulnerabilities by uploading a controlled file and attempting to access it using the PHAR wrapper."
+    },
+    {
+      "id": "067d8a047db9",
+      "title": "RepoJacking: How 5 Unclaimed GitHub Usernames Enabled RCE on Self-Hosted Servers",
+      "author": "tushar",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "supply-chain",
+        "infosec",
+        "github",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/067d8a047db9.md",
+      "source_url": "https://medium.com/@tushar.from.cyber/repojacking-how-5-unclaimed-github-usernames-enabled-rce-on-self-hosted-servers-39be3078bc5a",
+      "quick_test": "Scan any maintained list of external resources for unclaimed usernames that could lead to RepoJacking vulnerabilities."
+    },
+    {
+      "id": "0c4243a6e1b6",
+      "title": "From File Upload to Remote Code Execution: How I Bypassed MIME Type Validation",
+      "author": "RootVuln",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "web-security",
+        "ethical-hacking",
+        "cybersecurity",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/rce/0c4243a6e1b6.md",
+      "source_url": "https://rootvuln.medium.com/from-file-upload-to-remote-code-execution-how-i-bypassed-mime-type-validation-d571e7c27645",
+      "quick_test": "Test file upload functionality by manipulating filename parameters and Content-Type to bypass validation checks."
+    },
+    {
+      "id": "85ee34cc0e48",
+      "title": "The Debug Flag That Opened the Door: A Journey From Django Debug Mode to Critical RCE",
+      "author": "Forhad Parvez",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "django",
+        "vulnerability-assessment",
+        "rce",
+        "bug-bounty",
+        "php"
+      ],
+      "path": "checklists/rce/85ee34cc0e48.md",
+      "source_url": "https://medium.com/@forhad.dks/the-debug-flag-that-opened-the-door-a-journey-from-django-debug-mode-to-critical-rce-7f099512916c",
+      "quick_test": "Check if debug mode is enabled in production and test file upload functionalities for weak validation and public accessibility."
+    },
+    {
+      "id": "d9c970549813",
+      "title": "How a Single SVG File Almost Handed Hackers Microsoft’s Servers",
+      "author": "Xpert4Cyber",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "microsoft",
+        "vulnerability",
+        "cybersecurity",
+        "bug-bounty",
+        "artificial-intelligence"
+      ],
+      "path": "checklists/rce/d9c970549813.md",
+      "source_url": "https://medium.com/@xpert4cyber/how-a-single-svg-file-almost-handed-hackers-microsofts-servers-b34cb4823efe",
+      "quick_test": "Test any user-uploaded image feature for improper handling of SVG files that could lead to command execution."
+    },
+    {
+      "id": "6d964323c178",
+      "title": "Escalating a Blind Upload to RCE via Path Traversal into Cron and DNS-Restricted Callback Bypass",
+      "author": "Alvin Ferdiansyah",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty",
+        "rce",
+        "bug-bounty-writeup",
+        "bug-bounty-tips",
+        "bugs"
+      ],
+      "path": "checklists/rce/6d964323c178.md",
+      "source_url": "https://infosecwriteups.com/escalating-a-blind-upload-to-rce-via-path-traversal-into-cron-and-dns-restricted-callback-bypass-0f63db01be92",
+      "quick_test": "Test for unauthenticated file upload endpoints that allow directory traversal and check if files can be executed by cron jobs."
+    },
+    {
+      "id": "16e6c56f1e83",
+      "title": "Deep-Dive Technical Write-up by Huynh Kien Minh: CVE-2026–13158 — Everest Toolkit Admin+ Arbitrary…",
+      "author": "Huynh Kien Minh",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "wordpress",
+        "security"
+      ],
+      "path": "checklists/rce/16e6c56f1e83.md",
+      "source_url": "https://medium.com/@minhhk/deep-dive-technical-write-up-by-huynh-kien-minh-cve-2026-13158-everest-toolkit-admin-arbitrary-74403e615b63",
+      "quick_test": "Check for file upload features in WordPress plugins that do not validate file types or extensions."
     },
     {
       "id": "0b468ba9a1a1",

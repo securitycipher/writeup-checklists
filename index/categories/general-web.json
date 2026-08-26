@@ -1,8 +1,79 @@
 {
   "category": "general-web",
   "category_label": "General Web Security",
-  "count": 7,
+  "count": 12,
   "items": [
+    {
+      "id": "4b6de3f1fc32",
+      "title": "When a Trusted Profile Link Becomes a Malware Delivery Vector",
+      "author": "Aman Bhuiyan",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "wep-hacking",
+        "bug-bounty-tips",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "hacking"
+      ],
+      "path": "checklists/general-web/4b6de3f1fc32.md",
+      "source_url": "https://icecream23.medium.com/when-a-trusted-profile-link-becomes-a-malware-delivery-vector-30dac8d85afc",
+      "quick_test": "Test profile link fields by inputting arbitrary URLs to check if they are displayed as clickable links without validation."
+    },
+    {
+      "id": "5be9dcb3df0c",
+      "title": "Glitch Cat — picoCTF Writeup",
+      "author": "mayhack",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty",
+        "ctf",
+        "hacking",
+        "cybersecurity"
+      ],
+      "path": "checklists/general-web/5be9dcb3df0c.md",
+      "source_url": "https://medium.com/@may.hack/glitch-cat-picoctf-writeup-91769f285b24",
+      "quick_test": "Connect to a service that outputs encoded data and decode any hexadecimal values to retrieve hidden information."
+    },
+    {
+      "id": "d709d7e9b4f5",
+      "title": "How Expired Domains Become Weapons for Scams and Malware",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "ai-security",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/general-web/d709d7e9b4f5.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/how-expired-domains-become-weapons-for-scams-and-malware-7cabbcca6aab",
+      "quick_test": "Monitor and manage the lifecycle of all registered domains to prevent exploitation of expired domains."
+    },
+    {
+      "id": "584c7224f4be",
+      "title": "How Attackers Get Initial Access: Understanding the First Stage of a Cyber Attack",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/general-web/584c7224f4be.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/how-attackers-get-initial-access-understanding-the-first-stage-of-a-cyber-attack-53bddcec54f7",
+      "quick_test": "Conduct a thorough assessment of all internet-facing applications for known vulnerabilities and misconfigurations."
+    },
+    {
+      "id": "0d10e2e006b1",
+      "title": "Broken Link Hijacking: How I “Became” a Government Agency on LinkedIn (Legally, Sort Of)",
+      "author": "Cazuri",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/general-web/0d10e2e006b1.md",
+      "source_url": "https://medium.com/@deathsure445/broken-link-hijacking-how-i-became-a-government-agency-on-linkedin-legally-sort-of-f94f8136220a",
+      "quick_test": "Check all outbound links on a website for dead links and claim any unregistered social media pages."
+    },
     {
       "id": "c7bd7ae8eeb1",
       "title": "CVE-2023–36025: An In-Depth Analysis of Circumventing Windows SmartScreen Security",

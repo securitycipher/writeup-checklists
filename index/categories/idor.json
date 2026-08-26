@@ -1,0 +1,133 @@
+{
+  "category": "idor",
+  "category_label": "IDOR",
+  "count": 8,
+  "items": [
+    {
+      "id": "393128a5a3ba",
+      "title": "How I Earned a $1,000 Bounty by Exploiting a Simple IDOR",
+      "author": "Deepanshu Deep",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "information-security",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty",
+        "api-security"
+      ],
+      "path": "checklists/idor/393128a5a3ba.md",
+      "source_url": "https://osintteam.blog/how-i-earned-a-1-000-bounty-by-exploiting-a-simple-idor-f4334f3edc00",
+      "quick_test": "Test API endpoints for IDOR by manipulating user IDs in requests to check for unauthorized data access."
+    },
+    {
+      "id": "e0ef57efd62f",
+      "title": "Restoring Permanently Deleted Projects via IDOR",
+      "author": "Abdulrahman Reda",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "privilege-escalation",
+        "broken-access-control",
+        "idor"
+      ],
+      "path": "checklists/idor/e0ef57efd62f.md",
+      "source_url": "https://medium.com/@abdulrahmanreda660/restoring-permanently-deleted-projects-via-idor-7c8d8c2e3e94",
+      "quick_test": "Check if deleted resources can be accessed or restored by manipulating object references in the URL."
+    },
+    {
+      "id": "9e8d34a50a76",
+      "title": "[IDOR] The Ones Everyone Walks Past — Turning id=124 Into Account Takeover",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "info-sec-writeups",
+        "cybersecurity",
+        "bug-bounty",
+        "vulnerability",
+        "technology"
+      ],
+      "path": "checklists/idor/9e8d34a50a76.md",
+      "source_url": "https://kd-200.medium.com/idor-the-ones-everyone-walks-past-turning-id-124-into-account-takeover-4377a980f382",
+      "quick_test": "Check if the application allows access to user objects by modifying user IDs in the request parameters."
+    },
+    {
+      "id": "ae2da7caf6e5",
+      "title": "3 IDOR Bugs That Paid $113,000 Combined — Here’s the 5-Minute Pattern Behind All of Them",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "idor",
+        "hacking"
+      ],
+      "path": "checklists/idor/ae2da7caf6e5.md",
+      "source_url": "https://medium.com/codetodeploy/3-idor-bugs-that-paid-113-000-combined-heres-the-5-minute-pattern-behind-all-of-them-7255a84dde46",
+      "quick_test": "Test for IDOR by altering user ID parameters in requests to see if unauthorized data is accessible."
+    },
+    {
+      "id": "b490e7cd4312",
+      "title": "How a 19-Year-Old Made $2,500 in 10 Minutes (And Why Most Bug Bounty Advice Is Garbage)",
+      "author": "Mohit",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "web-development",
+        "technology",
+        "bug-bounty",
+        "cybersecurity",
+        "ethical-hacking"
+      ],
+      "path": "checklists/idor/b490e7cd4312.md",
+      "source_url": "https://medium.com/@mohiitlamba/how-a-19-year-old-made-2-500-in-10-minutes-and-why-most-bug-bounty-advice-is-garbage-73df8711c330",
+      "quick_test": "Test API endpoints for IDOR by manipulating user ID parameters to access unauthorized data."
+    },
+    {
+      "id": "6b8e547820f1",
+      "title": "Bug Bounty Hacking Recon Automation Bug Bounty Methodology",
+      "author": "cyber-ninjaaa",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty-tips",
+        "hacking",
+        "idor-vulnerability",
+        "bug-bounty"
+      ],
+      "path": "checklists/idor/6b8e547820f1.md",
+      "source_url": "https://medium.com/@cyber-ninjaaa/bug-bounty-hacking-recon-automation-bug-bounty-methodology-09a741212ae7",
+      "quick_test": "Automate ID enumeration on endpoints with ID parameters and analyze response lengths for discrepancies."
+    },
+    {
+      "id": "d2fb3833888f",
+      "title": "Writing Custom Exploits: From Vulnerability Discovery to Working PoC",
+      "author": "ATNO For Cybersecurity | Hacking",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "custom-exploit",
+        "exploit",
+        "ethical-hacking"
+      ],
+      "path": "checklists/idor/d2fb3833888f.md",
+      "source_url": "https://medium.com/@atnoforcybersecurity/writing-custom-exploits-from-vulnerability-discovery-to-working-poc-f1e760231990",
+      "quick_test": "Test if changing the ID parameter in the user profile endpoint allows access to other users' data."
+    },
+    {
+      "id": "272a80e1a022",
+      "title": "How I Turned a “Not Sensitive Enough” Bug Into a Confirmed IDOR",
+      "author": "Atharv Chawan",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/idor/272a80e1a022.md",
+      "source_url": "https://atharvchawan.medium.com/how-i-turned-a-not-sensitive-enough-bug-into-a-confirmed-idor-f075967fbce8",
+      "quick_test": "Check if the application allows access to user data based solely on known user IDs without proper authorization checks."
+    }
+  ]
+}

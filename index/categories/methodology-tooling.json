@@ -1,8 +1,24 @@
 {
   "category": "methodology-tooling",
   "category_label": "Methodology / Tooling",
-  "count": 6,
+  "count": 8,
   "items": [
+    {
+      "id": "51d4db225c2a",
+      "title": "Stop Blindly Trusting Your PATH: Meet 53LF AUDIT",
+      "author": "Khaja Masthan Shaik",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "automation",
+        "bug-bounty",
+        "linux",
+        "penetration-testing",
+        "bash"
+      ],
+      "path": "checklists/methodology-tooling/51d4db225c2a.md",
+      "source_url": "https://medium.com/@khajamasthan45/stop-blindly-trusting-your-path-meet-53lf-audit-6489cbbbeedb",
+      "quick_test": "Run 53LF AUDIT to automatically verify the functionality of installed binaries and identify any broken tools in your Linux environment."
+    },
     {
       "id": "6ba482eb3315",
       "title": "I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE",
@@ -20,34 +36,65 @@
       "quick_test": "Intercept mobile app traffic using mitmproxy to identify undocumented API endpoints and manipulate requests for testing."
     },
     {
-      "id": "1058b4ea7899",
-      "title": "Getting Started in Bug Bounty Hunting",
-      "author": "Bearded Viking",
-      "publication_date": "2026-08-24",
+      "id": "42590b59ce61",
+      "title": "BountyForge: The Fully Autonomous Bug Bounty Hunting Pipeline",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-12",
       "tags": [
+        "software-development",
         "hacking",
-        "careers",
-        "bug-bounty"
+        "bug-bounty",
+        "artificial-intelligence",
+        "cybersecurity"
       ],
-      "path": "checklists/methodology-tooling/1058b4ea7899.md",
-      "source_url": "https://beardedviking.medium.com/getting-started-in-bug-bounty-hunting-5a2da7978813",
-      "quick_test": "Today, set up a bug bounty account and start testing a target application using Burp Suite to identify and document vulnerabilities."
+      "path": "checklists/methodology-tooling/42590b59ce61.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/bountyforge-the-fully-autonomous-bug-bounty-hunting-pipeline-72e2e6c5e5f8",
+      "quick_test": "Run a reconnaissance scan followed by targeted vulnerability tests on web APIs and smart contracts to identify potential security flaws."
     },
     {
-      "id": "b603580f4ad4",
-      "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
-      "author": "Muneebahmedkhan",
-      "publication_date": "2026-08-23",
+      "id": "6c27e47c5259",
+      "title": "Why Most Bug Bounty Hunters Find Nothing — And How to Fix It",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-10",
       "tags": [
-        "tutorial",
-        "web-security",
         "cybersecurity",
-        "burpsuite",
         "bug-bounty"
       ],
-      "path": "checklists/methodology-tooling/b603580f4ad4.md",
-      "source_url": "https://medium.com/@muneebahmedkhan0903/burp-repeater-decoder-and-comparer-resend-re-encode-and-diff-requests-2ee34d992aa8",
-      "quick_test": "Use Burp Repeater to modify and resend HTTP requests to identify differences in responses, focusing on authentication headers and URL paths."
+      "path": "checklists/methodology-tooling/6c27e47c5259.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/why-most-bug-bounty-hunters-find-nothing-and-how-to-fix-it-136401c8bde8",
+      "quick_test": "Always map user roles and permissions before testing for vulnerabilities to ensure comprehensive coverage of access control."
+    },
+    {
+      "id": "216b210bc457",
+      "title": "Zero-Trust OPSEC for a Fresh Kali Install: What You Must Do and What You Should",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "opsec",
+        "cybersecurity",
+        "infosec",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/methodology-tooling/216b210bc457.md",
+      "source_url": "https://cyphernova1337.medium.com/zero-trust-opsec-for-a-fresh-kali-install-what-you-must-do-and-what-you-should-bdf57279123d",
+      "quick_test": "Ensure full-disk encryption is enabled and verify VPN connection with a kill switch to prevent IP leaks."
+    },
+    {
+      "id": "7e54b49c1356",
+      "title": "Clickjacking & Bypass Techniques: A Practical Methodology for Security Testing",
+      "author": "N0aziXss",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "clickjacking",
+        "methodology",
+        "web-security",
+        "pentesting",
+        "bug-bounty"
+      ],
+      "path": "checklists/methodology-tooling/7e54b49c1356.md",
+      "source_url": "https://medium.com/@N0aziXss/clickjacking-bypass-techniques-a-practical-methodology-for-security-testing-26420009f361",
+      "quick_test": "Check for the presence of X-Frame-Options and Content-Security-Policy headers to identify potential clickjacking vulnerabilities."
     },
     {
       "id": "90823aefdde8",
@@ -80,22 +127,6 @@
       "path": "checklists/methodology-tooling/0418e2242b6c.md",
       "source_url": "https://securitycipher.medium.com/1-introduction-to-burp-suite-guide-for-burp-suite-4054b64f10a0",
       "quick_test": "Set up Burp Suite as a proxy to intercept and analyze HTTP traffic for vulnerabilities in web applications."
-    },
-    {
-      "id": "8db9dd410089",
-      "title": "SSL Search — A tool to identify infrastructure and discover attack surfaces.",
-      "author": "Harsh Varagiya",
-      "publication_date": "2023-11-13",
-      "tags": [
-        "bug-bounty",
-        "gcp",
-        "ssl-certificate",
-        "aws",
-        "internet"
-      ],
-      "path": "checklists/methodology-tooling/8db9dd410089.md",
-      "source_url": "https://medium.com/@harsh8v/ssl-search-a-tool-to-identify-infrastructure-and-discover-attack-surfaces-449c83269574",
-      "quick_test": "Run SSL Search to identify and assess the public attack surface of a target's infrastructure using SSL certificate scanning."
     }
   ]
 }

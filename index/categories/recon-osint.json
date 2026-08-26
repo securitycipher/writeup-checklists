@@ -1,22 +1,302 @@
 {
   "category": "recon-osint",
   "category_label": "Recon / OSINT",
-  "count": 4,
+  "count": 22,
   "items": [
     {
-      "id": "1ebb1c10cf1f",
-      "title": "NetBIOS & SMB Enumeration :",
-      "author": "Divyanshu Chaudhary",
-      "publication_date": "2026-08-23",
+      "id": "7865240e1427",
+      "title": "404 Not Found BYPASS ! Easy Bugs",
+      "author": "Swarooppatil",
+      "publication_date": "2026-08-26",
       "tags": [
-        "bug-bounty",
-        "enumeration",
-        "cybersecurity",
-        "reconnaissance"
+        "403-bypass",
+        "bug-bounty-tips",
+        "404-not-found",
+        "bug-bounty"
       ],
-      "path": "checklists/recon-osint/1ebb1c10cf1f.md",
-      "source_url": "https://medium.com/@divyanshukr4246/netbios-smb-enumeration-50f2cc82f6b2",
-      "quick_test": "Run nmap and nbtscan against the target to identify open NetBIOS and SMB services."
+      "path": "checklists/recon-osint/7865240e1427.md",
+      "source_url": "https://medium.com/@swarooppatil3125/404-not-found-bypass-easy-bugs-f9a4bcb7d565",
+      "quick_test": "Check for historical files using the Wayback Machine to identify potentially sensitive information that may no longer be linked in the current application."
+    },
+    {
+      "id": "d0cdf7f680a4",
+      "title": "Basic → Intermediate → Advanced | Authorized Bug Bounty & Security Testing",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "cybersecurity",
+        "reconnaissance",
+        "bug-bounty"
+      ],
+      "path": "checklists/recon-osint/d0cdf7f680a4.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/basic-intermediate-advanced-authorized-bug-bounty-security-testing-341cfade1e8f",
+      "quick_test": "Run a passive reconnaissance workflow using WHOIS and search engine queries to identify potential assets and subdomains for testing."
+    },
+    {
+      "id": "9a15ffe53375",
+      "title": "Web App Reconnaissance: Mapping the Attack Surface",
+      "author": "Ph",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "ethical-hacking",
+        "bug-bounty",
+        "cybersecurity",
+        "web-development",
+        "bug-hunting"
+      ],
+      "path": "checklists/recon-osint/9a15ffe53375.md",
+      "source_url": "https://medium.com/@ph620095/web-app-reconnaissance-mapping-the-attack-surface-2e4b8e0fe242",
+      "quick_test": "Map the application's attack surface by analyzing URLs, parameters, and error messages to identify potential vulnerabilities."
+    },
+    {
+      "id": "46d5d06b13fe",
+      "title": "From a Single Domain to Leaked Secrets: A Recon Walkthrough with TrinetLayer",
+      "author": "Swarooppatil",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "security",
+        "hackerone",
+        "hacking",
+        "bug-bounty",
+        "infosec"
+      ],
+      "path": "checklists/recon-osint/46d5d06b13fe.md",
+      "source_url": "https://medium.com/@swarooppatil3125/from-a-single-domain-to-leaked-secrets-a-recon-walkthrough-with-trinetlayer-e6758c08f33b",
+      "quick_test": "Use TrinetLayer to perform deep reconnaissance on an authorized domain to discover potential secrets in JavaScript files."
+    },
+    {
+      "id": "776565cbac66",
+      "title": "Open, Closed, Filtered: Reading an Nmap Scan Properly",
+      "author": "Muneebahmedkhan",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "nmap",
+        "tutorial",
+        "bug-bounty",
+        "cybersecurity",
+        "networking"
+      ],
+      "path": "checklists/recon-osint/776565cbac66.md",
+      "source_url": "https://medium.com/@muneebahmedkhan0903/open-closed-filtered-reading-an-nmap-scan-properly-5512cc5429ed",
+      "quick_test": "Run an Nmap scan on a target to identify open, closed, and filtered ports, then perform version detection on any open services to check for known vulnerabilities."
+    },
+    {
+      "id": "ddf6b41a7cf9",
+      "title": "reconFTW: The Automated Recon Framework Every Bug Bounty Hunter Should Know in 2026",
+      "author": "Xpert4Cyber",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "penetration-testing",
+        "ethical-hacking-training",
+        "cybersecurity",
+        "bug-bounty",
+        "infosec"
+      ],
+      "path": "checklists/recon-osint/ddf6b41a7cf9.md",
+      "source_url": "https://medium.com/@xpert4cyber/reconftw-the-automated-recon-framework-every-bug-bounty-hunter-should-know-in-2026-f7d0d581d896",
+      "quick_test": "Run a deep permutation scan with reconFTW on your target to identify any hidden subdomains that could lead to vulnerabilities."
+    },
+    {
+      "id": "1e683a35ce47",
+      "title": "Decoding a URL: Paths, Parameters, and the Art of Finding What’s Hidden",
+      "author": "Shruti Vijay Shinde",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "vapt",
+        "cybersecurity",
+        "bug-bounty",
+        "penetration-testing",
+        "bug-hunting"
+      ],
+      "path": "checklists/recon-osint/1e683a35ce47.md",
+      "source_url": "https://medium.com/@shrutishinde1319/decoding-a-url-paths-parameters-and-the-art-of-finding-whats-hidden-087f3b420d4c",
+      "quick_test": "Perform path and parameter discovery on the target application using tools like ffuf and Dirsearch to identify hidden endpoints."
+    },
+    {
+      "id": "82f9f9f38d9a",
+      "title": "Hidden URL Parameters: Finding What Web Applications Don’t Show You",
+      "author": "Alif Mortaza",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "web-application-security",
+        "ethical-hacking",
+        "bug-bounty",
+        "cybersecurity",
+        "web-security"
+      ],
+      "path": "checklists/recon-osint/82f9f9f38d9a.md",
+      "source_url": "https://medium.com/@alifmortaza6/hidden-url-parameters-finding-what-web-applications-dont-show-you-d6651331c630",
+      "quick_test": "Inspect HTML and JavaScript for hidden parameters, then automate discovery with tools like FFUF to identify additional parameters."
+    },
+    {
+      "id": "cdbe9f66d3e1",
+      "title": "Dorks that could get you a good bounty in 2026",
+      "author": "Deepanshu Deep",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "google-dorking",
+        "web-security",
+        "osint"
+      ],
+      "path": "checklists/recon-osint/cdbe9f66d3e1.md",
+      "source_url": "https://medium.com/@thenewdate24/dorks-that-could-get-you-a-good-bounty-in-2026-a8cde06f18ed",
+      "quick_test": "Use Google dorking to search for exposed files and directories on a target domain to identify potential security weaknesses."
+    },
+    {
+      "id": "5bf8a839ca5f",
+      "title": "Ghost Engine v3.2: An All-in-One Bug Bounty Recon & Security Automation Tool",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "bug-bounty",
+        "web-development",
+        "artificial-intelligence"
+      ],
+      "path": "checklists/recon-osint/5bf8a839ca5f.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/ghost-engine-v3-2-an-all-in-one-bug-bounty-recon-security-automation-tool-0532136f024f",
+      "quick_test": "Use Ghost Engine to automate reconnaissance tasks on a target domain to identify potential vulnerabilities and misconfigurations."
+    },
+    {
+      "id": "83a734d0db82",
+      "title": "How I Prioritize Hundreds of Subdomains During Bug Bounty Recon",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/recon-osint/83a734d0db82.md",
+      "source_url": "https://medium.com/@Rakeshjoshi7/how-i-prioritize-hundreds-of-subdomains-during-bug-bounty-recon-964b3dfd1f56",
+      "quick_test": "Run subdomain enumeration and prioritize based on HTTP status codes and naming conventions to identify potential attack surfaces."
+    },
+    {
+      "id": "7ce08d940038",
+      "title": "How to Build a Complete Attack Surface Map for Bug Bounty",
+      "author": "Rakesh Joshi",
+      "publication_date": "2026-08-08",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/recon-osint/7ce08d940038.md",
+      "source_url": "https://medium.com/@rjstudio257/how-to-build-a-complete-attack-surface-map-for-bug-bounty-440acf9dc143",
+      "quick_test": "Map the attack surface of a target by identifying all exposed domains, subdomains, and application entry points to prioritize testing."
+    },
+    {
+      "id": "91b7436beab5",
+      "title": "How to Build a Recon Workflow That Actually Finds Bugs (Not Just Data)",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "bug-bounty-writeup",
+        "hacking",
+        "infosec",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "path": "checklists/recon-osint/91b7436beab5.md",
+      "source_url": "https://medium.com/@Aacle/how-to-build-a-recon-workflow-that-actually-finds-bugs-not-just-data-12167d2d93e8",
+      "quick_test": "Run a structured recon workflow using subfinder, amass, httpx, and nuclei to identify and prioritize testable targets."
+    },
+    {
+      "id": "ef3a0a97ea63",
+      "title": "The Lesser-Known Art of Recon Using Favicon Hashes",
+      "author": "Nothing",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "recon",
+        "osint",
+        "bug-bounty",
+        "cybersecurity",
+        "web-penetration-testing"
+      ],
+      "path": "checklists/recon-osint/ef3a0a97ea63.md",
+      "source_url": "https://medium.com/@cutfile89/the-lesser-known-art-of-recon-using-favicon-hashes-c26805330a03",
+      "quick_test": "Use favicon hashing to identify the technology stack of a target by fetching and hashing the favicon, then matching it against known fingerprints."
+    },
+    {
+      "id": "1b388cd53067",
+      "title": "Introducing Ghost Engine v3.2: An Automated Bug Bounty Recon Suite",
+      "author": "Muhammed shifan kamalsha tk",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "bug-bounty",
+        "python",
+        "ethical-hacking"
+      ],
+      "path": "checklists/recon-osint/1b388cd53067.md",
+      "source_url": "https://medium.com/@muhammed_shifan_kamalsha_tk/introducing-ghost-engine-v3-2-an-automated-bug-bounty-recon-suite-9900fe246fd4",
+      "quick_test": "Run Ghost Engine to automate reconnaissance and identify potential SSRF vulnerabilities on a target web application."
+    },
+    {
+      "id": "dcf8b1db20f6",
+      "title": "100 High-Value Files & Paths Every Bug Hunter Should Check During Recon",
+      "author": "Tejas Kamble",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "pentesting",
+        "reconnaissance",
+        "bug-bounty",
+        "web-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/recon-osint/dcf8b1db20f6.md",
+      "source_url": "https://medium.com/@getroutenet196/100-high-value-files-paths-every-bug-hunter-should-check-during-recon-8b6900b20ff4",
+      "quick_test": "Run a check for common sensitive files and paths on the target domain to identify potential information leaks."
+    },
+    {
+      "id": "73bc3f63543f",
+      "title": "Server-2: Vulnerable OnlyPhone— VulnerabilityWeb Walkthrough (4 Flags)",
+      "author": "Enric-xX",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "user-agent",
+        "bug-bounty",
+        "ctf",
+        "web-security",
+        "directory-listing"
+      ],
+      "path": "checklists/recon-osint/73bc3f63543f.md",
+      "source_url": "https://enric-xx.medium.com/server-2-vulnerable-onlyphone-vulnerabilityweb-walkthrough-4-flags-1d8f37389507",
+      "quick_test": "Always check for User-Agent bypass and directory listing in web applications to uncover hidden information."
+    },
+    {
+      "id": "ee3d3935b119",
+      "title": "Vulnerability Assessment for Penetration Testing & Bug Bounty (Part 2): Deep Recon, Endpoint…",
+      "author": "Shruti Vijay Shinde",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "reconnaissance",
+        "testing-workflow",
+        "cybersecurity",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "path": "checklists/recon-osint/ee3d3935b119.md",
+      "source_url": "https://medium.com/@shrutishinde1319/vulnerability-assessment-for-penetration-testing-bug-bounty-part-2-deep-recon-endpoint-b66a9c0cb6f5",
+      "quick_test": "Run a comprehensive reconnaissance workflow to uncover hidden endpoints and parameters in web applications."
+    },
+    {
+      "id": "d333be1e4139",
+      "title": "Overhead at Breakfast — TryHackMe OSINT Writeup",
+      "author": "Skin Security",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "tryhackme",
+        "bug-bounty",
+        "cybersecurity",
+        "osint",
+        "ctf-writeup"
+      ],
+      "path": "checklists/recon-osint/d333be1e4139.md",
+      "source_url": "https://skin-security.medium.com/overhead-at-breakfast-tryhackme-osint-writeup-d9dd46722275",
+      "quick_test": "Check if any email addresses can be hashed and resolved to public profiles on Gravatar or similar services to uncover additional information."
     },
     {
       "id": "69ba032f8110",

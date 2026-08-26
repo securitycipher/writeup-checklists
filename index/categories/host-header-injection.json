@@ -1,0 +1,39 @@
+{
+  "category": "host-header-injection",
+  "category_label": "Host Header Injection",
+  "count": 2,
+  "items": [
+    {
+      "id": "9401367cf33c",
+      "title": "Host Header Injection: One Header, Five Different Bugs",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty-tips",
+        "infosec",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/host-header-injection/9401367cf33c.md",
+      "source_url": "https://kd-200.medium.com/host-header-injection-one-header-five-different-bugs-394f6f7f1089",
+      "quick_test": "Test the application's handling of the Host header and its variants to identify potential vulnerabilities."
+    },
+    {
+      "id": "8cb16723bb7f",
+      "title": "“Forgot Password” to “I Own Your Account” via One Header",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "ethical-hacking",
+        "bug-bounty",
+        "technology",
+        "cybersecurity",
+        "infosec"
+      ],
+      "path": "checklists/host-header-injection/8cb16723bb7f.md",
+      "source_url": "https://kd-200.medium.com/forgot-password-to-i-own-your-account-via-one-header-d92b6a2d70dd",
+      "quick_test": "Test if the application uses the Host header to generate links in password reset emails and ensure it is hardcoded instead."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "category": "broken-access-control",
   "category_label": "Broken Access Control / IDOR",
-  "count": 10,
+  "count": 53,
   "items": [
     {
       "id": "3ac9b680a6fb",
@@ -61,6 +61,671 @@
       "path": "checklists/broken-access-control/dd8790784500.md",
       "source_url": "https://medium.com/@the_phreak/how-i-hacked-a-telecom-company-edc5455e4443",
       "quick_test": "Test for IDOR vulnerabilities by manipulating user identifiers in account-related requests to access unauthorized data."
+    },
+    {
+      "id": "ccb776ccba8c",
+      "title": "The bug that survived three years of code review",
+      "author": "Mayssare",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "vulnerability-disclosure",
+        "software-engineering",
+        "open-source",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/ccb776ccba8c.md",
+      "source_url": "https://mayssare.medium.com/the-bug-that-survived-three-years-of-code-review-3645ca2b05f2",
+      "quick_test": "Check if the API endpoint validates all parameters against user permissions to prevent unauthorized data access."
+    },
+    {
+      "id": "81d394c17259",
+      "title": "How a “Draft Auto-Save” Feature Exposed Confidential Enterprise Board Documents leading to $4,500…",
+      "author": "T4nv1",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "bug-bounty",
+        "pentesting",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/broken-access-control/81d394c17259.md",
+      "source_url": "https://medium.com/@t4nv1/how-a-draft-auto-save-feature-exposed-confidential-enterprise-board-documents-leading-to-4-500-490cae4285fa",
+      "quick_test": "Test WebSocket connections for auto-save features to identify potential cross-tenant access vulnerabilities."
+    },
+    {
+      "id": "cd637b550d7a",
+      "title": "How a Simple IDOR Led to Full Account Takeover",
+      "author": "Adem_Zayani",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "web-development",
+        "hacking",
+        "cybersecurity",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/cd637b550d7a.md",
+      "source_url": "https://medium.com/@edemzayaniyt/how-a-simple-idor-led-to-full-account-takeover-c54ba9525301",
+      "quick_test": "Test if changing user identifiers in requests allows unauthorized modifications to other users' accounts."
+    },
+    {
+      "id": "d6ebabad187d",
+      "title": "Google Classroom IDOR Vulnerability POC Video",
+      "author": "Marrij Ali Khan",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "info-sec-writeups",
+        "idor-vulnerability",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "google"
+      ],
+      "path": "checklists/broken-access-control/d6ebabad187d.md",
+      "source_url": "https://marrijalikhan.medium.com/google-classroom-idor-vulnerability-poc-video-c0201d18dd04",
+      "quick_test": "Test for IDOR by manipulating object IDs in requests to see if unauthorized data can be accessed."
+    },
+    {
+      "id": "869ac999e7ff",
+      "title": "Improper Access Control in Decathlon’s Booxi Integration Leads to Unauthorized Access to Internal…",
+      "author": "403_forbidd3n",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "web-security"
+      ],
+      "path": "checklists/broken-access-control/869ac999e7ff.md",
+      "source_url": "https://medium.com/@arourmohamed22/improper-access-control-in-decathlons-booxi-integration-leads-to-unauthorized-access-to-internal-7770bc1e90b1",
+      "quick_test": "Check for public API keys in frontend code that may allow unauthenticated access to sensitive data."
+    },
+    {
+      "id": "b5e0225f684a",
+      "title": "A 400 Is Not a Dead End — My First Bug Bounty (€250)",
+      "author": "HariHax",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "bug-bounty-writeup",
+        "penetration-testing",
+        "cybersecurity",
+        "bug-bounty",
+        "api-security"
+      ],
+      "path": "checklists/broken-access-control/b5e0225f684a.md",
+      "source_url": "https://medium.com/@HariHax/a-400-is-not-a-dead-end-my-first-bug-bounty-250-0fd813c24f55",
+      "quick_test": "Check for endpoints where authorization and object lookup use different inputs, particularly with tenant IDs in the URL and resource identifiers in the query string."
+    },
+    {
+      "id": "7663e270d762",
+      "title": "Broken Access Control: A Practical Walkthrough of 13 PortSwigger Labs",
+      "author": "Nitish Mukhiya",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "broken-access-control",
+        "bug-bounty",
+        "web-hacking",
+        "cybersecurity",
+        "idor-bugbounty"
+      ],
+      "path": "checklists/broken-access-control/7663e270d762.md",
+      "source_url": "https://medium.com/@nitishmukhiya/broken-access-control-a-practical-walkthrough-of-13-portswigger-labs-60354e4b2667",
+      "quick_test": "Always check for hidden paths in robots.txt and ensure that sensitive endpoints enforce proper authorization checks."
+    },
+    {
+      "id": "773706585fce",
+      "title": "No Login. No Cookie. Just a UUID — Breaking DHL’s Shipment Authorization",
+      "author": "Zuksh",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "ethical-hacking",
+        "api-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/773706585fce.md",
+      "source_url": "https://zuksh.medium.com/no-login-no-cookie-just-a-uuid-breaking-dhls-shipment-authorization-712efd47bd65",
+      "quick_test": "Test API endpoints for missing authorization checks by using valid identifiers without authentication."
+    },
+    {
+      "id": "5aaf929d7269",
+      "title": "Never Trust a 403 — The Access-Control Bypass Toolkit",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "ethical-hacking",
+        "cybersecurity",
+        "infosec"
+      ],
+      "path": "checklists/broken-access-control/5aaf929d7269.md",
+      "source_url": "https://kd-200.medium.com/never-trust-a-403-the-access-control-bypass-toolkit-814452522001",
+      "quick_test": "Test various HTTP methods on endpoints that return 403 to identify potential access control bypass vulnerabilities."
+    },
+    {
+      "id": "b90f2116d8cc",
+      "title": "API Hacking — Part 1",
+      "author": "Muhab A.",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "api",
+        "bug-hunting",
+        "apihacking",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/b90f2116d8cc.md",
+      "source_url": "https://medium.com/@mohaba746/api-hacking-part-1-3e47afee1f11",
+      "quick_test": "Test if the API allows users to access or modify objects they do not own by manipulating object IDs in requests."
+    },
+    {
+      "id": "be584590d58c",
+      "title": "Unauthenticated Access to Internal Employee Content Through Unprotected API Endpoints",
+      "author": "redhunter01",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security",
+        "api-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/be584590d58c.md",
+      "source_url": "https://medium.com/@redhunter01/unauthenticated-access-to-internal-employee-content-through-unprotected-api-endpoints-54c743b0478e",
+      "quick_test": "Test API endpoints for authentication enforcement by sending requests without authentication and checking for unauthorized access responses."
+    },
+    {
+      "id": "b818f17be311",
+      "title": "How to Find IDOR Vulnerabilities in Bug Bounty",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bugbounty-writeup"
+      ],
+      "path": "checklists/broken-access-control/b818f17be311.md",
+      "source_url": "https://medium.com/@b0dj0x/how-to-find-idor-vulnerabilities-in-bug-bounty-4c6bd63aa4a8",
+      "quick_test": "Map all object references in the application and test for IDOR by swapping IDs across user sessions."
+    },
+    {
+      "id": "140e8309b423",
+      "title": "Chaining IDOR to Privilege Escalation: A $$$$ Microsoft Bug Bounty",
+      "author": "cryptoshant",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty",
+        "infosec",
+        "microsoft",
+        "cybersecurity",
+        "hacking"
+      ],
+      "path": "checklists/broken-access-control/140e8309b423.md",
+      "source_url": "https://medium.com/@dsmodi484/chaining-idor-to-privilege-escalation-a-microsoft-bug-bounty-936656cf47a2",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating user roles in project management APIs."
+    },
+    {
+      "id": "c8138d5353e6",
+      "title": "How I Ran a Company’s Own Internal Workflows With a Free Account",
+      "author": "0x-elfateh",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty",
+        "bug-hunting",
+        "cybersecurity",
+        "infosec"
+      ],
+      "path": "checklists/broken-access-control/c8138d5353e6.md",
+      "source_url": "https://infosecwriteups.com/how-i-ran-a-companys-own-internal-workflows-with-a-free-account-eefdf559a8af",
+      "quick_test": "Check for missing authorization checks on internal API endpoints that should be restricted to specific user organizations."
+    },
+    {
+      "id": "0923c137eb6e",
+      "title": "The Cache That Trusted Too Much",
+      "author": "lolidkmyname",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/0923c137eb6e.md",
+      "source_url": "https://lolidkmyname.medium.com/the-cache-that-trusted-too-much-2f74119be7bb",
+      "quick_test": "Test if the API Gateway caches authorization decisions without considering the resource ID, leading to potential unauthorized data access."
+    },
+    {
+      "id": "28c3e9a20d1c",
+      "title": "Bug Bounty: When a “Random” UUID Wasn’t Random Enough — Cross-Tenant Credential Leak in an ATS…",
+      "author": "Pulga (bettercallme)",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bug-bounty",
+        "idor",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/broken-access-control/28c3e9a20d1c.md",
+      "source_url": "https://medium.com/@La_Pulga/bug-bounty-when-a-random-uuid-wasnt-random-enough-cross-tenant-credential-leak-in-an-ats-0fe419b559c8",
+      "quick_test": "Check if UUIDs used for tenant identification are exposed in URLs and ensure proper authorization checks are in place for all operations."
+    },
+    {
+      "id": "346d576f1c34",
+      "title": "When Client-Side Encryption Becomes a Security Blanket",
+      "author": "hackerdevil",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "infosec",
+        "bug-bounty",
+        "information-security",
+        "penetration-testing",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/346d576f1c34.md",
+      "source_url": "https://devilwrites.medium.com/when-client-side-encryption-becomes-a-security-blanket-8e124d484c76",
+      "quick_test": "Check for unauthorized access to user-specific endpoints by manipulating request parameters and observing responses."
+    },
+    {
+      "id": "dff804fe3d10",
+      "title": "Bug Bounty: A Beginner’s Guide to Finding Bugs the Right Way",
+      "author": "Easika Neupane",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/broken-access-control/dff804fe3d10.md",
+      "source_url": "https://medium.com/@easikaneupane7/bug-bounty-a-beginners-guide-to-finding-bugs-the-right-way-7ce9c14fd54a",
+      "quick_test": "Test if modifying user identifiers in profile requests allows access to other users' data."
+    },
+    {
+      "id": "808e9cfafe01",
+      "title": "How a Simple File Download Bug Turned Into an S3 Signing Oracle",
+      "author": "redhunter01",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "aws",
+        "bug-bounty",
+        "ethical-hacking",
+        "web-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/808e9cfafe01.md",
+      "source_url": "https://medium.com/@redhunter01/how-a-simple-file-download-bug-turned-into-an-s3-signing-oracle-27b353a06dc4",
+      "quick_test": "Test if the application allows user-controlled file keys to access files outside the user's scope by manipulating the file key structure."
+    },
+    {
+      "id": "3cb12af8d129",
+      "title": "I Wasn’t Invited to the Project, But the Backend Let Me In",
+      "author": "0xMo7areb",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "penetration-testing",
+        "technology",
+        "cybersecurity",
+        "writing",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/3cb12af8d129.md",
+      "source_url": "https://medium.com/@0xMo7areb/i-wasnt-invited-to-the-project-but-the-backend-let-me-in-1cf6165279ee",
+      "quick_test": "Verify that project-level access controls are enforced by checking if users can access projects only if they are explicitly added as members."
+    },
+    {
+      "id": "eb1506d16b87",
+      "title": "One Invitation, Three Vulnerabilities: Breaking RBAC Across Two Applications",
+      "author": "OWL",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cybersecurity",
+        "web-security",
+        "bug-bounty",
+        "pentesting",
+        "broken-access-control"
+      ],
+      "path": "checklists/broken-access-control/eb1506d16b87.md",
+      "source_url": "https://medium.com/@omaralgbry1/one-invitation-three-vulnerabilities-breaking-rbac-across-two-applications-f66508af3e83",
+      "quick_test": "Test if lower-privileged roles can modify or downgrade higher-privileged roles through invitation flows across interconnected applications."
+    },
+    {
+      "id": "981f8d9dcd85",
+      "title": "Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations",
+      "author": "Mustafa Mohamed (d3sca)",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "bug-bounty",
+        "react",
+        "infosec",
+        "salesforce",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/981f8d9dcd85.md",
+      "source_url": "https://d3sca.medium.com/microsoft-bounty-hunt-from-contacts-to-invoices-via-guest-user-misconfigurations-efaa8bef73f4",
+      "quick_test": "Test guest user permissions on Salesforce applications to ensure sensitive objects are not accessible without authentication."
+    },
+    {
+      "id": "2e6f5c32d92a",
+      "title": "I Read the Top 20 IDOR Reports on HackerOne.",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "infosec",
+        "hacking",
+        "idor",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/2e6f5c32d92a.md",
+      "source_url": "https://medium.com/@Aacle/i-read-the-top-20-idor-reports-on-hackerone-8e6545c3a0e4",
+      "quick_test": "Test for IDOR by manipulating object references in API requests to access or modify other users' data."
+    },
+    {
+      "id": "af4e95971380",
+      "title": "Active Directory Explained: The Backbone of Enterprise Access Control (And Why Attackers Love It)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cybersecurity",
+        "penetration-testing",
+        "bug-bounty-tips",
+        "red-team",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/af4e95971380.md",
+      "source_url": "https://medium.com/@b0dj0x/active-directory-explained-the-backbone-of-enterprise-access-control-and-why-attackers-love-it-4585e80deb1e",
+      "quick_test": "Enumerate users and groups in Active Directory to identify misconfigurations and potential privilege escalation paths."
+    },
+    {
+      "id": "b88f8c75f170",
+      "title": "Stop Memorizing HTTP Methods:",
+      "author": "ElAmine Bousbaa",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/b88f8c75f170.md",
+      "source_url": "https://medium.com/@aminebsb92/stop-memorizing-http-methods-e8b5965cc4b9",
+      "quick_test": "Test if changing HTTP methods on sensitive endpoints bypasses authorization checks."
+    },
+    {
+      "id": "347cd2385d7a",
+      "title": "My First Valid Bug: A Broken Object Level Authorization (BOLA) in Customer API",
+      "author": "Abobakrmohamed",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-bounty",
+        "bug-hunter",
+        "web-app-pentesting",
+        "hacking",
+        "find-your-first-bug"
+      ],
+      "path": "checklists/broken-access-control/347cd2385d7a.md",
+      "source_url": "https://medium.com/@abobakrmohamed0101/my-first-valid-bug-a-broken-object-level-authorization-bola-in-customer-api-e9d3d18e7aef",
+      "quick_test": "Test all user-controlled identifiers in API endpoints for proper authorization checks against the authenticated user."
+    },
+    {
+      "id": "8d13a827634e",
+      "title": "How to Find Your First Bug Bounty Vulnerability in 2026 (The Beginner Method That Actually Pays)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "ethical-hacking",
+        "bug-bounty-writeup",
+        "bug-bounty-tips",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/8d13a827634e.md",
+      "source_url": "https://medium.com/@b0dj0x/how-to-find-your-first-bug-bounty-vulnerability-in-2026-the-beginner-method-that-actually-pays-dbd385c063f2",
+      "quick_test": "Check if the application allows access to resources by changing the identifier in the request without proper authorization checks."
+    },
+    {
+      "id": "b388c4e9f754",
+      "title": "One IDOR, Three Leaks, $3K in Payouts",
+      "author": "Ferdus Alam",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "bug-bounty-tips",
+        "bug-bounty-hunter",
+        "bug-fixes"
+      ],
+      "path": "checklists/broken-access-control/b388c4e9f754.md",
+      "source_url": "https://medium.com/@ferdusalam0/one-idor-three-leaks-3k-in-payouts-c5ff37e9f267",
+      "quick_test": "When testing for IDOR vulnerabilities, always check the application’s side effects like audit logs and activity history, even if the response indicates an error."
+    },
+    {
+      "id": "2f90c86049be",
+      "title": "GraphQL API Vulnerabilities in Web App Penetration Testing",
+      "author": "Karthikeyan Nagaraj",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "careers",
+        "hacking",
+        "penetration-testing",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/2f90c86049be.md",
+      "source_url": "https://cyberw1ng.medium.com/graphql-api-vulnerabilities-in-web-app-penetration-testing-e443a6dbc7d0",
+      "quick_test": "Test GraphQL APIs for IDOR vulnerabilities by querying for objects using their IDs and checking for unauthorized access to data."
+    },
+    {
+      "id": "a791359b6ff8",
+      "title": "Bug Bounty for Beginners 2026 — Earn Your First $100 with Ethical Hacking",
+      "author": "R.H Rizvi",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "hacker",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "ethical-hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/a791359b6ff8.md",
+      "source_url": "https://medium.com/@R.H_Rizvi/bug-bounty-for-beginners-2026-earn-your-first-100-with-ethical-hacking-6bbabd376013",
+      "quick_test": "Test endpoints that accept user IDs by manipulating the ID parameter to see if you can access data belonging to other users."
+    },
+    {
+      "id": "b380e0f04378",
+      "title": "Reading a Website Like a Pentester: What to Test in Every Functionality",
+      "author": "Shruti Vijay Shinde",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "bug-bounty",
+        "ethical-hacking",
+        "penetration-testing",
+        "web-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/broken-access-control/b380e0f04378.md",
+      "source_url": "https://medium.com/@shrutishinde1319/reading-a-website-like-a-pentester-what-to-test-in-every-functionality-6375f58ba8fe",
+      "quick_test": "Test the registration functionality by manipulating user roles to check for privilege escalation vulnerabilities."
+    },
+    {
+      "id": "bf811ee39da3",
+      "title": "How I Escalated Privileges by Manipulating a Client-Side Permission Matrix",
+      "author": "Dev",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty-tips",
+        "penetration-testing",
+        "broken-access-control",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/bf811ee39da3.md",
+      "source_url": "https://medium.com/@devkumaoni9/how-i-escalated-privileges-by-manipulating-a-client-side-permission-matrix-efa7f8eb6a2e",
+      "quick_test": "Test for client-side authorization flaws by intercepting and modifying permission responses to escalate user privileges."
+    },
+    {
+      "id": "06e21f3b3779",
+      "title": "Unauthenticated Mass Data Deletion: When DELETE Has No Auth Check",
+      "author": "Divakarvasani",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/06e21f3b3779.md",
+      "source_url": "https://medium.com/@divakarvasani3938/unauthenticated-mass-data-deletion-when-delete-has-no-auth-check-07a095f37aa9",
+      "quick_test": "Check for missing authentication on DELETE endpoints by sending requests without authentication to see if unauthorized deletions are possible."
+    },
+    {
+      "id": "013d93631c20",
+      "title": "IDOR via Comma-Injection: How Concatenating Two IDs Leaked Cross-Tenant PII",
+      "author": "s0ufm3l",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "bug-bounty-tips",
+        "pentesting"
+      ],
+      "path": "checklists/broken-access-control/013d93631c20.md",
+      "source_url": "https://medium.com/@s0ufm3l/idor-via-comma-injection-how-concatenating-two-ids-leaked-cross-tenant-pii-d5f003e594f9",
+      "quick_test": "Test for comma-separated values in parameters that expect a single ID to identify potential IDOR vulnerabilities."
+    },
+    {
+      "id": "729fcf653310",
+      "title": "How a Synced Data Copy Leaked 544,000 Users’ PII",
+      "author": "anshh.bohara",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "bola"
+      ],
+      "path": "checklists/broken-access-control/729fcf653310.md",
+      "source_url": "https://medium.com/@anshbohra10/how-a-synced-data-copy-leaked-544-000-users-pii-3e200d4e643e",
+      "quick_test": "Query the data API directly from the browser console to check for unauthorized access to sensitive fields."
+    },
+    {
+      "id": "c461fdf2e37d",
+      "title": "Chaining a Session Leak and Broken Access Control in Revive Adserver 6.0.7 Program Hackerone",
+      "author": "Kenjisubagja",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/broken-access-control/c461fdf2e37d.md",
+      "source_url": "https://medium.com/@kenjisubagja/chaining-a-session-leak-and-broken-access-control-in-revive-adserver-6-0-7-program-hackerone-156e5cf97826",
+      "quick_test": "Test for session leaks in API responses by attempting to log in with low-privileged accounts and checking for valid session cookies."
+    },
+    {
+      "id": "428f5ff155b8",
+      "title": "I Found an Unauthenticated WebSocket Leaking Live Customer Data",
+      "author": "0xJad",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "ethical-hacking",
+        "websocket"
+      ],
+      "path": "checklists/broken-access-control/428f5ff155b8.md",
+      "source_url": "https://medium.com/@0xJad/i-found-an-unauthenticated-websocket-leaking-live-customer-data-b9b3b470bfe3",
+      "quick_test": "Test WebSocket endpoints for unauthenticated access and check if sensitive data can be accessed without proper authorization."
+    },
+    {
+      "id": "d38deb90a840",
+      "title": "How I Found a Critical Bug That Exposed Every User’s PII With a Free Account",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "broken-access-control",
+        "infosec"
+      ],
+      "path": "checklists/broken-access-control/d38deb90a840.md",
+      "source_url": "https://medium.com/@Aacle/how-i-found-a-critical-bug-that-exposed-every-users-pii-with-a-free-account-47ee4294f440",
+      "quick_test": "Verify that user data access is restricted to the authenticated user's information only, ensuring proper access control policies are in place."
+    },
+    {
+      "id": "cf6704ca00ec",
+      "title": "How I Found a $250 BOLA in a Government Transport App’s Real-Time API",
+      "author": "anshh.bohara",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "idor",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "bug-bounty",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/broken-access-control/cf6704ca00ec.md",
+      "source_url": "https://medium.com/@anshbohra10/how-i-found-a-250-bola-in-a-government-transport-apps-real-time-api-5c981d6ca480",
+      "quick_test": "Test for object-level authorization by attempting to access resources using IDs that do not belong to the authenticated user."
+    },
+    {
+      "id": "722e551f5de6",
+      "title": "Broken Access Control: Guest User Could Modify Global Project View Settings",
+      "author": "Mahmoudelsadany",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "bug-bounty",
+        "abc",
+        "bug-bounty-tips",
+        "broken-access-control"
+      ],
+      "path": "checklists/broken-access-control/722e551f5de6.md",
+      "source_url": "https://medium.com/@mahmoudelsadany51/broken-access-control-guest-user-could-modify-global-project-view-settings-22b33f39c35f",
+      "quick_test": "Capture a request from a privileged user and replay it with a lower-privileged user's token to check for improper access control."
+    },
+    {
+      "id": "7ca0307e7296",
+      "title": "Revisiting JWT Token Forgery Attack on Recent Bounty Target",
+      "author": "Alvin Ferdiansyah",
+      "publication_date": "2026-08-01",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty",
+        "jwt-exploitation",
+        "token",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/broken-access-control/7ca0307e7296.md",
+      "source_url": "https://alvinferd.medium.com/revisiting-jwt-token-forgery-attack-on-a-recent-bounty-target-bfe4a423f3df",
+      "quick_test": "Test for improper JWT validation by crafting tokens with 'alg' set to 'none' and checking if the application accepts them."
+    },
+    {
+      "id": "7e798176ca7a",
+      "title": "Discovering an IDOR in Hoppscotch: A Deep Dive into Broken Access Control",
+      "author": "Ajith Prabhu",
+      "publication_date": "2026-08-01",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "open-source",
+        "graphql",
+        "application-security"
+      ],
+      "path": "checklists/broken-access-control/7e798176ca7a.md",
+      "source_url": "https://medium.com/@ajithprabhu15/discovering-an-idor-in-hoppscotch-a-deep-dive-into-broken-access-control-3a337d4f3791",
+      "quick_test": "Check if user objects in GraphQL APIs enforce ownership checks for sensitive fields to prevent unauthorized access."
+    },
+    {
+      "id": "33e04bfd4009",
+      "title": "When the Lock Comes With the Key: Bypassing Client-Side Encryption to Find an IDOR",
+      "author": "Jobson",
+      "publication_date": "2026-08-01",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "penetration-testing",
+        "hacking",
+        "pentesting"
+      ],
+      "path": "checklists/broken-access-control/33e04bfd4009.md",
+      "source_url": "https://medium.com/@thelazypentester/when-the-lock-comes-with-the-key-6e1c8e0162cb",
+      "quick_test": "Check if the application relies on client-side encryption for sensitive identifiers and ensure that the backend validates user authorization for those identifiers."
     },
     {
       "id": "32b9be78a585",

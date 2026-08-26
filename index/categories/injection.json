@@ -1,8 +1,55 @@
 {
   "category": "injection",
   "category_label": "Injection (SQL / NoSQL)",
-  "count": 6,
+  "count": 28,
   "items": [
+    {
+      "id": "2ce94965ebb8",
+      "title": "How I Bypassed an Adaptive SQL Injection Filter",
+      "author": "Bryan Matthew",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "sql-injection",
+        "bug-bounty-tips",
+        "waf-bypass",
+        "bug-bounty",
+        "red-team"
+      ],
+      "path": "checklists/injection/2ce94965ebb8.md",
+      "source_url": "https://medium.com/fmisec/how-i-bypassed-an-adaptive-sql-injection-filter-739a64ee3222",
+      "quick_test": "Test for SQL injection by manipulating the casing of SQL functions and double-encoding special characters in input parameters."
+    },
+    {
+      "id": "c47482293e48",
+      "title": "The SQL Injection Money Ladder: From First Payload to $25,000",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "sql-injection",
+        "ethical-hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/c47482293e48.md",
+      "source_url": "https://medium.com/@rajnamdev/the-sql-injection-money-ladder-from-first-payload-to-25-000-2496635e54b3",
+      "quick_test": "Test user input fields for SQL injection by injecting common payloads like ' OR 1=1-- and observe the application's response."
+    },
+    {
+      "id": "bf5956e82153",
+      "title": "Injection Vulnerabilities: The Incursion",
+      "author": "lukewago",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "vulnerability",
+        "sql-injection",
+        "higher-education"
+      ],
+      "path": "checklists/injection/bf5956e82153.md",
+      "source_url": "https://medium.com/@lukewago/injection-vulnerabilities-the-incursion-0da0be6764fe",
+      "quick_test": "Test for SQL injection by manipulating the 'id' parameter in endpoints that interact with the database."
+    },
     {
       "id": "7cd3e02c1dd3",
       "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",
@@ -18,6 +65,303 @@
       "path": "checklists/injection/7cd3e02c1dd3.md",
       "source_url": "https://infosecwriteups.com/a-geoserver-zero-day-that-went-from-private-report-to-public-exploit-in-six-weeks-0fc3724f22d7",
       "quick_test": "Test public GeoServer instances for unauthenticated SQL injection via the jsonArrayContains filter by sending crafted WFS or WMS requests."
+    },
+    {
+      "id": "758f09581309",
+      "title": "How an Unsanitized “Filter” Input Nuked a SaaS Unicorn’s Database for a $7,000 Bounty",
+      "author": "T4nv1",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "hacking",
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "bug-bounty",
+        "pentesting"
+      ],
+      "path": "checklists/injection/758f09581309.md",
+      "source_url": "https://medium.com/@t3nv1/how-an-unsanitized-filter-input-nuked-a-saas-unicorns-database-for-a-7-000-bounty-c74054c57533",
+      "quick_test": "Test any dynamic search filters by injecting NoSQL payloads to check for data exposure."
+    },
+    {
+      "id": "336ceaaf54aa",
+      "title": "Five Green Checkmarks I Typed Myself: Making GitHub’s Own Bot Vouch for a Failing Plugin",
+      "author": "_marwankhodair_",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "cybersecurity",
+        "github",
+        "bug-bounty",
+        "penetration-testing",
+        "github-copilot"
+      ],
+      "path": "checklists/injection/336ceaaf54aa.md",
+      "source_url": "https://medium.com/@_marwankhodair_/five-green-checkmarks-i-typed-myself-making-githubs-own-bot-vouch-for-a-failing-plugin-49285c1adfb1",
+      "quick_test": "Test for Markdown injection in GitHub Actions workflows triggered by pull_request_target using controlled input fields."
+    },
+    {
+      "id": "a705f63c60ac",
+      "title": "DVWA Vulnerability: SQL Injection (Blind)",
+      "author": "Kamal S",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "ethical-hacking",
+        "blind-sql-injection",
+        "dvwa",
+        "owasp",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/a705f63c60ac.md",
+      "source_url": "https://medium.com/@Kamal_S/dvwa-vulnerability-sql-injection-blind-c2b4ae5706f5",
+      "quick_test": "Test for Blind SQL Injection by manipulating user ID parameters in web applications and observing the application's responses."
+    },
+    {
+      "id": "e441305616f9",
+      "title": "How a Forgotten “Export to Excel” Feature Exfiltrated a Bank’s Database for $5,000",
+      "author": "T4nv1",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "security",
+        "pentesting",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/injection/e441305616f9.md",
+      "source_url": "https://medium.com/@t3nv1/how-a-forgotten-export-to-excel-feature-exfiltrated-a-banks-database-for-5-000-caf3df3a6ae6",
+      "quick_test": "Test any export feature by injecting SQL payloads into filter parameters to check for SQL Injection vulnerabilities."
+    },
+    {
+      "id": "5a65c47f1b79",
+      "title": "Injection — The #5 Vulnerability on the Web",
+      "author": "loopXvedant",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "ctf",
+        "owasp",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/5a65c47f1b79.md",
+      "source_url": "https://medium.com/@vedanthore/injection-the-5-vulnerability-on-the-web-0ca170afac24",
+      "quick_test": "Test input fields with common injection payloads like '' OR '1'='1' for SQL Injection and <script>alert(1)</script> for XSS."
+    },
+    {
+      "id": "0c32640c5e63",
+      "title": "THE DOOR Penetration Testing | SQLi → Authentication Bypass → Command Injection",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "hacking",
+        "web-development",
+        "cybersecurity",
+        "artificial-intelligence",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/0c32640c5e63.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/the-door-penetration-testing-sqli-authentication-bypass-command-injection-d3049e81a15d",
+      "quick_test": "Test login forms for SQL injection by inputting controlled SQL syntax in username and password fields."
+    },
+    {
+      "id": "21aca33d799e",
+      "title": "My First Bug Bounty : A Beginner's Web Security Investigation",
+      "author": "BHARANIDHARAN",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "penetration-testing",
+        "sql-injection",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/21aca33d799e.md",
+      "source_url": "https://medium.com/@bharanidharan.security/my-first-bug-bounty-a-beginners-web-security-investigation-3085094265a9",
+      "quick_test": "Test input fields for SQL injection by using common payloads like ' or '1'='1' to check for authentication bypass."
+    },
+    {
+      "id": "babaf5849075",
+      "title": "How I Systematically Find SQL Injection Bugs in Bug Bounty Programs (Step-by-Step Method)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-bounty-tips",
+        "cybersecurity",
+        "bugs",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/babaf5849075.md",
+      "source_url": "https://medium.com/@b0dj0x/how-i-systematically-find-sql-injection-bugs-in-bug-bounty-programs-step-by-step-method-0bbaf03c4722",
+      "quick_test": "Map all parameters and confirm SQL injection points by testing with a single quote and boolean payloads."
+    },
+    {
+      "id": "b01bcf9b8f74",
+      "title": "Command Injection in an E-Commerce Website | Penetration Testing CTF",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "artificial-intelligence",
+        "hacking",
+        "web-development"
+      ],
+      "path": "checklists/injection/b01bcf9b8f74.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/command-injection-in-an-e-commerce-website-penetration-testing-ctf-487e868dbac4",
+      "quick_test": "Test user-controlled input in diagnostic features for command injection by appending shell metacharacters and observing the application's response."
+    },
+    {
+      "id": "b19aaeeed20a",
+      "title": "NoSQL Injection: The Vulnerability Hiding in Your “Modern” Database",
+      "author": "Ritesh Thorve",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "mongodb",
+        "cybersecurity",
+        "bug-bounty",
+        "web-development",
+        "nosql-injection"
+      ],
+      "path": "checklists/injection/b19aaeeed20a.md",
+      "source_url": "https://riteshthorve.medium.com/nosql-injection-the-vulnerability-hiding-in-your-modern-database-6af6064c54f8",
+      "quick_test": "Test for NoSQL injection by sending JSON objects or arrays in fields that expect strings, especially in authentication endpoints."
+    },
+    {
+      "id": "51e421f7b084",
+      "title": "Bypassing Filters to Achieve UNION-Based SQL Injection on a Search Endpoint",
+      "author": "Samet Yiğit",
+      "publication_date": "2026-08-08",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/51e421f7b084.md",
+      "source_url": "https://medium.com/@xelcezeri/bypassing-filters-to-achieve-union-based-sql-injection-on-a-search-endpoint-0f092ba254ed",
+      "quick_test": "Test for SQL injection by probing input fields with UNION SELECT payloads while bypassing filters using comments."
+    },
+    {
+      "id": "a610aa378727",
+      "title": "LDAP Injection: Its As Simple As A TRUE/FALSE",
+      "author": "Clark Voss",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "hacking",
+        "ethical-hacking",
+        "security"
+      ],
+      "path": "checklists/injection/a610aa378727.md",
+      "source_url": "https://clarkvoss.medium.com/ldap-injection-its-as-simple-as-a-true-false-31577d5ea9f9",
+      "quick_test": "Test for LDAP injection by submitting crafted payloads in input fields that interact with LDAP queries and analyze the responses for discrepancies."
+    },
+    {
+      "id": "4f18044356c2",
+      "title": "PortSwigger Web Security Academy: All NoSQL Injection Labs Solved (Full Walkthrough)",
+      "author": "Blueorionn",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "bug-bounty",
+        "portswigger-lab",
+        "web-security",
+        "hacking"
+      ],
+      "path": "checklists/injection/4f18044356c2.md",
+      "source_url": "https://medium.com/@blueorionn/portswigger-web-security-academy-all-nosql-injection-labs-solved-full-walkthrough-c0c2bf201402",
+      "quick_test": "Test input fields for NoSQL injection by injecting common operators like $ne and $regex to manipulate query logic."
+    },
+    {
+      "id": "85a250af89c7",
+      "title": "Manual SQL Injection: Extracting Data with GET Search SQLI lab in bWAPP",
+      "author": "Om Barot",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "web-application-security",
+        "owasp",
+        "ctf",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/85a250af89c7.md",
+      "source_url": "https://medium.com/@llombarotll/manual-sql-injection-extracting-data-with-get-search-sqli-lab-in-bwapp-ca02acd64db5",
+      "quick_test": "Test for SQL Injection by injecting payloads into GET parameters and using UNION queries to extract data from the database."
+    },
+    {
+      "id": "656f3f5055c9",
+      "title": "DVWA on Metasploitable 2: Web Exploitation for OSCP",
+      "author": "Isha Sangpal",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "penetration-testing",
+        "security",
+        "bug-bounty",
+        "cybersecurity",
+        "betigetin"
+      ],
+      "path": "checklists/injection/656f3f5055c9.md",
+      "source_url": "https://medium.com/@betigetin/dvwa-on-metasploitable-2-web-exploitation-for-oscp-b7aa7f99f12c",
+      "quick_test": "Test for SQL injection by submitting payloads that manipulate the SQL query structure in input fields."
+    },
+    {
+      "id": "f11f4119e33f",
+      "title": "Apostrophe Has Abolished the Password",
+      "author": "Leonardo R Cavalcante",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "cybersecurity",
+        "web-app-pentesting",
+        "bug-bounty-tips",
+        "bug-bounty",
+        "pentesting"
+      ],
+      "path": "checklists/injection/f11f4119e33f.md",
+      "source_url": "https://leonardo-cavalcantee.medium.com/apostrophe-has-abolished-the-password-5ebeaad0dff1",
+      "quick_test": "Test for SQL injection by manipulating input fields with single quotes and comment syntax to bypass authentication."
+    },
+    {
+      "id": "8d4c943b3551",
+      "title": "From a Simple id Parameter to an Exceptional (10.0)",
+      "author": "oldman",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "netclouts",
+        "sql-injection",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/8d4c943b3551.md",
+      "source_url": "https://medium.com/@ioldman/from-a-simple-id-parameter-to-an-exceptional-10-0-9024439fa82a",
+      "quick_test": "Test numeric parameters by injecting SQL payloads to check for vulnerabilities in backend database queries."
+    },
+    {
+      "id": "4c98ef7e5645",
+      "title": "When Your Terminal Lies: Exploiting ANSI Escape Sequences in HTTPie",
+      "author": "Ajith Prabhu",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "bug-bounty",
+        "application-security",
+        "cybersecurity",
+        "information-security",
+        "security"
+      ],
+      "path": "checklists/injection/4c98ef7e5645.md",
+      "source_url": "https://medium.com/@ajithprabhu15/when-your-terminal-lies-exploiting-ansi-escape-sequences-in-httpie-01669f03ad44",
+      "quick_test": "Test if your CLI tool forwards untrusted data to the terminal without sanitization by sending crafted HTTP responses containing ANSI escape sequences."
+    },
+    {
+      "id": "f6bf8d4bd710",
+      "title": "Sqli-Header-Lab",
+      "author": "Youssefelbakrey",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "hackerone",
+        "writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/injection/f6bf8d4bd710.md",
+      "source_url": "https://medium.com/@youssefelbakrey0/sqli-header-lab-96db30987327",
+      "quick_test": "Test if the application allows SQL injection through the User-Agent header by sending crafted requests with SQL payloads."
     },
     {
       "id": "d7cdfdbbed08",

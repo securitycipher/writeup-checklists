@@ -1,7 +1,7 @@
 {
   "category": "mobile",
   "category_label": "Mobile / JS Bridge",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "id": "f61bd56ccee4",
@@ -17,6 +17,21 @@
       "path": "checklists/mobile/f61bd56ccee4.md",
       "source_url": "https://medium.com/@husein.ayoub/one-contains-away-from-a-full-javascript-bridge-takeover-e0c05eb066f8",
       "quick_test": "Check for exported activities in Android apps that use a WebView with a JavaScript bridge and validate the host using substring matching instead of strict equality."
+    },
+    {
+      "id": "13a7876ac8d1",
+      "title": "Intercepting Flutter Android App Traffic with Burp Suite Using an Android Studio Emulator…",
+      "author": "CyberMavala",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "android-pentesting",
+        "bug-bounty",
+        "pentesting",
+        "mobile-pentesting"
+      ],
+      "path": "checklists/mobile/13a7876ac8d1.md",
+      "source_url": "https://medium.com/@CyberMavala/intercepting-flutter-android-app-traffic-with-burp-suite-using-an-android-studio-emulator-b53637a33561",
+      "quick_test": "Ensure that the Android emulator is launched with the correct proxy configuration to intercept traffic from Flutter applications."
     },
     {
       "id": "4fd6d185c879",

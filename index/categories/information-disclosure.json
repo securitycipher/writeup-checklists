@@ -1,22 +1,175 @@
 {
   "category": "information-disclosure",
   "category_label": "Information Disclosure",
-  "count": 2,
+  "count": 12,
   "items": [
     {
-      "id": "0a9be624b29a",
-      "title": "Unveiling Sensitive Information Exposure: IIS Tilde Enumeration Vulnerability",
-      "author": "Nas",
-      "publication_date": "2023-11-15",
+      "id": "bec80f697a97",
+      "title": "Deep-Dive Technical Write-up by Huynh Kien Minh: CVE-2026–13736 — NewPath WildApricotPress Add-on…",
+      "author": "Huynh Kien Minh",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "security",
+        "wordpress",
+        "infosec",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/information-disclosure/bec80f697a97.md",
+      "source_url": "https://medium.com/@minhhk/deep-dive-technical-write-up-by-huynh-kien-minh-cve-2026-13736-newpath-wildapricotpress-add-on-31aaf0625333",
+      "quick_test": "Query the REST API endpoint of a WordPress site for unauthenticated access to sensitive member data."
+    },
+    {
+      "id": "867acb508615",
+      "title": "How a Single % Turned a Booking Lookup Into a PII Leak",
+      "author": "0x-elfateh",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "web-penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "infosec"
+      ],
+      "path": "checklists/information-disclosure/867acb508615.md",
+      "source_url": "https://infosecwriteups.com/how-a-single-turned-a-booking-lookup-into-a-pii-leak-c518e4e812ab",
+      "quick_test": "Test if user input used as an authorization factor allows wildcard characters to bypass checks and expose sensitive data."
+    },
+    {
+      "id": "4bc3394f63e9",
+      "title": "Tab, Tab, Attack — picoCTF Writeup",
+      "author": "mayhack",
+      "publication_date": "2026-08-20",
       "tags": [
         "bug-bounty",
         "hacking",
-        "cybersecurity",
-        "bug-bounty-writeup"
+        "cybersecurity"
       ],
-      "path": "checklists/information-disclosure/0a9be624b29a.md",
-      "source_url": "https://medium.com/@mohammed0anas/unveiling-sensitive-information-exposure-iis-tilde-enumeration-vulnerability-ffe034073288",
-      "quick_test": "Test for IIS tilde enumeration by appending '~1\\' to known paths and observing the response for unauthorized access."
+      "path": "checklists/information-disclosure/4bc3394f63e9.md",
+      "source_url": "https://medium.com/@may.hack/tab-tab-attack-picoctf-writeup-146a117bddcd",
+      "quick_test": "Use 'strings' and 'grep' on binaries to quickly search for sensitive information without executing the file."
+    },
+    {
+      "id": "f41f3757bd10",
+      "title": "Heartbleed (CVE-2014–0160): A Hands-On Vulnerability Lab",
+      "author": "Dinara",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "pentesting",
+        "openssl",
+        "bug-bounty",
+        "heartbleed"
+      ],
+      "path": "checklists/information-disclosure/f41f3757bd10.md",
+      "source_url": "https://medium.com/@dinara_dosqoja/heartbleed-cve-2014-0160-a-hands-on-vulnerability-lab-5aa6b0061fa3",
+      "quick_test": "Run a Heartbleed scanner against the target's TLS service to check for memory disclosure vulnerabilities."
+    },
+    {
+      "id": "e3604b5937ff",
+      "title": "The $20,000 Session Cookie",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "web-security",
+        "ethical-hacking",
+        "account-takeover",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/information-disclosure/e3604b5937ff.md",
+      "source_url": "https://medium.com/@rajnamdev/the-20-000-session-cookie-250f2d54a606",
+      "quick_test": "Review publicly disclosed reports for any exposed session cookies and test if they can be reused for unauthorized access."
+    },
+    {
+      "id": "94e05f821fc0",
+      "title": "How a Simple Wayback Search Revealed 44,000+ Exposed Job Applicant Emails",
+      "author": "Hangga Aji Sayekti",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-hunting",
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "wayback-machine",
+        "bug-bounty"
+      ],
+      "path": "checklists/information-disclosure/94e05f821fc0.md",
+      "source_url": "https://osintteam.blog/how-a-simple-wayback-search-revealed-44-000-exposed-job-applicant-emails-c6c2c361985e",
+      "quick_test": "Search for archived URLs of sensitive endpoints using the Wayback Machine to identify potential data leaks."
+    },
+    {
+      "id": "cbed5ee83325",
+      "title": "How Unauthenticated Queries Exposed User PII and Privileged Accounts",
+      "author": "Sudheer",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "authorization",
+        "api-security",
+        "bug-bounty",
+        "authentication",
+        "web-security-testing"
+      ],
+      "path": "checklists/information-disclosure/cbed5ee83325.md",
+      "source_url": "https://medium.com/@mr-sudheer/how-unauthenticated-queries-exposed-user-pii-and-privileged-accounts-cb89efff14d8",
+      "quick_test": "Test for unauthenticated API endpoints that expose sensitive user information by querying known usernames."
+    },
+    {
+      "id": "fc700d5e621e",
+      "title": "How a Broken “Preview” Button Exposed 800,000 Private Documents for a $8,500 Bounty",
+      "author": "T4nv1",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "ai",
+        "security",
+        "bug-bounty",
+        "pentesting",
+        "cybersecurity"
+      ],
+      "path": "checklists/information-disclosure/fc700d5e621e.md",
+      "source_url": "https://medium.com/@t3nv1/how-a-broken-preview-button-exposed-800-000-private-documents-for-a-8-500-bounty-d556b3887167",
+      "quick_test": "Test for predictable identifiers in API calls that may allow access to unauthorized resources."
+    },
+    {
+      "id": "574fc7ef1595",
+      "title": "Sometimes a Bucket Tells You More Than It Should",
+      "author": "syz",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/information-disclosure/574fc7ef1595.md",
+      "source_url": "https://medium.com/@syz_/sometimes-a-bucket-tells-you-more-than-it-should-b9a3bd226429",
+      "quick_test": "Check for publicly accessible cloud storage buckets by sending requests to known bucket endpoints and analyzing the response for sensitive information."
+    },
+    {
+      "id": "d77d9e7bdee6",
+      "title": "How I Got My NASA Hall of Fame: A Unique Twist on Google Dorking",
+      "author": "Vanshrathore",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "bug-bounty",
+        "penetration-testing",
+        "bug-bounty-writeup",
+        "money",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/information-disclosure/d77d9e7bdee6.md",
+      "source_url": "https://vanshrathorebughunter.medium.com/how-i-got-my-nasa-hall-of-fame-a-unique-twist-on-google-dorking-a954193b317f",
+      "quick_test": "Search for old articles on trusted domains using Google Dorks and check for broken links that could lead to brand impersonation."
+    },
+    {
+      "id": "ae7ff339b442",
+      "title": "The Coldcard Catastrophe: How a Single Line of Code Let Attackers Drain $100M+ from “Unhackable”…",
+      "author": "Ali Essam",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "cybersecurity",
+        "penetration-testing",
+        "cryptocurrency",
+        "hacker",
+        "bug-bounty"
+      ],
+      "path": "checklists/information-disclosure/ae7ff339b442.md",
+      "source_url": "https://3ly.medium.com/the-coldcard-catastrophe-how-a-single-line-of-code-let-attackers-drain-100m-from-unhackable-a973eb07a099",
+      "quick_test": "Check for predictable seed generation in hardware wallets by analyzing the RNG configuration and seed initialization process."
     },
     {
       "id": "72eca79b00e3",

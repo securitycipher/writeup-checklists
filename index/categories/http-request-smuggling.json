@@ -1,0 +1,23 @@
+{
+  "category": "http-request-smuggling",
+  "category_label": "HTTP Request Smuggling",
+  "count": 1,
+  "items": [
+    {
+      "id": "0547c6dce890",
+      "title": "When a 404 Isn’t a 404: Confirming HTTP Request Smuggling on assets.claude.ai",
+      "author": "Sunny Jha",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "anthropic-claude",
+        "bug-bounty",
+        "claude",
+        "http-request-smuggling",
+        "https"
+      ],
+      "path": "checklists/http-request-smuggling/0547c6dce890.md",
+      "source_url": "https://medium.com/@sunnyjha62679/when-a-404-isnt-a-404-confirming-http-request-smuggling-on-assets-claude-ai-7ff1cb80ab0b",
+      "quick_test": "Test for HTTP request smuggling by sending requests with conflicting 'Content-Length' and 'Transfer-Encoding' headers to see if the server processes them differently."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "category": "race-condition",
   "category_label": "Race Condition",
-  "count": 2,
+  "count": 6,
   "items": [
     {
       "id": "718517b70573",
@@ -32,6 +32,70 @@
       "path": "checklists/race-condition/e8f8a7f03cd0.md",
       "source_url": "https://infosecwriteups.com/hijacking-web3-extensions-unvalidated-storage-toctou-patch-bypass-in-coin98-b8a655f793d4",
       "quick_test": "Test for unvalidated localStorage access in Web3 extensions by injecting scripts that manipulate localStorage before the extension initializes."
+    },
+    {
+      "id": "8960cdecdbad",
+      "title": "I Analyzed 81 Race Condition Reports on HackerOne — 5 Patterns Kept Appearing",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty",
+        "ethical-hacking",
+        "cybersecurity",
+        "web-security",
+        "race-condition"
+      ],
+      "path": "checklists/race-condition/8960cdecdbad.md",
+      "source_url": "https://medium.com/@rajnamdev/i-analyzed-81-race-condition-reports-on-hackerone-5-patterns-kept-appearing-57e0b2ac9916",
+      "quick_test": "Test for race conditions by sending concurrent requests to sensitive endpoints to see if actions can be performed multiple times."
+    },
+    {
+      "id": "3a32db45aac2",
+      "title": "Hacker Holidays Day 8: Towel on the Sunbed",
+      "author": "Devyaniitware",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty",
+        "web-security",
+        "cybersecurity",
+        "infosec",
+        "ctf"
+      ],
+      "path": "checklists/race-condition/3a32db45aac2.md",
+      "source_url": "https://medium.com/@devyani89itware/hacker-holidays-day-8-towel-on-the-sunbed-413ab1f69991",
+      "quick_test": "Test for race conditions by sending simultaneous requests to endpoints that have cooldowns or limits on actions."
+    },
+    {
+      "id": "03feb9965fee",
+      "title": "One Coupon, Thirty Orders: Racing the OopsSec Store Checkout",
+      "author": "OopsSec Store",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "race-condition",
+        "ethical-hacking",
+        "bug-bounty",
+        "cybersecurity",
+        "web-security"
+      ],
+      "path": "checklists/race-condition/03feb9965fee.md",
+      "source_url": "https://medium.com/@oopssec-store/one-coupon-thirty-orders-racing-the-oopssec-store-checkout-6918a3b27d1b",
+      "quick_test": "Test for race conditions in coupon redemption by sending multiple concurrent requests to the order endpoint with the same coupon code."
+    },
+    {
+      "id": "b16e8df7c060",
+      "title": "How I Found a Critical Race Condition on Kruidvat — A Step-by-Step Bug Bounty Walkthrough",
+      "author": "Lelouchzero",
+      "publication_date": "2026-08-01",
+      "tags": [
+        "race-condition",
+        "web-application-security",
+        "ethical-hacking",
+        "bug-bounty",
+        "critical-vulnerabilities"
+      ],
+      "path": "checklists/race-condition/b16e8df7c060.md",
+      "source_url": "https://medium.com/@Lelouchzero/how-i-found-a-critical-race-condition-on-kruidvat-a-step-by-step-bug-bounty-walkthrough-773f20a323f5",
+      "quick_test": "Test for race conditions by sending concurrent requests to endpoints that accept the same input multiple times."
     }
   ]
 }

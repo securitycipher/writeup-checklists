@@ -1,0 +1,23 @@
+{
+  "category": "prompt-injection",
+  "category_label": "Prompt Injection / AI Agent",
+  "count": 1,
+  "items": [
+    {
+      "id": "fdb4d1cedd96",
+      "title": "Indirect Prompt Injection: What LLM Bounty Triagers Actually Reward",
+      "author": "Muhammad Haider Tallal",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "prompt-injection-attack",
+        "ai-security",
+        "bug-bounty",
+        "cybersecurity",
+        "artificial-intelligence"
+      ],
+      "path": "checklists/prompt-injection/fdb4d1cedd96.md",
+      "source_url": "https://medium.com/infosec-writes-up/indirect-prompt-injection-what-llm-bounty-triagers-actually-reward-50bb08fc7dd3",
+      "quick_test": "Test AI applications by embedding hidden instructions in task submissions to evaluate if they can manipulate the AI's behavior."
+    }
+  ]
+}

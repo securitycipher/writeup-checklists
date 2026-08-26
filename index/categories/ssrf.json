@@ -1,0 +1,166 @@
+{
+  "category": "ssrf",
+  "category_label": "SSRF",
+  "count": 10,
+  "items": [
+    {
+      "id": "f3981bb4a971",
+      "title": "Make the Server Read Its Own Cloud Credentials (SSRF)",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "cybersecurity",
+        "infosec",
+        "info-sec-writeups",
+        "bug-bounty",
+        "web-security"
+      ],
+      "path": "checklists/ssrf/f3981bb4a971.md",
+      "source_url": "https://kd-200.medium.com/make-the-server-read-its-own-cloud-credentials-ssrf-0e3173ab3173",
+      "quick_test": "Look for any server-side features that fetch URLs and test them with internal IP addresses to check for SSRF vulnerabilities."
+    },
+    {
+      "id": "ab4a9549e4e3",
+      "title": "Blind SSRF Without Callbacks: How I Used Timing to Prove Kubernetes and AWS Metadata Access",
+      "author": "Nizar Kadiri",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "cyber-sec",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "bug-bounty-tips",
+        "cybersecurity"
+      ],
+      "path": "checklists/ssrf/ab4a9549e4e3.md",
+      "source_url": "https://medium.com/@nizarkadiri70/blind-ssrf-without-callbacks-how-i-used-timing-to-prove-kubernetes-and-aws-metadata-access-ac1cc05af779",
+      "quick_test": "Test any endpoint that accepts a URI for server-side connections by measuring response times to identify potential SSRF vulnerabilities."
+    },
+    {
+      "id": "7e2f162a720a",
+      "title": "A Langfuse SSRF, default ClickHouse credentials, and a novel error-based extraction technique that…",
+      "author": "Vivek Ghinaiya",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "ssrf",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/ssrf/7e2f162a720a.md",
+      "source_url": "https://vivek-ghinaiya.medium.com/a-langfuse-ssrf-default-clickhouse-credentials-and-a-novel-error-based-extraction-technique-that-7a88896e4ed2",
+      "quick_test": "Test for SSRF vulnerabilities by intercepting requests that accept user-defined URLs and check for internal service access without proper validation."
+    },
+    {
+      "id": "1fb5045f8520",
+      "title": "SSRF Hunting Methodology: From Entry Point Discovery to Internal Network Access",
+      "author": "Arash Shahbazi",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "ethical-hacking",
+        "web-security",
+        "penetration-testing"
+      ],
+      "path": "checklists/ssrf/1fb5045f8520.md",
+      "source_url": "https://rootast.medium.com/ssrf-hunting-methodology-from-entry-point-discovery-to-internal-network-access-0232ed7366b0",
+      "quick_test": "Test all input fields that could trigger server-side requests, including URL parameters, JSON fields, and file uploads, to identify potential SSRF vulnerabilities."
+    },
+    {
+      "id": "c6f1d82712e7",
+      "title": "How I Found an SSRF Vulnerability in Istio and Got Credited in the Official Release Notes",
+      "author": "Aser Ahmed",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "bug-bounty",
+        "penetration-testing",
+        "coding"
+      ],
+      "path": "checklists/ssrf/c6f1d82712e7.md",
+      "source_url": "https://medium.com/@0xanubiis/how-i-found-an-ssrf-vulnerability-in-istio-and-got-credited-in-the-official-release-notes-e4d6f21c9707",
+      "quick_test": "Check for the presence of IP filtering in HTTP clients when reviewing code for service mesh implementations."
+    },
+    {
+      "id": "22229a3ba656",
+      "title": "Finding SSRF In Modern Web Apps",
+      "author": "Haroon Shahid",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "bug-bounty",
+        "ssrf",
+        "web-application-security",
+        "bug-bounty-writeup",
+        "cybersecurity"
+      ],
+      "path": "checklists/ssrf/22229a3ba656.md",
+      "source_url": "https://medium.com/@gdefault830/finding-ssrf-in-modern-web-apps-40fd364b4ff9",
+      "quick_test": "Look for features that accept URLs for file uploads or webhooks and test with your listener to check for SSRF."
+    },
+    {
+      "id": "51d7b8935cd2",
+      "title": "How a Single HTTP Redirect Bypassed SSRF Filters on 4 Programs Over 8 Years",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "web-security",
+        "cybersecurity",
+        "ethical-hacking",
+        "ssrf",
+        "bug-bounty"
+      ],
+      "path": "checklists/ssrf/51d7b8935cd2.md",
+      "source_url": "https://medium.com/@rajnamdev/how-a-single-http-redirect-bypassed-ssrf-filters-on-4-programs-over-8-years-4f67437ba6c7",
+      "quick_test": "Test if the application properly validates the final URL after a redirect when handling user-supplied URLs."
+    },
+    {
+      "id": "fa1a22bebc84",
+      "title": "Grafana Security Alert | CVE-2026–15583 & CVE-2026–21723 Explained",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "web-development",
+        "hacking",
+        "artificial-intelligence",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/ssrf/fa1a22bebc84.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/grafana-security-alert-cve-2026-15583-cve-2026-21723-explained-ea8ca1568001",
+      "quick_test": "Verify if the Grafana MCP Server allows requests to internal services via the 'X-Grafana-URL' header."
+    },
+    {
+      "id": "2d5a7238d4f7",
+      "title": "The SSRF That Wasn’t Supposed to Work Twice",
+      "author": "T4nv1",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "pentesting",
+        "bug-bounty-writeup",
+        "security"
+      ],
+      "path": "checklists/ssrf/2d5a7238d4f7.md",
+      "source_url": "https://medium.com/@t3nv1/the-ssrf-that-wasnt-supposed-to-work-twice-9439f73d47e0",
+      "quick_test": "Test any user-input URL fetching feature for SSRF by attempting to access internal IPs or services."
+    },
+    {
+      "id": "5e6b8ed6c2e1",
+      "title": "I Built a Web Vulnerability Scanner from Scratch — Here’s How It Works",
+      "author": "Shivam Singh",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "python",
+        "cybersecurity",
+        "web-security",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "path": "checklists/ssrf/5e6b8ed6c2e1.md",
+      "source_url": "https://medium.com/@shivkadarbar350/i-built-a-web-vulnerability-scanner-from-scratch-heres-how-it-works-f8bf35e65772",
+      "quick_test": "Test any user-controlled URL input for SSRF by injecting known internal IP addresses and checking for sensitive responses."
+    }
+  ]
+}

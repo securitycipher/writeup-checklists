@@ -1,7 +1,7 @@
 {
   "category": "oauth-sso",
   "category_label": "OAuth / SSO",
-  "count": 2,
+  "count": 11,
   "items": [
     {
       "id": "fd0cda5bfb10",
@@ -15,6 +15,143 @@
       "path": "checklists/oauth-sso/fd0cda5bfb10.md",
       "source_url": "https://medium.com/@tanvir.infosec/how-broken-oauth-flows-turn-into-one-click-account-takeovers-a13a67aa36c0",
       "quick_test": "Verify that the OAuth implementation includes state and PKCE to bind the authorization response to the original login transaction."
+    },
+    {
+      "id": "6de0b2a5a7ab",
+      "title": "Single Sign On (SSO) Login vulnerabilities",
+      "author": "wann4beSh3rl0ck",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "bug-bounty",
+        "auth"
+      ],
+      "path": "checklists/oauth-sso/6de0b2a5a7ab.md",
+      "source_url": "https://medium.com/@koushaniot7/single-sign-on-sso-login-vulnerabilities-f4d35c5b7073",
+      "quick_test": "Check for hidden iframes in SSO implementations that use postMessage without origin validation."
+    },
+    {
+      "id": "0b8f517856ca",
+      "title": "How I Forged My Way Into a Real Service Account Token: An OIDC Trust Chain Attack",
+      "author": "Nizar Kadiri",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "bug-bounty",
+        "information-security",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/oauth-sso/0b8f517856ca.md",
+      "source_url": "https://medium.com/@nizarkadiri70/how-i-forged-my-way-into-a-real-service-account-token-an-oidc-trust-chain-attack-806174dcae97",
+      "quick_test": "Test if the OIDC provider URL configuration allows arbitrary URLs without validation and check if empty claims configurations are enforced."
+    },
+    {
+      "id": "22a64a8051ba",
+      "title": "Authentication vs. Authorization: How a Misconfigured OAuth Chain Led to an Auth Bypass",
+      "author": "Priyansh",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "hacking",
+        "cybersecurity",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/oauth-sso/22a64a8051ba.md",
+      "source_url": "https://medium.com/@priyanshbhadoria5/authentication-vs-authorization-how-a-misconfigured-oauth-chain-led-to-an-auth-bypass-b14d1c0d402a",
+      "quick_test": "Probe the /.auth/me endpoint of Azure-hosted applications to check for unauthenticated access and trace OAuth redirects for misconfigurations."
+    },
+    {
+      "id": "fb9b91a09fba",
+      "title": "Why Open Redirects Become Critical Inside OAuth",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "ethical-hacking",
+        "infosec",
+        "hacking"
+      ],
+      "path": "checklists/oauth-sso/fb9b91a09fba.md",
+      "source_url": "https://kd-200.medium.com/why-open-redirects-become-critical-inside-oauth-35261b5d8b85",
+      "quick_test": "Test if the redirect_uri parameter in OAuth flows allows for manipulation to an external domain."
+    },
+    {
+      "id": "a76a65fa2b04",
+      "title": "OAuth 2.0 Vulnerability Hunting: A Pentester’s Field Guide",
+      "author": "Dev",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "oauth",
+        "cybersecurity",
+        "application-security",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/oauth-sso/a76a65fa2b04.md",
+      "source_url": "https://medium.com/@devkumaoni9/oauth-2-0-vulnerability-hunting-a-pentesters-field-guide-e8ee2c0aed05",
+      "quick_test": "Verify that the OAuth implementation enforces PKCE, validates state parameters, and strictly matches redirect URIs to prevent unauthorized access."
+    },
+    {
+      "id": "078f22bd94a8",
+      "title": "ATO with Open Redirect",
+      "author": "Santhosh Adiga U",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "hacking",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/oauth-sso/078f22bd94a8.md",
+      "source_url": "https://santhosh-adiga-u.medium.com/ato-with-open-redirect-e33fef0c9af2",
+      "quick_test": "Test if modifying the redirect_uri parameter to a controlled domain allows you to receive the authorization code."
+    },
+    {
+      "id": "21a9b438210f",
+      "title": "How I Chained an Unauthenticated OAuth Registration Endpoint into Full Account Takeover",
+      "author": "Divakarvasani",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/oauth-sso/21a9b438210f.md",
+      "source_url": "https://medium.com/@divakarvasani3938/how-i-chained-an-unauthenticated-oauth-registration-endpoint-into-full-account-takeover-a6bc41e93a62",
+      "quick_test": "Check if the OAuth registration endpoint requires authentication before allowing client registration."
+    },
+    {
+      "id": "8857cbe743b3",
+      "title": "OAuth 2.0 Attack Surface: Redirect URIs, Token Leakage, and Account Takeover Risks",
+      "author": "CYBER MIND SPACE",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "auth0",
+        "cybersecurity",
+        "cybermindspace",
+        "bug-bounty",
+        "ethical-hacker"
+      ],
+      "path": "checklists/oauth-sso/8857cbe743b3.md",
+      "source_url": "https://medium.com/@cybermindspace/oauth-2-0-attack-surface-redirect-uris-token-leakage-and-account-takeover-risks-7d0f0730168b",
+      "quick_test": "Test for redirect URI validation by submitting crafted URIs that exploit common bypass patterns."
+    },
+    {
+      "id": "6b7eb6d14d10",
+      "title": "The Bug Bounty Playbook: OAuth Callback and Redirect Manipulation",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "web-security",
+        "hackerone",
+        "oauth",
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/oauth-sso/6b7eb6d14d10.md",
+      "source_url": "https://medium.com/@Aacle/the-bug-bounty-playbook-oauth-callback-and-redirect-manipulation-b7227b6f3136",
+      "quick_test": "Test OAuth endpoints for improper host parameter validation by manipulating the redirect URI with additional parameters."
     },
     {
       "id": "b13b950d40b7",

@@ -1,0 +1,55 @@
+{
+  "category": "denial-of-service",
+  "category_label": "Denial of Service",
+  "count": 3,
+  "items": [
+    {
+      "id": "1b8bec3b9562",
+      "title": "From a Cache Header to a $400 Bug Bounty: My API Security Research",
+      "author": "praveenarsh0xx0",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "hacking",
+        "bugbounty-tips",
+        "bypass-cloudflare",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/denial-of-service/1b8bec3b9562.md",
+      "source_url": "https://medium.com/@test123cybertest/from-a-cache-header-to-a-400-bug-bounty-my-api-security-research-1b6a3cacb76e",
+      "quick_test": "Test API endpoints for unauthenticated access and measure response times under load to identify potential Denial of Service vulnerabilities."
+    },
+    {
+      "id": "2fee7a76ee1a",
+      "title": "$1,024 for making Discourse choke on one really long draft",
+      "author": "Pawan Jaiswal",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "hacking",
+        "web-security",
+        "infosec",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/denial-of-service/2fee7a76ee1a.md",
+      "source_url": "https://pawanjswal.medium.com/1-024-for-making-discourse-choke-on-one-really-long-draft-8f9464a6bd28",
+      "quick_test": "Test draft or autosave endpoints for input size limits, especially if the main post endpoint has restrictions."
+    },
+    {
+      "id": "44a048f760ea",
+      "title": "The bug that made a forum grind to 32 seconds a page — for $1,024",
+      "author": "Pawan Jaiswal",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "infosec",
+        "penetration-testing",
+        "cybersecurity",
+        "bug-bounty",
+        "hacking"
+      ],
+      "path": "checklists/denial-of-service/44a048f760ea.md",
+      "source_url": "https://pawanjswal.medium.com/the-bug-that-made-a-forum-grind-to-32-seconds-a-page-for-1-024-502a3aab85e8",
+      "quick_test": "Test all endpoints that write data for size validation gaps, especially where different validation rules may apply."
+    }
+  ]
+}

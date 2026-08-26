@@ -1,0 +1,55 @@
+{
+  "category": "open-redirect-csrf",
+  "category_label": "Open Redirect / CSRF",
+  "count": 3,
+  "items": [
+    {
+      "id": "c0e44678e9ce",
+      "title": "OpenRedirect + CSRF Leads To Forced Victime to login as Attacker Account",
+      "author": "Aminamrouch",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "technology",
+        "bug-bounty",
+        "web-application-security",
+        "penetration-testing",
+        "hacking"
+      ],
+      "path": "checklists/open-redirect-csrf/c0e44678e9ce.md",
+      "source_url": "https://medium.com/@aminamrouch5/openredirect-csrf-leads-to-forced-victime-to-login-as-attacker-account-81b4c92d1c86",
+      "quick_test": "Test for open redirects by manipulating URL parameters that control redirection without proper validation."
+    },
+    {
+      "id": "f3b36be6f025",
+      "title": "Exploiting CSRF in GraphQL APIs: Achieving Unauthorized CRUD Operations ( $$$ Bounty )",
+      "author": "N/A",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "computer-science",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty",
+        "information-security"
+      ],
+      "path": "checklists/open-redirect-csrf/f3b36be6f025.md",
+      "source_url": "https://medium.com/@divyanksitapara088/exploiting-csrf-in-graphql-apis-achieving-unauthorized-crud-operations-bounty-038522c39a40",
+      "quick_test": "Check for CSRF vulnerabilities in GraphQL APIs by ensuring CSRF tokens are implemented in all mutation requests."
+    },
+    {
+      "id": "92d8ff01d3b7",
+      "title": "Unique Username Validation Bypass to a Stored Open Redirect: How I Escalated a Bug Bounty Finding",
+      "author": "Ankit Rathva aka Gujarati Hacker",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty-writeup",
+        "hackerone",
+        "bug-bounty-tips",
+        "bug-bounty",
+        "business-logic"
+      ],
+      "path": "checklists/open-redirect-csrf/92d8ff01d3b7.md",
+      "source_url": "https://medium.com/@ankitrathva/unique-username-validation-bypass-to-a-stored-open-redirect-how-i-escalated-a-bug-bounty-finding-eb059db498c2",
+      "quick_test": "Test if the application properly enforces username validation on the backend by submitting unexpected characters or URLs."
+    }
+  ]
+}

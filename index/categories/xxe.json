@@ -1,8 +1,40 @@
 {
   "category": "xxe",
   "category_label": "XXE / XML",
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "id": "931f5a1eda05",
+      "title": "“We Don’t Use XML” — Yes You Do, and It’s Reading Files",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "info-sec-writeups"
+      ],
+      "path": "checklists/xxe/931f5a1eda05.md",
+      "source_url": "https://kd-200.medium.com/we-dont-use-xml-yes-you-do-and-it-s-reading-files-9f85b1eb4994",
+      "quick_test": "Test for XXE vulnerabilities by submitting crafted XML payloads to any XML processing endpoints in the application."
+    },
+    {
+      "id": "d6781e25ec1b",
+      "title": "Python Web Penetration Testing — Day 10: XML External Entity (XXE) Injection — The Forgotten Giant",
+      "author": "Aman Sharma",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "programming",
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "technology"
+      ],
+      "path": "checklists/xxe/d6781e25ec1b.md",
+      "source_url": "https://osintteam.blog/python-web-penetration-testing-day-10-xml-external-entity-xxe-injection-the-forgotten-giant-d48f3b9d09be",
+      "quick_test": "Test any file upload feature that accepts XML files for XXE vulnerabilities by uploading a crafted XML file that references sensitive internal files."
+    },
     {
       "id": "21a615380bdc",
       "title": "Exploiting Blind XXE: Going Out of Band",

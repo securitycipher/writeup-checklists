@@ -1,8 +1,24 @@
 {
   "category": "business-logic",
   "category_label": "Business Logic",
-  "count": 2,
+  "count": 31,
   "items": [
+    {
+      "id": "a782c441ae93",
+      "title": "When a 777 Directory Becomes a Security Issue: A Bug Bounty Story About State Tampering",
+      "author": "julichaan",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "application-security",
+        "bug-bounty",
+        "devsecops",
+        "cybersecurity",
+        "linux"
+      ],
+      "path": "checklists/business-logic/a782c441ae93.md",
+      "source_url": "https://medium.com/@espadar.julian/when-a-777-directory-becomes-a-security-issue-a-bug-bounty-story-about-state-tampering-818991ee02e0",
+      "quick_test": "Verify that application state directories are created with restrictive permissions (e.g., 0700) to prevent unauthorized access."
+    },
     {
       "id": "28807661b255",
       "title": "How a $12,000 Bounty Was Earned via Broken Logic in Payment Webhooks",
@@ -20,6 +36,21 @@
       "quick_test": "Test webhook endpoints for payment processing by sending manipulated payment status notifications to check for logic bypass vulnerabilities."
     },
     {
+      "id": "ec8b430bfb47",
+      "title": "# Forced Team Membership via Invitation Token Leakage and Missing Email Ownership Verification",
+      "author": "Zyadatef",
+      "publication_date": "2026-08-24",
+      "tags": [
+        "hackerone",
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/ec8b430bfb47.md",
+      "source_url": "https://medium.com/@zyadatef2462003/forced-team-membership-via-invitation-token-leakage-and-missing-email-ownership-verification-918c587cf5d8",
+      "quick_test": "Test if invitation tokens are exposed in API responses and ensure email ownership verification is enforced during account registration."
+    },
+    {
       "id": "0cc8aada8fcd",
       "title": "Is It Possible to Get an $850 Subscription Plan With Only $0?",
       "author": "0xMo7areb",
@@ -34,6 +65,420 @@
       "path": "checklists/business-logic/0cc8aada8fcd.md",
       "source_url": "https://medium.com/@0xMo7areb/is-it-possible-to-get-an-850-subscription-plan-with-only-0-e175200b6549",
       "quick_test": "Test for hidden subscription IDs by manipulating the subscriptionId parameter during the payment process."
+    },
+    {
+      "id": "e889e9c7eded",
+      "title": "The Art of Business Logic — When the Checkout Got the Price Wrong",
+      "author": "Zuksh",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "web-security",
+        "application-security",
+        "business-logic",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/e889e9c7eded.md",
+      "source_url": "https://zuksh.medium.com/the-art-of-business-logic-when-the-checkout-got-the-price-wrong-4d548971b4a3",
+      "quick_test": "Test if modifying cart state during the checkout process can lead to an incorrect final amount being calculated by the server."
+    },
+    {
+      "id": "aa9353132052",
+      "title": "How I Found an Application Resurrection Vulnerability (Deletion Bypass)",
+      "author": "Hamzadz38",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "bug-hunting",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/business-logic/aa9353132052.md",
+      "source_url": "https://medium.com/@dahel792/how-i-found-an-application-resurrection-vulnerability-deletion-bypass-10188cc6696b",
+      "quick_test": "Always validate object states alongside user permissions on every API request to prevent unauthorized access."
+    },
+    {
+      "id": "8d698a1333fe",
+      "title": "Breaking The Free Tier: How I Bypassed An AI Chat Limit With Just A Share Link And A VPN",
+      "author": "Taher",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "vulnerability",
+        "hacking",
+        "cybersecurity",
+        "security",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/8d698a1333fe.md",
+      "source_url": "https://medium.com/@shabutaher0/breaking-the-free-tier-how-i-bypassed-an-ai-chat-limit-with-just-a-share-link-and-a-vpn-cb9ff3d5b13a",
+      "quick_test": "Test if shared links allow message sending after hitting rate limits by changing IPs with a VPN."
+    },
+    {
+      "id": "39e5760f8652",
+      "title": "API Hacking — Part 2",
+      "author": "Muhab A.",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "api",
+        "apihacking",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/39e5760f8652.md",
+      "source_url": "https://medium.com/@mohaba746/api-hacking-part-2-af94c576d22d",
+      "quick_test": "Test sensitive business flows by automating requests to identify if the API allows actions at an unintended scale."
+    },
+    {
+      "id": "4ea5f7b05f49",
+      "title": "What $12,000 of GitLab Bugs Taught Me About Business Logic",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-bounty",
+        "application-security",
+        "business-logic",
+        "ethical-hacking",
+        "web-security"
+      ],
+      "path": "checklists/business-logic/4ea5f7b05f49.md",
+      "source_url": "https://medium.com/@rajnamdev/what-12-000-of-gitlab-bugs-taught-me-about-business-logic-ac9fcbebd529",
+      "quick_test": "Review the application's workflow to identify any verification steps that can be bypassed or misused."
+    },
+    {
+      "id": "bdb7ca86df60",
+      "title": "Web Application Logic Flaws: 12 Practical Examples Every Cybersecurity Pro Should Know",
+      "author": "Very Lazy Tech",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "sql",
+        "hacking"
+      ],
+      "path": "checklists/business-logic/bdb7ca86df60.md",
+      "source_url": "https://medium.com/@verylazytech/web-application-logic-flaws-12-practical-examples-every-cybersecurity-pro-should-know-401d1a31900e",
+      "quick_test": "Review the application's business logic for inconsistencies that could allow unauthorized actions."
+    },
+    {
+      "id": "5736e2ea0c72",
+      "title": "When an Owner Can Kick Out Another Owner: A Real-World Authorization Flaw",
+      "author": "yasser",
+      "publication_date": "2026-08-18",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty",
+        "cyber-security-awareness",
+        "cybersecurity",
+        "cybersécurité"
+      ],
+      "path": "checklists/business-logic/5736e2ea0c72.md",
+      "source_url": "https://medium.com/@yasser_/when-an-owner-can-kick-out-another-owner-a-real-world-authorization-flaw-12f0d6cc23eb",
+      "quick_test": "Test if an Owner can remove another Owner through the member management API without proper authorization checks."
+    },
+    {
+      "id": "040e8bf2a3a0",
+      "title": "How an Integer Overflow Let Me Buy Anything for $0",
+      "author": "Rohit dalal",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bussiness-logic",
+        "bug-bounty",
+        "bypass",
+        "integer-overflow",
+        "web-application-security"
+      ],
+      "path": "checklists/business-logic/040e8bf2a3a0.md",
+      "source_url": "https://rohitdalal.medium.com/how-an-integer-overflow-let-me-buy-anything-for-0-b1d2ed8bffdd",
+      "quick_test": "Test for integer overflow vulnerabilities by submitting values exceeding the maximum limit for integer fields in e-commerce applications."
+    },
+    {
+      "id": "03a393b74b75",
+      "title": "How I Bypassed a KYC Verification Flow by Manipulating Client-Side State",
+      "author": "Uday Dixit",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bypass-kyc",
+        "bug-bounty-tips",
+        "web-penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/03a393b74b75.md",
+      "source_url": "https://medium.com/@udaydixit987/how-i-bypassed-a-kyc-verification-flow-by-manipulating-client-side-state-db46b8dd6a47",
+      "quick_test": "Test if the application relies on client-side verification flags by manipulating the API response and observing if sensitive operations can be bypassed."
+    },
+    {
+      "id": "38ac910de9dc",
+      "title": "Bug Bounty Recon & Vulnerability Cheat Sheet",
+      "author": "T4nv1",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "pentesting",
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/38ac910de9dc.md",
+      "source_url": "https://medium.com/@t3nv1/bug-bounty-recon-vulnerability-cheat-sheet-12d9db390d7f",
+      "quick_test": "Test state-change endpoints by sending concurrent requests to identify potential race conditions."
+    },
+    {
+      "id": "4b4cf5a43f4d",
+      "title": "The 10 Best Bug Bounty Tools in 2026 (What Actual Hunters Use for Manual Testing)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-17",
+      "tags": [
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "bugbounty-writeup",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/4b4cf5a43f4d.md",
+      "source_url": "https://medium.com/@b0dj0x/the-10-best-bug-bounty-tools-in-2026-what-actual-hunters-use-for-manual-testing-853d0dac4532",
+      "quick_test": "Intercept requests using Burp Suite and check for access control flaws by manipulating user roles and session cookies."
+    },
+    {
+      "id": "3fb28206b46b",
+      "title": "When the Marketing Page Became the Threat Model: Forging “Verified Reviews” on PriceRunner",
+      "author": "redhunter01",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "api-security",
+        "web-application-security",
+        "business-logic",
+        "web-security",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/3fb28206b46b.md",
+      "source_url": "https://medium.com/@arshiahunterrr1/when-the-marketing-page-became-the-threat-model-forging-verified-reviews-on-pricerunner-766ba28c173f",
+      "quick_test": "Test if unauthenticated requests can create resources by sending invalid input to a write endpoint without authentication."
+    },
+    {
+      "id": "3de23f78758b",
+      "title": "I Changed ₹500 to ₹1 — How I Found a Payment Logic Bug in a QR Code",
+      "author": "Cyber Tamarin",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/3de23f78758b.md",
+      "source_url": "https://cybertamarin.medium.com/i-changed-500-to-1-how-i-found-a-payment-logic-bug-in-a-qr-code-0aa040222577",
+      "quick_test": "Test if the backend verifies the expected payment amount against the actual payment received, especially when client-side parameters can be manipulated."
+    },
+    {
+      "id": "8fffeba610e6",
+      "title": "The Bug Worth Lakhs Was Not in the Code. Here It Was and How to Report It Properly.",
+      "author": "Parag Jadhav",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty",
+        "generative-ai-tools",
+        "cybersecurity",
+        "business",
+        "ai-security"
+      ],
+      "path": "checklists/business-logic/8fffeba610e6.md",
+      "source_url": "https://medium.com/@parag.jadhav21891/the-bug-worth-lakhs-was-not-in-the-code-here-it-was-and-how-to-report-it-properly-22312bca3c5d",
+      "quick_test": "Test if the application allows users to manipulate transaction values or bypass critical steps in a workflow."
+    },
+    {
+      "id": "2e93f9141c8f",
+      "title": "How I Found a Critical Vulnerability That Put $64 Million at Risk in a Layer 2 Blockchain",
+      "author": "Divakarvasani",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "bug-bounty",
+        "hacking",
+        "web3",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/2e93f9141c8f.md",
+      "source_url": "https://medium.com/@divakarvasani3938/how-i-found-a-critical-vulnerability-that-put-64-million-at-risk-in-a-layer-2-blockchain-b2677b7c5a5b",
+      "quick_test": "Check the minDelay setting of any upgradeable proxy contract to ensure it is set to a meaningful duration to prevent instant upgrades."
+    },
+    {
+      "id": "ab9ff498248d",
+      "title": "Infinite Money Glitch? How Our Team Generated Infinite Money on a Fortune 100 Financial Site",
+      "author": "Broken Access Pentests",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "cybersecurity",
+        "web-security",
+        "bug-bounty",
+        "penetration-testing",
+        "ai"
+      ],
+      "path": "checklists/business-logic/ab9ff498248d.md",
+      "source_url": "https://brokenaccesspentests.medium.com/infinite-money-glitch-how-our-team-generated-infinite-money-on-a-fortune-100-financial-site-4379526985c9",
+      "quick_test": "Test if the application allows redeeming reward points beyond the available balance by manipulating the redemption request."
+    },
+    {
+      "id": "98b3745006ca",
+      "title": "Business Logic Flaw: Refund Limit Bypass via Support Chatbot",
+      "author": "Noureldin(0x_5wf)",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/business-logic/98b3745006ca.md",
+      "source_url": "https://medium.com/@noureldin1042/business-logic-flaw-refund-limit-bypass-via-support-chatbot-473a6f7f4f24",
+      "quick_test": "Test if refund limits are enforced consistently across all refund channels, including customer support chatbots."
+    },
+    {
+      "id": "27f72acf7657",
+      "title": "Uncovering a Privacy Bug in Proton Meet — How a Simple Logic ‘Typo’ Earned Me $100",
+      "author": "Kenjisubagja",
+      "publication_date": "2026-08-08",
+      "tags": [
+        "bug-bounty-writeup",
+        "proton",
+        "bug-bounty",
+        "bug-bounty-hunter"
+      ],
+      "path": "checklists/business-logic/27f72acf7657.md",
+      "source_url": "https://medium.com/@kenjisubagja/uncovering-a-privacy-bug-in-proton-meet-how-a-simple-logic-typo-earned-me-100-2a8c8d6c47d1",
+      "quick_test": "Check if the application correctly handles user roles and permissions to prevent unauthorized actions like silent recording."
+    },
+    {
+      "id": "88a531df687a",
+      "title": "Business Logic Vulnerability",
+      "author": "Mahfuzh Rifaldi",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "business-logic",
+        "broken-access-control",
+        "cybersecurity",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "path": "checklists/business-logic/88a531df687a.md",
+      "source_url": "https://medium.com/@mahfuzhrifaldi/business-logic-vulnerability-83f5eb00dede",
+      "quick_test": "Test if modifying price parameters in e-commerce applications allows for unauthorized discounts."
+    },
+    {
+      "id": "eca88d13f75e",
+      "title": "The Bug Bounty Category No Scanner Will Ever Find",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "cybersecurity",
+        "software-engineering",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/eca88d13f75e.md",
+      "source_url": "https://infosecwriteups.com/the-bug-bounty-category-no-scanner-will-ever-find-30018972c479",
+      "quick_test": "Test the application by manipulating the order of valid requests to identify any unintended behaviors or access."
+    },
+    {
+      "id": "fd7c2db79542",
+      "title": "From Blocked to Registered: Two Email Blacklist Bypass Techniques",
+      "author": "Hassan saad",
+      "publication_date": "2026-08-06",
+      "tags": [
+        "email-normalization",
+        "tips-and-tricks",
+        "authentication",
+        "bug-bounty",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/business-logic/fd7c2db79542.md",
+      "source_url": "https://medium.com/@hs942422/from-blocked-to-registered-two-email-blacklist-bypass-techniques-1311282f7857",
+      "quick_test": "Test if email normalization allows bypassing email blacklisting by registering with variations of blocked emails."
+    },
+    {
+      "id": "b58ca0e09fe2",
+      "title": "The Premium Feature That Was Only One API Request Away",
+      "author": "L0Ay",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "javascript",
+        "penetration-testing",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "path": "checklists/business-logic/b58ca0e09fe2.md",
+      "source_url": "https://medium.com/@loayahmed686/the-premium-feature-that-was-only-one-api-request-away-b5e54efe404a",
+      "quick_test": "Always verify that backend authorization checks are in place for API endpoints that modify user permissions or access to features."
+    },
+    {
+      "id": "12536ed4747b",
+      "title": "Two package Keys, One Valid Signature, and One Protected Report",
+      "author": "nyxhunter",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/12536ed4747b.md",
+      "source_url": "https://medium.com/@broostibo/intigriti-challenge-0726-write-up-two-package-keys-one-protected-report-65e42d596576",
+      "quick_test": "Test for duplicate JSON properties in requests to see if different components interpret them differently, potentially leading to unauthorized access."
+    },
+    {
+      "id": "ace8713b2122",
+      "title": "Canonically Yours — Intigriti July 2026 Challenge (0726)",
+      "author": "Mir Shan Talpur",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "web-security",
+        "bug-bounty",
+        "ctf-writeup",
+        "infosec",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/ace8713b2122.md",
+      "source_url": "https://medium.com/@shaniidev/canonically-yours-intigriti-july-2026-challenge-0726-52efa6ccb98b",
+      "quick_test": "Test for duplicate JSON keys in API requests to see if different parsers interpret the data inconsistently."
+    },
+    {
+      "id": "124212a9958b",
+      "title": "The Invitation Was Gone… But I Could Still Join",
+      "author": "0xMo7areb",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "writing",
+        "bug-bounty",
+        "penetration-testing",
+        "technology",
+        "cybersecurity"
+      ],
+      "path": "checklists/business-logic/124212a9958b.md",
+      "source_url": "https://medium.com/@0xMo7areb/the-invitation-was-gone-but-i-could-still-join-fcb99e1d3958",
+      "quick_test": "Test if invitation acceptance requests can be replayed after revocation to check for logic flaws in the invitation system."
+    },
+    {
+      "id": "4c2217c334a6",
+      "title": "How to Get Your First Bug Bounty Hall of Fame (Yes, Even with Low-Severity Bugs!)",
+      "author": "Vanshrathore",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-tips",
+        "money",
+        "penetration-testing",
+        "bug-hunting"
+      ],
+      "path": "checklists/business-logic/4c2217c334a6.md",
+      "source_url": "https://vanshrathorebughunter.medium.com/how-to-get-your-first-bug-bounty-hall-of-fame-yes-even-with-low-severity-bugs-6f8872d33d91",
+      "quick_test": "Test business logic by manipulating form parameters to see if the application properly validates inputs before processing."
+    },
+    {
+      "id": "4bbcbb86931f",
+      "title": "Business Logic Flaws in AI Assistant Feature",
+      "author": "Mahmoudelsadany",
+      "publication_date": "2026-08-02",
+      "tags": [
+        "business-logic-flaw",
+        "bug-bounty"
+      ],
+      "path": "checklists/business-logic/4bbcbb86931f.md",
+      "source_url": "https://medium.com/@mahmoudelsadany51/business-logic-flaws-in-ai-assistant-feature-5d60ec52db20",
+      "quick_test": "Test for business logic flaws by manipulating client-controlled parameters in requests to access premium features without proper authorization."
     }
   ]
 }

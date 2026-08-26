@@ -1,23 +1,84 @@
 {
   "category": "path-traversal",
   "category_label": "Path Traversal / Arbitrary File Read",
-  "count": 1,
+  "count": 5,
   "items": [
     {
-      "id": "7acf705d6703",
-      "title": "The Server Had No Secrets — A Complete Guide to Path Traversal",
-      "author": "// l1m1nal_3ntr0py",
-      "publication_date": "2026-08-23",
+      "id": "dc21b01e4d39",
+      "title": "A tale of twisted Arbitrary File Read",
+      "author": "Shivam Bathla",
+      "publication_date": "2026-08-20",
       "tags": [
-        "penetration-testing",
-        "cybersecurity",
-        "ethical-hacking",
         "bug-bounty",
-        "web-security"
+        "hacking",
+        "pentesting",
+        "arbitrary-file-read",
+        "unc-path-injection"
       ],
-      "path": "checklists/path-traversal/7acf705d6703.md",
-      "source_url": "https://medium.com/@l1m1nal_3ntr0py/the-server-had-no-secrets-a-complete-guide-to-path-traversal-fcf5c1377f72",
-      "quick_test": "Test any file path parameters with traversal payloads to check for arbitrary file read vulnerabilities."
+      "path": "checklists/path-traversal/dc21b01e4d39.md",
+      "source_url": "https://medium.com/@shivam_bathla/a-tale-of-twisted-arbitrary-file-read-c3109a285e70",
+      "quick_test": "Test file download functionalities for arbitrary file read by injecting UNC paths and appending unexpected characters."
+    },
+    {
+      "id": "f9b77be1a51c",
+      "title": "PortSwigger File Path Traversal Lab Solution, Simple Case",
+      "author": "Arham H.B",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "portswigger",
+        "portswigger-lab",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/path-traversal/f9b77be1a51c.md",
+      "source_url": "https://medium.com/@arhamhaiderr99999/portswigger-file-path-traversal-lab-solution-simple-case-d6b110ef993f",
+      "quick_test": "Test any user-controlled filename parameters for Path Traversal by attempting to access sensitive files outside the intended directory."
+    },
+    {
+      "id": "dfa30a38a2db",
+      "title": "How a 30-Year-Old Path Traversal Earned $150K From Apple’s AI Cloud",
+      "author": "Abhishek meena",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "bug-bounty-tips",
+        "infosec",
+        "bug-bounty",
+        "apple",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/path-traversal/dfa30a38a2db.md",
+      "source_url": "https://infosecwriteups.com/how-a-30-year-old-path-traversal-earned-150k-from-apples-ai-cloud-f7d6b8df1f25",
+      "quick_test": "Test for path traversal vulnerabilities by crafting tar files with malicious paths and observing if the system allows writing to unauthorized locations."
+    },
+    {
+      "id": "4f5e8b38edb4",
+      "title": "How a Config Token Let Me Read Any File on Your Machine",
+      "author": "Sanjayan V",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "appsec",
+        "bug-bounty"
+      ],
+      "path": "checklists/path-traversal/4f5e8b38edb4.md",
+      "source_url": "https://medium.com/@sanjayanv.odsec/how-a-config-token-let-me-read-any-file-on-your-machine-73232e68f024",
+      "quick_test": "Verify that configuration files do not allow arbitrary file reads by implementing strict path validation and token restrictions."
+    },
+    {
+      "id": "73f10094c98d",
+      "title": "Breaking API Gateway Isolation with Path Traversal and URL Parsing Discrepancies",
+      "author": "Hazem Brini",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "cybersecurity",
+        "security",
+        "bug-bounty-writeup",
+        "bug-bounty",
+        "information-security"
+      ],
+      "path": "checklists/path-traversal/73f10094c98d.md",
+      "source_url": "https://medium.com/@7azimo/breaking-api-gateway-isolation-with-path-traversal-and-url-parsing-discrepancies-01cac2a2724a",
+      "quick_test": "Test for path traversal by appending ../ sequences to public API endpoints and check for unintended access to internal resources."
     }
   ]
 }

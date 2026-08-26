@@ -1,7 +1,112 @@
 {
   "month": "2026-08",
-  "count": 22,
+  "count": 304,
   "items": [
+    {
+      "id": "2ce94965ebb8",
+      "title": "How I Bypassed an Adaptive SQL Injection Filter",
+      "category": "injection",
+      "path": "checklists/injection/2ce94965ebb8.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "058d0042b7ac",
+      "title": "Cloudflare WAF Bypass → DOM-Based XSS via Unsanitized iframe.src",
+      "category": "xss",
+      "path": "checklists/xss/058d0042b7ac.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "7865240e1427",
+      "title": "404 Not Found BYPASS ! Easy Bugs",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/7865240e1427.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "1b2d688dd6ae",
+      "title": "Mass assignment led to ATO",
+      "category": "mass-assignment",
+      "path": "checklists/mass-assignment/1b2d688dd6ae.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "2d5d012711de",
+      "title": "Web Cache Poisoning: One Response, Every Victim",
+      "category": "cache-poisoning",
+      "path": "checklists/cache-poisoning/2d5d012711de.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "8b1cd5c90ff5",
+      "title": "From API Access Bypass to Campaign Takeover",
+      "category": "api-security",
+      "path": "checklists/api-security/8b1cd5c90ff5.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "35ecf338d196",
+      "title": "How an Unsanitized SVG Upload Led to Cross-Site Scripting (XSS) and a $3,500 Bounty",
+      "category": "xss",
+      "path": "checklists/xss/35ecf338d196.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "393128a5a3ba",
+      "title": "How I Earned a $1,000 Bounty by Exploiting a Simple IDOR",
+      "category": "idor",
+      "path": "checklists/idor/393128a5a3ba.md",
+      "publication_date": "2026-08-26"
+    },
+    {
+      "id": "c47482293e48",
+      "title": "The SQL Injection Money Ladder: From First Payload to $25,000",
+      "category": "injection",
+      "path": "checklists/injection/c47482293e48.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "9401367cf33c",
+      "title": "Host Header Injection: One Header, Five Different Bugs",
+      "category": "host-header-injection",
+      "path": "checklists/host-header-injection/9401367cf33c.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "bf5956e82153",
+      "title": "Injection Vulnerabilities: The Incursion",
+      "category": "injection",
+      "path": "checklists/injection/bf5956e82153.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "3c0303d7e456",
+      "title": "How a Blind SSTI in an Email Template Engine Led to Remote Code Execution and a $25,000 Bounty",
+      "category": "rce",
+      "path": "checklists/rce/3c0303d7e456.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "51d4db225c2a",
+      "title": "Stop Blindly Trusting Your PATH: Meet 53LF AUDIT",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/51d4db225c2a.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "dbf61dad8584",
+      "title": "CVE-2026-75932 & CVE-2026-75933: Jet Admin Tenant Isolation Failure and Stored XSS",
+      "category": "xss",
+      "path": "checklists/xss/dbf61dad8584.md",
+      "publication_date": "2026-08-25"
+    },
+    {
+      "id": "a782c441ae93",
+      "title": "When a 777 Directory Becomes a Security Issue: A Bug Bounty Story About State Tampering",
+      "category": "business-logic",
+      "path": "checklists/business-logic/a782c441ae93.md",
+      "publication_date": "2026-08-25"
+    },
     {
       "id": "3ac9b680a6fb",
       "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
@@ -52,17 +157,24 @@
       "publication_date": "2026-08-24"
     },
     {
-      "id": "1058b4ea7899",
-      "title": "Getting Started in Bug Bounty Hunting",
-      "category": "methodology-tooling",
-      "path": "checklists/methodology-tooling/1058b4ea7899.md",
-      "publication_date": "2026-08-24"
-    },
-    {
       "id": "718517b70573",
       "title": "The art of Race Condition:how a simple race condition can leads to ATO!",
       "category": "race-condition",
       "path": "checklists/race-condition/718517b70573.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "d0cdf7f680a4",
+      "title": "Basic → Intermediate → Advanced | Authorized Bug Bounty & Security Testing",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/d0cdf7f680a4.md",
+      "publication_date": "2026-08-24"
+    },
+    {
+      "id": "ec8b430bfb47",
+      "title": "# Forced Team Membership via Invitation Token Leakage and Missing Email Ownership Verification",
+      "category": "business-logic",
+      "path": "checklists/business-logic/ec8b430bfb47.md",
       "publication_date": "2026-08-24"
     },
     {
@@ -84,13 +196,6 @@
       "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",
       "category": "injection",
       "path": "checklists/injection/7cd3e02c1dd3.md",
-      "publication_date": "2026-08-23"
-    },
-    {
-      "id": "1ebb1c10cf1f",
-      "title": "NetBIOS & SMB Enumeration :",
-      "category": "recon-osint",
-      "path": "checklists/recon-osint/1ebb1c10cf1f.md",
       "publication_date": "2026-08-23"
     },
     {
@@ -129,24 +234,10 @@
       "publication_date": "2026-08-23"
     },
     {
-      "id": "7acf705d6703",
-      "title": "The Server Had No Secrets — A Complete Guide to Path Traversal",
-      "category": "path-traversal",
-      "path": "checklists/path-traversal/7acf705d6703.md",
-      "publication_date": "2026-08-23"
-    },
-    {
       "id": "e8f8a7f03cd0",
       "title": "Hijacking Web3 Extensions: Unvalidated Storage & TOCTOU Patch Bypass in Coin98",
       "category": "race-condition",
       "path": "checklists/race-condition/e8f8a7f03cd0.md",
-      "publication_date": "2026-08-23"
-    },
-    {
-      "id": "b603580f4ad4",
-      "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
-      "category": "methodology-tooling",
-      "path": "checklists/methodology-tooling/b603580f4ad4.md",
       "publication_date": "2026-08-23"
     },
     {
@@ -155,6 +246,1889 @@
       "category": "mobile",
       "path": "checklists/mobile/f61bd56ccee4.md",
       "publication_date": "2026-08-23"
+    },
+    {
+      "id": "ccb776ccba8c",
+      "title": "The bug that survived three years of code review",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/ccb776ccba8c.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "e889e9c7eded",
+      "title": "The Art of Business Logic — When the Checkout Got the Price Wrong",
+      "category": "business-logic",
+      "path": "checklists/business-logic/e889e9c7eded.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "c4b8c8c72033",
+      "title": "Server-3: Vulnerable CryptoPalace Casino— VulnerabilityWeb Walkthrough (7 Flags)",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/c4b8c8c72033.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "c0e44678e9ce",
+      "title": "OpenRedirect + CSRF Leads To Forced Victime to login as Attacker Account",
+      "category": "open-redirect-csrf",
+      "path": "checklists/open-redirect-csrf/c0e44678e9ce.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "81d394c17259",
+      "title": "How a “Draft Auto-Save” Feature Exposed Confidential Enterprise Board Documents leading to $4,500…",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/81d394c17259.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "931f5a1eda05",
+      "title": "“We Don’t Use XML” — Yes You Do, and It’s Reading Files",
+      "category": "xxe",
+      "path": "checklists/xxe/931f5a1eda05.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "aa9353132052",
+      "title": "How I Found an Application Resurrection Vulnerability (Deletion Bypass)",
+      "category": "business-logic",
+      "path": "checklists/business-logic/aa9353132052.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "b790b9f94675",
+      "title": "This Is How a Hacker Hacks: Part 5 — The Central Database, the Cleanup, and What It All Means",
+      "category": "authentication",
+      "path": "checklists/authentication/b790b9f94675.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "cd637b550d7a",
+      "title": "How a Simple IDOR Led to Full Account Takeover",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/cd637b550d7a.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "e3d37028bd41",
+      "title": "Reading JS Files Like an Attacker",
+      "category": "xss",
+      "path": "checklists/xss/e3d37028bd41.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "b0a8c8749eb7",
+      "title": "Exploiting AI Agents via Indirect Prompt Injection",
+      "category": "ssrf-host-header-injection",
+      "path": "checklists/ssrf-host-header-injection/b0a8c8749eb7.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "d6ebabad187d",
+      "title": "Google Classroom IDOR Vulnerability POC Video",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/d6ebabad187d.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "bec80f697a97",
+      "title": "Deep-Dive Technical Write-up by Huynh Kien Minh: CVE-2026–13736 — NewPath WildApricotPress Add-on…",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/bec80f697a97.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "1b8bec3b9562",
+      "title": "From a Cache Header to a $400 Bug Bounty: My API Security Research",
+      "category": "denial-of-service",
+      "path": "checklists/denial-of-service/1b8bec3b9562.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "869ac999e7ff",
+      "title": "Improper Access Control in Decathlon’s Booxi Integration Leads to Unauthorized Access to Internal…",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/869ac999e7ff.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "867acb508615",
+      "title": "How a Single % Turned a Booking Lookup Into a PII Leak",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/867acb508615.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "579a27432555",
+      "title": "That Escalated Quickly",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/579a27432555.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "b5e0225f684a",
+      "title": "A 400 Is Not a Dead End — My First Bug Bounty (€250)",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b5e0225f684a.md",
+      "publication_date": "2026-08-22"
+    },
+    {
+      "id": "6b3405e6cf76",
+      "title": "Privilege Escalation: Modeler Can Grant Administrator Access to Any User",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/6b3405e6cf76.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "19822e7a6199",
+      "title": "The Ghost in the Machine: How a Single Line of JavaScript Unlocked an Entire Admin Panel",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/19822e7a6199.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "d7484fe4f935",
+      "title": "Card Declined? So Was Your Subdomain | Featurebase as an Undercovered Subdomain Takeover Vector",
+      "category": "subdomain-takeover",
+      "path": "checklists/subdomain-takeover/d7484fe4f935.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "0547c6dce890",
+      "title": "When a 404 Isn’t a 404: Confirming HTTP Request Smuggling on assets.claude.ai",
+      "category": "http-request-smuggling",
+      "path": "checklists/http-request-smuggling/0547c6dce890.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "6de0b2a5a7ab",
+      "title": "Single Sign On (SSO) Login vulnerabilities",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/6de0b2a5a7ab.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "674f9c887aea",
+      "title": "When the Frontend Says “Invite Only” but the Backend Says Otherwise",
+      "category": "api-security",
+      "path": "checklists/api-security/674f9c887aea.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "9a15ffe53375",
+      "title": "Web App Reconnaissance: Mapping the Attack Surface",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/9a15ffe53375.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "f3981bb4a971",
+      "title": "Make the Server Read Its Own Cloud Credentials (SSRF)",
+      "category": "ssrf",
+      "path": "checklists/ssrf/f3981bb4a971.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "ad7ee916e72b",
+      "title": "This Is How a Hacker Hacks: Part 4 — Root, and the Backup Server That Gave Up Everything",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/ad7ee916e72b.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "8d698a1333fe",
+      "title": "Breaking The Free Tier: How I Bypassed An AI Chat Limit With Just A Share Link And A VPN",
+      "category": "business-logic",
+      "path": "checklists/business-logic/8d698a1333fe.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "7663e270d762",
+      "title": "Broken Access Control: A Practical Walkthrough of 13 PortSwigger Labs",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/7663e270d762.md",
+      "publication_date": "2026-08-21"
+    },
+    {
+      "id": "0b8f517856ca",
+      "title": "How I Forged My Way Into a Real Service Account Token: An OIDC Trust Chain Attack",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/0b8f517856ca.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "2fee7a76ee1a",
+      "title": "$1,024 for making Discourse choke on one really long draft",
+      "category": "denial-of-service",
+      "path": "checklists/denial-of-service/2fee7a76ee1a.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "4bc3394f63e9",
+      "title": "Tab, Tab, Attack — picoCTF Writeup",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/4bc3394f63e9.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "ab4a9549e4e3",
+      "title": "Blind SSRF Without Callbacks: How I Used Timing to Prove Kubernetes and AWS Metadata Access",
+      "category": "ssrf",
+      "path": "checklists/ssrf/ab4a9549e4e3.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "22a64a8051ba",
+      "title": "Authentication vs. Authorization: How a Misconfigured OAuth Chain Led to an Auth Bypass",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/22a64a8051ba.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "758f09581309",
+      "title": "How an Unsanitized “Filter” Input Nuked a SaaS Unicorn’s Database for a $7,000 Bounty",
+      "category": "injection",
+      "path": "checklists/injection/758f09581309.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "f41f3757bd10",
+      "title": "Heartbleed (CVE-2014–0160): A Hands-On Vulnerability Lab",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/f41f3757bd10.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "1ef182fdba22",
+      "title": "Log4Shell (CVE-2021–44228): A Hands-On Guide to Understanding and Testing the Vulnerability",
+      "category": "rce",
+      "path": "checklists/rce/1ef182fdba22.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "ccec2fb176c9",
+      "title": "Mass Assignment: How “isAdmin”:true Still Works in 2026",
+      "category": "mass-assignment",
+      "path": "checklists/mass-assignment/ccec2fb176c9.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "caa11908d42b",
+      "title": "Broken Authentication: A Bug Bounty Hunter’s Guide to Finding and Bypassing It",
+      "category": "authentication",
+      "path": "checklists/authentication/caa11908d42b.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "268e2c6ac161",
+      "title": "How an Unsecured API Endpoint Exposed 5,200+ Global Bank Records",
+      "category": "api-security",
+      "path": "checklists/api-security/268e2c6ac161.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "eb865868f306",
+      "title": "How I Got RCE Through a Simple Collaboration Invitation in a Desktop Application",
+      "category": "rce",
+      "path": "checklists/rce/eb865868f306.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "13e5ca76c31e",
+      "title": "From Unauthenticated Upload to Stored XSS: Breaking a Production S3 Upload Flow",
+      "category": "file-upload-stored-xss",
+      "path": "checklists/file-upload-stored-xss/13e5ca76c31e.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "dc21b01e4d39",
+      "title": "A tale of twisted Arbitrary File Read",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/dc21b01e4d39.md",
+      "publication_date": "2026-08-20"
+    },
+    {
+      "id": "773706585fce",
+      "title": "No Login. No Cookie. Just a UUID — Breaking DHL’s Shipment Authorization",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/773706585fce.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "44a048f760ea",
+      "title": "The bug that made a forum grind to 32 seconds a page — for $1,024",
+      "category": "denial-of-service",
+      "path": "checklists/denial-of-service/44a048f760ea.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "4b6de3f1fc32",
+      "title": "When a Trusted Profile Link Becomes a Malware Delivery Vector",
+      "category": "general-web",
+      "path": "checklists/general-web/4b6de3f1fc32.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "6d3dad9d3ed3",
+      "title": "I Bypassed Email Verification in One Request",
+      "category": "mass-assignment",
+      "path": "checklists/mass-assignment/6d3dad9d3ed3.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "7e2f162a720a",
+      "title": "A Langfuse SSRF, default ClickHouse credentials, and a novel error-based extraction technique that…",
+      "category": "ssrf",
+      "path": "checklists/ssrf/7e2f162a720a.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "46d5d06b13fe",
+      "title": "From a Single Domain to Leaked Secrets: A Recon Walkthrough with TrinetLayer",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/46d5d06b13fe.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "5aaf929d7269",
+      "title": "Never Trust a 403 — The Access-Control Bypass Toolkit",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/5aaf929d7269.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "39e5760f8652",
+      "title": "API Hacking — Part 2",
+      "category": "business-logic",
+      "path": "checklists/business-logic/39e5760f8652.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "b90f2116d8cc",
+      "title": "API Hacking — Part 1",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b90f2116d8cc.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "b3cd5d10ca07",
+      "title": "Auth Bypass : A Story of LinkedIn's Sneaky Session Update Bypass",
+      "category": "authentication",
+      "path": "checklists/authentication/b3cd5d10ca07.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "1cbf279e6ced",
+      "title": "This Is How a Hacker Hacks: Part 2 — Through the Admin Door",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/1cbf279e6ced.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "1fb5045f8520",
+      "title": "SSRF Hunting Methodology: From Entry Point Discovery to Internal Network Access",
+      "category": "ssrf",
+      "path": "checklists/ssrf/1fb5045f8520.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "4ea5f7b05f49",
+      "title": "What $12,000 of GitLab Bugs Taught Me About Business Logic",
+      "category": "business-logic",
+      "path": "checklists/business-logic/4ea5f7b05f49.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "de0c2bf7ba53",
+      "title": "Analyzing the Application",
+      "category": "xss",
+      "path": "checklists/xss/de0c2bf7ba53.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "be584590d58c",
+      "title": "Unauthenticated Access to Internal Employee Content Through Unprotected API Endpoints",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/be584590d58c.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "b818f17be311",
+      "title": "How to Find IDOR Vulnerabilities in Bug Bounty",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b818f17be311.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "3fe597f246cc",
+      "title": "From a Contact Form to RCE: How I Found Blind PHP Code Injection",
+      "category": "rce",
+      "path": "checklists/rce/3fe597f246cc.md",
+      "publication_date": "2026-08-19"
+    },
+    {
+      "id": "140e8309b423",
+      "title": "Chaining IDOR to Privilege Escalation: A $$$$ Microsoft Bug Bounty",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/140e8309b423.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "bdb7ca86df60",
+      "title": "Web Application Logic Flaws: 12 Practical Examples Every Cybersecurity Pro Should Know",
+      "category": "business-logic",
+      "path": "checklists/business-logic/bdb7ca86df60.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "5be9dcb3df0c",
+      "title": "Glitch Cat — picoCTF Writeup",
+      "category": "general-web",
+      "path": "checklists/general-web/5be9dcb3df0c.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "e7ae4e65cebc",
+      "title": "2FA Bypass: The Patterns That Keep Coming Back",
+      "category": "authentication",
+      "path": "checklists/authentication/e7ae4e65cebc.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "8960cdecdbad",
+      "title": "I Analyzed 81 Race Condition Reports on HackerOne — 5 Patterns Kept Appearing",
+      "category": "race-condition",
+      "path": "checklists/race-condition/8960cdecdbad.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "886a7e4a63d2",
+      "title": "This Is How a Hacker Hacks: Part 1 — Finding the Door",
+      "category": "authentication",
+      "path": "checklists/authentication/886a7e4a63d2.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "ced9ab08c682",
+      "title": "Email Security Testing Explained | Complete Penetration Testing Walkthrough",
+      "category": "authentication",
+      "path": "checklists/authentication/ced9ab08c682.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "5736e2ea0c72",
+      "title": "When an Owner Can Kick Out Another Owner: A Real-World Authorization Flaw",
+      "category": "business-logic",
+      "path": "checklists/business-logic/5736e2ea0c72.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "edfeaf613ca2",
+      "title": "$12,000 for one GraphQL field: unauthenticated RCE on the servers that build Firefox",
+      "category": "rce",
+      "path": "checklists/rce/edfeaf613ca2.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "be3a36ffbcb3",
+      "title": "Modern Authentication Attacks Explained",
+      "category": "authentication",
+      "path": "checklists/authentication/be3a36ffbcb3.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "3b55183f5c50",
+      "title": "PortSwigger Lab: Password reset broken logic",
+      "category": "authentication",
+      "path": "checklists/authentication/3b55183f5c50.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "c8138d5353e6",
+      "title": "How I Ran a Company’s Own Internal Workflows With a Free Account",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/c8138d5353e6.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "c7e1f2361930",
+      "title": "How I Discovered an API Authorization Flaw Exposing 100+ User Phone Numbers and Sensitive Campaign…",
+      "category": "api-security",
+      "path": "checklists/api-security/c7e1f2361930.md",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "id": "e3604b5937ff",
+      "title": "The $20,000 Session Cookie",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/e3604b5937ff.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "139c2b455504",
+      "title": "Password Reset Vulnerability — Full Bug Bounty Walkthrough",
+      "category": "authentication",
+      "path": "checklists/authentication/139c2b455504.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "72ca7bcdd667",
+      "title": "A $1,337 bug let anyone forge a session - if they already knew a UUID and a login was live",
+      "category": "authentication",
+      "path": "checklists/authentication/72ca7bcdd667.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "040e8bf2a3a0",
+      "title": "How an Integer Overflow Let Me Buy Anything for $0",
+      "category": "business-logic",
+      "path": "checklists/business-logic/040e8bf2a3a0.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "269dfdac2c24",
+      "title": "Two-Factor Authentication Bypass on *** — Access Token Issued Before Second Factor Is Ever Checked",
+      "category": "authentication",
+      "path": "checklists/authentication/269dfdac2c24.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "03a393b74b75",
+      "title": "How I Bypassed a KYC Verification Flow by Manipulating Client-Side State",
+      "category": "business-logic",
+      "path": "checklists/business-logic/03a393b74b75.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "1b38fa1ce660",
+      "title": "He Sent 200,000 Reset Codes to Instagram in 10 Minutes. Instagram Paid Him $30,000.",
+      "category": "authentication",
+      "path": "checklists/authentication/1b38fa1ce660.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "fb9b91a09fba",
+      "title": "Why Open Redirects Become Critical Inside OAuth",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/fb9b91a09fba.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "67f58d2dd132",
+      "title": "How I Found an Authentication Bypass in a Target’s MCP Server",
+      "category": "authentication",
+      "path": "checklists/authentication/67f58d2dd132.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "336ceaaf54aa",
+      "title": "Five Green Checkmarks I Typed Myself: Making GitHub’s Own Bot Vouch for a Failing Plugin",
+      "category": "injection",
+      "path": "checklists/injection/336ceaaf54aa.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "13da2954ed58",
+      "title": "Python Web Penetration Testing — Day 11: Remote Code Execution — The Ultimate Prize",
+      "category": "rce",
+      "path": "checklists/rce/13da2954ed58.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "2e34152ffc76",
+      "title": "Bounty Hacker — TryHackMe Walkthrough",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/2e34152ffc76.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "38ac910de9dc",
+      "title": "Bug Bounty Recon & Vulnerability Cheat Sheet",
+      "category": "business-logic",
+      "path": "checklists/business-logic/38ac910de9dc.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "4b2595282c19",
+      "title": "When the CDN Was Secure but the Origin Wasn’t: Bypassing SSO Through Direct-to-Origin Access",
+      "category": "authentication",
+      "path": "checklists/authentication/4b2595282c19.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "4552240fb344",
+      "title": "How I Took Over Any Employee Account With Just a Username",
+      "category": "authentication",
+      "path": "checklists/authentication/4552240fb344.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "0923c137eb6e",
+      "title": "The Cache That Trusted Too Much",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/0923c137eb6e.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "28c3e9a20d1c",
+      "title": "Bug Bounty: When a “Random” UUID Wasn’t Random Enough — Cross-Tenant Credential Leak in an ATS…",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/28c3e9a20d1c.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "4b4cf5a43f4d",
+      "title": "The 10 Best Bug Bounty Tools in 2026 (What Actual Hunters Use for Manual Testing)",
+      "category": "business-logic",
+      "path": "checklists/business-logic/4b4cf5a43f4d.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "776565cbac66",
+      "title": "Open, Closed, Filtered: Reading an Nmap Scan Properly",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/776565cbac66.md",
+      "publication_date": "2026-08-17"
+    },
+    {
+      "id": "f1b283adaaf7",
+      "title": "picoCTF Web Exploitation — SSTI1",
+      "category": "rce",
+      "path": "checklists/rce/f1b283adaaf7.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "a705f63c60ac",
+      "title": "DVWA Vulnerability: SQL Injection (Blind)",
+      "category": "injection",
+      "path": "checklists/injection/a705f63c60ac.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "b56aa184c7b0",
+      "title": "Bypassing MFA: 10 Real Techniques Used in 2026 (with Step-by-Step Examples)",
+      "category": "authentication",
+      "path": "checklists/authentication/b56aa184c7b0.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "346d576f1c34",
+      "title": "When Client-Side Encryption Becomes a Security Blanket",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/346d576f1c34.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "dff804fe3d10",
+      "title": "Bug Bounty: A Beginner’s Guide to Finding Bugs the Right Way",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/dff804fe3d10.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "9c08a5d4b8dc",
+      "title": "Confirmed Should Mean Executed",
+      "category": "rce",
+      "path": "checklists/rce/9c08a5d4b8dc.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "808e9cfafe01",
+      "title": "How a Simple File Download Bug Turned Into an S3 Signing Oracle",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/808e9cfafe01.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "9fef02384d75",
+      "title": "How to Exploit JWT Authentication & Authorization Bypasses",
+      "category": "authentication",
+      "path": "checklists/authentication/9fef02384d75.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "8cb16723bb7f",
+      "title": "“Forgot Password” to “I Own Your Account” via One Header",
+      "category": "host-header-injection",
+      "path": "checklists/host-header-injection/8cb16723bb7f.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "3cb12af8d129",
+      "title": "I Wasn’t Invited to the Project, But the Backend Let Me In",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/3cb12af8d129.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "06475f86d8ae",
+      "title": "From a 2008 Web Server to Every Customer Record: How One Upload Took Down an Entire Hosting…",
+      "category": "rce",
+      "path": "checklists/rce/06475f86d8ae.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "6e64b054b72b",
+      "title": "Subdomain Takeover: A Real Bug I Found️",
+      "category": "subdomain-takeover",
+      "path": "checklists/subdomain-takeover/6e64b054b72b.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "e0ef57efd62f",
+      "title": "Restoring Permanently Deleted Projects via IDOR",
+      "category": "idor",
+      "path": "checklists/idor/e0ef57efd62f.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "30f20f2358cd",
+      "title": "How a Forgot-Password “Feature” Let Me Impersonate Any Executive for a $5,500 Bounty",
+      "category": "authentication",
+      "path": "checklists/authentication/30f20f2358cd.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "ddf6b41a7cf9",
+      "title": "reconFTW: The Automated Recon Framework Every Bug Bounty Hunter Should Know in 2026",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/ddf6b41a7cf9.md",
+      "publication_date": "2026-08-16"
+    },
+    {
+      "id": "3fb28206b46b",
+      "title": "When the Marketing Page Became the Threat Model: Forging “Verified Reviews” on PriceRunner",
+      "category": "business-logic",
+      "path": "checklists/business-logic/3fb28206b46b.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "eb1506d16b87",
+      "title": "One Invitation, Three Vulnerabilities: Breaking RBAC Across Two Applications",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/eb1506d16b87.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "c6f1d82712e7",
+      "title": "How I Found an SSRF Vulnerability in Istio and Got Credited in the Official Release Notes",
+      "category": "ssrf",
+      "path": "checklists/ssrf/c6f1d82712e7.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "49794c3fb80d",
+      "title": "How a Simple API Misconfiguration Leaked PII of 100,000+ Users",
+      "category": "api-security",
+      "path": "checklists/api-security/49794c3fb80d.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "f3b36be6f025",
+      "title": "Exploiting CSRF in GraphQL APIs: Achieving Unauthorized CRUD Operations ( $$$ Bounty )",
+      "category": "open-redirect-csrf",
+      "path": "checklists/open-redirect-csrf/f3b36be6f025.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "22229a3ba656",
+      "title": "Finding SSRF In Modern Web Apps",
+      "category": "ssrf",
+      "path": "checklists/ssrf/22229a3ba656.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "a76a65fa2b04",
+      "title": "OAuth 2.0 Vulnerability Hunting: A Pentester’s Field Guide",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/a76a65fa2b04.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "1e683a35ce47",
+      "title": "Decoding a URL: Paths, Parameters, and the Art of Finding What’s Hidden",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/1e683a35ce47.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "1b9646acedeb",
+      "title": "Web Encoding for Beginners: URL, HTML, Unicode, Base64 & Hex",
+      "category": "xss",
+      "path": "checklists/xss/1b9646acedeb.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "981f8d9dcd85",
+      "title": "Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/981f8d9dcd85.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "f87c144c0412",
+      "title": "Critical Exposure Of Algolia Key That Led to Production, Staging, and Draft Data",
+      "category": "api-security",
+      "path": "checklists/api-security/f87c144c0412.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "e441305616f9",
+      "title": "How a Forgotten “Export to Excel” Feature Exfiltrated a Bank’s Database for $5,000",
+      "category": "injection",
+      "path": "checklists/injection/e441305616f9.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "2e6f5c32d92a",
+      "title": "I Read the Top 20 IDOR Reports on HackerOne.",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/2e6f5c32d92a.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "dfa628c244e3",
+      "title": "I Legally Hacked My Own WiFi in Under an Hour — Here’s Exactly How (2026 Guide)",
+      "category": "authentication",
+      "path": "checklists/authentication/dfa628c244e3.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "82f9f9f38d9a",
+      "title": "Hidden URL Parameters: Finding What Web Applications Don’t Show You",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/82f9f9f38d9a.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "5a65c47f1b79",
+      "title": "Injection — The #5 Vulnerability on the Web",
+      "category": "injection",
+      "path": "checklists/injection/5a65c47f1b79.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "4cfe12af1419",
+      "title": "How a Locale Path Bypass Exposed 339,000 Media Objects and Multiple Cloud Backends",
+      "category": "api-security",
+      "path": "checklists/api-security/4cfe12af1419.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "af4e95971380",
+      "title": "Active Directory Explained: The Backbone of Enterprise Access Control (And Why Attackers Love It)",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/af4e95971380.md",
+      "publication_date": "2026-08-15"
+    },
+    {
+      "id": "51d7b8935cd2",
+      "title": "How a Single HTTP Redirect Bypassed SSRF Filters on 4 Programs Over 8 Years",
+      "category": "ssrf",
+      "path": "checklists/ssrf/51d7b8935cd2.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "b88f8c75f170",
+      "title": "Stop Memorizing HTTP Methods:",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b88f8c75f170.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "0c32640c5e63",
+      "title": "THE DOOR Penetration Testing | SQLi → Authentication Bypass → Command Injection",
+      "category": "injection",
+      "path": "checklists/injection/0c32640c5e63.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "95f35603f353",
+      "title": "From a Single WAF Bypass to 58,000+ Exposed Media Objects",
+      "category": "cors",
+      "path": "checklists/cors/95f35603f353.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "347cd2385d7a",
+      "title": "My First Valid Bug: A Broken Object Level Authorization (BOLA) in Customer API",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/347cd2385d7a.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "9e8d34a50a76",
+      "title": "[IDOR] The Ones Everyone Walks Past — Turning id=124 Into Account Takeover",
+      "category": "idor",
+      "path": "checklists/idor/9e8d34a50a76.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "94e05f821fc0",
+      "title": "How a Simple Wayback Search Revealed 44,000+ Exposed Job Applicant Emails",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/94e05f821fc0.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "21aca33d799e",
+      "title": "My First Bug Bounty : A Beginner's Web Security Investigation",
+      "category": "injection",
+      "path": "checklists/injection/21aca33d799e.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "cdbe9f66d3e1",
+      "title": "Dorks that could get you a good bounty in 2026",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/cdbe9f66d3e1.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "babaf5849075",
+      "title": "How I Systematically Find SQL Injection Bugs in Bug Bounty Programs (Step-by-Step Method)",
+      "category": "injection",
+      "path": "checklists/injection/babaf5849075.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "f9b77be1a51c",
+      "title": "PortSwigger File Path Traversal Lab Solution, Simple Case",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/f9b77be1a51c.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "8d13a827634e",
+      "title": "How to Find Your First Bug Bounty Vulnerability in 2026 (The Beginner Method That Actually Pays)",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/8d13a827634e.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "b388c4e9f754",
+      "title": "One IDOR, Three Leaks, $3K in Payouts",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b388c4e9f754.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "3de23f78758b",
+      "title": "I Changed ₹500 to ₹1 — How I Found a Payment Logic Bug in a QR Code",
+      "category": "business-logic",
+      "path": "checklists/business-logic/3de23f78758b.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "d709d7e9b4f5",
+      "title": "How Expired Domains Become Weapons for Scams and Malware",
+      "category": "general-web",
+      "path": "checklists/general-web/d709d7e9b4f5.md",
+      "publication_date": "2026-08-14"
+    },
+    {
+      "id": "8fffeba610e6",
+      "title": "The Bug Worth Lakhs Was Not in the Code. Here It Was and How to Report It Properly.",
+      "category": "business-logic",
+      "path": "checklists/business-logic/8fffeba610e6.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "a6d7fd53d401",
+      "title": "How a Tampered role_id Gave Me Permanent, Invisible Control Over Other Users’ Organizations",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/a6d7fd53d401.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "cbed5ee83325",
+      "title": "How Unauthenticated Queries Exposed User PII and Privileged Accounts",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/cbed5ee83325.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "92d8ff01d3b7",
+      "title": "Unique Username Validation Bypass to a Stored Open Redirect: How I Escalated a Bug Bounty Finding",
+      "category": "open-redirect-csrf",
+      "path": "checklists/open-redirect-csrf/92d8ff01d3b7.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "aaef3962049e",
+      "title": "How I Systematically Find XSS Bugs in Bug Bounty Programs (Step-by-Step Method)",
+      "category": "xss",
+      "path": "checklists/xss/aaef3962049e.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "b01bcf9b8f74",
+      "title": "Command Injection in an E-Commerce Website | Penetration Testing CTF",
+      "category": "injection",
+      "path": "checklists/injection/b01bcf9b8f74.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "fc700d5e621e",
+      "title": "How a Broken “Preview” Button Exposed 800,000 Private Documents for a $8,500 Bounty",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/fc700d5e621e.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "416f511e3d11",
+      "title": "Bypassing Keyword and Character Filters to Achieve Reflected XSS",
+      "category": "xss",
+      "path": "checklists/xss/416f511e3d11.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "3a32db45aac2",
+      "title": "Hacker Holidays Day 8: Towel on the Sunbed",
+      "category": "race-condition",
+      "path": "checklists/race-condition/3a32db45aac2.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "d138b3f74ee3",
+      "title": "Modern web applications depend heavily on JavaScript.",
+      "category": "api-security",
+      "path": "checklists/api-security/d138b3f74ee3.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "e1204b559f99",
+      "title": "Casino | HackSmarter | OSCP Preparation",
+      "category": "rce",
+      "path": "checklists/rce/e1204b559f99.md",
+      "publication_date": "2026-08-13"
+    },
+    {
+      "id": "dfa30a38a2db",
+      "title": "How a 30-Year-Old Path Traversal Earned $150K From Apple’s AI Cloud",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/dfa30a38a2db.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "2f90c86049be",
+      "title": "GraphQL API Vulnerabilities in Web App Penetration Testing",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/2f90c86049be.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "ae2da7caf6e5",
+      "title": "3 IDOR Bugs That Paid $113,000 Combined — Here’s the 5-Minute Pattern Behind All of Them",
+      "category": "idor",
+      "path": "checklists/idor/ae2da7caf6e5.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "574fc7ef1595",
+      "title": "Sometimes a Bucket Tells You More Than It Should",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/574fc7ef1595.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "42590b59ce61",
+      "title": "BountyForge: The Fully Autonomous Bug Bounty Hunting Pipeline",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/42590b59ce61.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "20322410afdc",
+      "title": "DOM XSS: The Bug Your WAF Will Never Catch",
+      "category": "xss",
+      "path": "checklists/xss/20322410afdc.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "584c7224f4be",
+      "title": "How Attackers Get Initial Access: Understanding the First Stage of a Cyber Attack",
+      "category": "general-web",
+      "path": "checklists/general-web/584c7224f4be.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "18742a23254a",
+      "title": "I Was Treating Header Injection as Low-Impact.",
+      "category": "rce",
+      "path": "checklists/rce/18742a23254a.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "13a7876ac8d1",
+      "title": "Intercepting Flutter Android App Traffic with Burp Suite Using an Android Studio Emulator…",
+      "category": "mobile",
+      "path": "checklists/mobile/13a7876ac8d1.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "5eddcc937be1",
+      "title": "Vikunja CVE-2026–55064: The Vulnerability Hidden in the Previous Security Fix",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/5eddcc937be1.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "a791359b6ff8",
+      "title": "Bug Bounty for Beginners 2026 — Earn Your First $100 with Ethical Hacking",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/a791359b6ff8.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "f50a784de0cd",
+      "title": "DOM Invader on a Real Bug Bounty Target",
+      "category": "xss",
+      "path": "checklists/xss/f50a784de0cd.md",
+      "publication_date": "2026-08-12"
+    },
+    {
+      "id": "2e93f9141c8f",
+      "title": "How I Found a Critical Vulnerability That Put $64 Million at Risk in a Layer 2 Blockchain",
+      "category": "business-logic",
+      "path": "checklists/business-logic/2e93f9141c8f.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "078f22bd94a8",
+      "title": "ATO with Open Redirect",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/078f22bd94a8.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "b19aaeeed20a",
+      "title": "NoSQL Injection: The Vulnerability Hiding in Your “Modern” Database",
+      "category": "injection",
+      "path": "checklists/injection/b19aaeeed20a.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "5bf8a839ca5f",
+      "title": "Ghost Engine v3.2: An All-in-One Bug Bounty Recon & Security Automation Tool",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/5bf8a839ca5f.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "f43961f37c09",
+      "title": "Template Injection Is Hiding in Your “Personalization” Features",
+      "category": "rce",
+      "path": "checklists/rce/f43961f37c09.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "abb2fb59c85d",
+      "title": "A Couple’s Hunt: Hardcoded Credentials Lead to Internal Data Exposure & a $300 Bounty",
+      "category": "api-security",
+      "path": "checklists/api-security/abb2fb59c85d.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "2cb1ec0d9e74",
+      "title": "How a $100 Profile Picture Glitch Turned Into a $9,000 Zero-Day Reward",
+      "category": "file-upload-stored-xss",
+      "path": "checklists/file-upload-stored-xss/2cb1ec0d9e74.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "ab9ff498248d",
+      "title": "Infinite Money Glitch? How Our Team Generated Infinite Money on a Fortune 100 Financial Site",
+      "category": "business-logic",
+      "path": "checklists/business-logic/ab9ff498248d.md",
+      "publication_date": "2026-08-11"
+    },
+    {
+      "id": "b380e0f04378",
+      "title": "Reading a Website Like a Pentester: What to Test in Every Functionality",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/b380e0f04378.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "c487f8dd035f",
+      "title": "Walkthrough: PortSwigger — Password Reset Broken Logic",
+      "category": "authentication",
+      "path": "checklists/authentication/c487f8dd035f.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "6c27e47c5259",
+      "title": "Why Most Bug Bounty Hunters Find Nothing — And How to Fix It",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/6c27e47c5259.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "60aa2dd8dc2b",
+      "title": "Lab: Using PHAR deserialization to deploy a custom gadget chain",
+      "category": "rce",
+      "path": "checklists/rce/60aa2dd8dc2b.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "98b3745006ca",
+      "title": "Business Logic Flaw: Refund Limit Bypass via Support Chatbot",
+      "category": "business-logic",
+      "path": "checklists/business-logic/98b3745006ca.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "d6781e25ec1b",
+      "title": "Python Web Penetration Testing — Day 10: XML External Entity (XXE) Injection — The Forgotten Giant",
+      "category": "xxe",
+      "path": "checklists/xxe/d6781e25ec1b.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "1752686aede5",
+      "title": "How a $5,000 “Low Severity” Bug Turned Into the Ultimate Admin Trap",
+      "category": "xss",
+      "path": "checklists/xss/1752686aede5.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "83924ffa56f4",
+      "title": "The Ghost Email: How I Took Over Any Account With a Missing Check",
+      "category": "authentication",
+      "path": "checklists/authentication/83924ffa56f4.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "4b040d418112",
+      "title": "GitLab account takeover, no clicks required — $35,000 bounty",
+      "category": "authentication",
+      "path": "checklists/authentication/4b040d418112.md",
+      "publication_date": "2026-08-10"
+    },
+    {
+      "id": "4f5e8b38edb4",
+      "title": "How a Config Token Let Me Read Any File on Your Machine",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/4f5e8b38edb4.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "bf811ee39da3",
+      "title": "How I Escalated Privileges by Manipulating a Client-Side Permission Matrix",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/bf811ee39da3.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "83a734d0db82",
+      "title": "How I Prioritize Hundreds of Subdomains During Bug Bounty Recon",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/83a734d0db82.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "fa1a22bebc84",
+      "title": "Grafana Security Alert | CVE-2026–15583 & CVE-2026–21723 Explained",
+      "category": "ssrf",
+      "path": "checklists/ssrf/fa1a22bebc84.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "fdb4d1cedd96",
+      "title": "Indirect Prompt Injection: What LLM Bounty Triagers Actually Reward",
+      "category": "prompt-injection",
+      "path": "checklists/prompt-injection/fdb4d1cedd96.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "06e21f3b3779",
+      "title": "Unauthenticated Mass Data Deletion: When DELETE Has No Auth Check",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/06e21f3b3779.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "21a9b438210f",
+      "title": "How I Chained an Unauthenticated OAuth Registration Endpoint into Full Account Takeover",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/21a9b438210f.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "c893cc647c34",
+      "title": "Why Your Best XSS Is on a Param You Can’t See",
+      "category": "xss",
+      "path": "checklists/xss/c893cc647c34.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "067d8a047db9",
+      "title": "RepoJacking: How 5 Unclaimed GitHub Usernames Enabled RCE on Self-Hosted Servers",
+      "category": "rce",
+      "path": "checklists/rce/067d8a047db9.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "013d93631c20",
+      "title": "IDOR via Comma-Injection: How Concatenating Two IDs Leaked Cross-Tenant PII",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/013d93631c20.md",
+      "publication_date": "2026-08-09"
+    },
+    {
+      "id": "27f72acf7657",
+      "title": "Uncovering a Privacy Bug in Proton Meet — How a Simple Logic ‘Typo’ Earned Me $100",
+      "category": "business-logic",
+      "path": "checklists/business-logic/27f72acf7657.md",
+      "publication_date": "2026-08-08"
+    },
+    {
+      "id": "51e421f7b084",
+      "title": "Bypassing Filters to Achieve UNION-Based SQL Injection on a Search Endpoint",
+      "category": "injection",
+      "path": "checklists/injection/51e421f7b084.md",
+      "publication_date": "2026-08-08"
+    },
+    {
+      "id": "7ce08d940038",
+      "title": "How to Build a Complete Attack Surface Map for Bug Bounty",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/7ce08d940038.md",
+      "publication_date": "2026-08-08"
+    },
+    {
+      "id": "144087f18e5e",
+      "title": "Search Has Escaped",
+      "category": "xss",
+      "path": "checklists/xss/144087f18e5e.md",
+      "publication_date": "2026-08-08"
+    },
+    {
+      "id": "a610aa378727",
+      "title": "LDAP Injection: Its As Simple As A TRUE/FALSE",
+      "category": "injection",
+      "path": "checklists/injection/a610aa378727.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "0c4243a6e1b6",
+      "title": "From File Upload to Remote Code Execution: How I Bypassed MIME Type Validation",
+      "category": "rce",
+      "path": "checklists/rce/0c4243a6e1b6.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "4f18044356c2",
+      "title": "PortSwigger Web Security Academy: All NoSQL Injection Labs Solved (Full Walkthrough)",
+      "category": "injection",
+      "path": "checklists/injection/4f18044356c2.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "88a531df687a",
+      "title": "Business Logic Vulnerability",
+      "category": "business-logic",
+      "path": "checklists/business-logic/88a531df687a.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "eca88d13f75e",
+      "title": "The Bug Bounty Category No Scanner Will Ever Find",
+      "category": "business-logic",
+      "path": "checklists/business-logic/eca88d13f75e.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "85a250af89c7",
+      "title": "Manual SQL Injection: Extracting Data with GET Search SQLI lab in bWAPP",
+      "category": "injection",
+      "path": "checklists/injection/85a250af89c7.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "91b7436beab5",
+      "title": "How to Build a Recon Workflow That Actually Finds Bugs (Not Just Data)",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/91b7436beab5.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "47e8d4c0dbb3",
+      "title": "A Bank’s HR Team Was Hacking Themselves Every Time They Opened My Job Application",
+      "category": "xss",
+      "path": "checklists/xss/47e8d4c0dbb3.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "656f3f5055c9",
+      "title": "DVWA on Metasploitable 2: Web Exploitation for OSCP",
+      "category": "injection",
+      "path": "checklists/injection/656f3f5055c9.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "92abe8a5636f",
+      "title": "JWT Algorithm Confusion → Admin Account Takeover",
+      "category": "authentication",
+      "path": "checklists/authentication/92abe8a5636f.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "03feb9965fee",
+      "title": "One Coupon, Thirty Orders: Racing the OopsSec Store Checkout",
+      "category": "race-condition",
+      "path": "checklists/race-condition/03feb9965fee.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "5d11a77b88f7",
+      "title": "Client-Controlled Role Assignment: A Critical Privilege Escalation Vulnerability",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/5d11a77b88f7.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "52120920ffd2",
+      "title": "CAPTCHA Bypass Bug on a Bug Bounty Program",
+      "category": "authentication",
+      "path": "checklists/authentication/52120920ffd2.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "2d5a7238d4f7",
+      "title": "The SSRF That Wasn’t Supposed to Work Twice",
+      "category": "ssrf",
+      "path": "checklists/ssrf/2d5a7238d4f7.md",
+      "publication_date": "2026-08-07"
+    },
+    {
+      "id": "f11f4119e33f",
+      "title": "Apostrophe Has Abolished the Password",
+      "category": "injection",
+      "path": "checklists/injection/f11f4119e33f.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "8857cbe743b3",
+      "title": "OAuth 2.0 Attack Surface: Redirect URIs, Token Leakage, and Account Takeover Risks",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/8857cbe743b3.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "ef3a0a97ea63",
+      "title": "The Lesser-Known Art of Recon Using Favicon Hashes",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/ef3a0a97ea63.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "487d102d63bf",
+      "title": "How an exposed eXist-db REST interface revealed application collections, configuration files, and…",
+      "category": "api-security",
+      "path": "checklists/api-security/487d102d63bf.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "8d4c943b3551",
+      "title": "From a Simple id Parameter to an Exceptional (10.0)",
+      "category": "injection",
+      "path": "checklists/injection/8d4c943b3551.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "62ee476b2a78",
+      "title": "How I Almost Made $1,000 with a Pre-Account Takeover",
+      "category": "authentication",
+      "path": "checklists/authentication/62ee476b2a78.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "d5b732a4ccce",
+      "title": "Rate Limiting & API Abuse Bugs",
+      "category": "api-security",
+      "path": "checklists/api-security/d5b732a4ccce.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "5e6b8ed6c2e1",
+      "title": "I Built a Web Vulnerability Scanner from Scratch — Here’s How It Works",
+      "category": "ssrf",
+      "path": "checklists/ssrf/5e6b8ed6c2e1.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "fd7c2db79542",
+      "title": "From Blocked to Registered: Two Email Blacklist Bypass Techniques",
+      "category": "business-logic",
+      "path": "checklists/business-logic/fd7c2db79542.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "729fcf653310",
+      "title": "How a Synced Data Copy Leaked 544,000 Users’ PII",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/729fcf653310.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "adc0121b1d5d",
+      "title": "How One Exposed API Cost a Shipping Company $10,000 in a Few Hours",
+      "category": "api-security",
+      "path": "checklists/api-security/adc0121b1d5d.md",
+      "publication_date": "2026-08-06"
+    },
+    {
+      "id": "c461fdf2e37d",
+      "title": "Chaining a Session Leak and Broken Access Control in Revive Adserver 6.0.7 Program Hackerone",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/c461fdf2e37d.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "b490e7cd4312",
+      "title": "How a 19-Year-Old Made $2,500 in 10 Minutes (And Why Most Bug Bounty Advice Is Garbage)",
+      "category": "idor",
+      "path": "checklists/idor/b490e7cd4312.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "d77d9e7bdee6",
+      "title": "How I Got My NASA Hall of Fame: A Unique Twist on Google Dorking",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/d77d9e7bdee6.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "1b388cd53067",
+      "title": "Introducing Ghost Engine v3.2: An Automated Bug Bounty Recon Suite",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/1b388cd53067.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "00f321fe2cf3",
+      "title": "Bounty for an Out-of-Scope Vulnerability",
+      "category": "api-security",
+      "path": "checklists/api-security/00f321fe2cf3.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "3cb7f6f83022",
+      "title": "API Recon — Mapping Every Hidden Endpoint",
+      "category": "api-security",
+      "path": "checklists/api-security/3cb7f6f83022.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "d50f8df61c4e",
+      "title": "I Found Basic XSS + Open Redirect in a Hidden Endpoint (And Got $100 For It)",
+      "category": "xss",
+      "path": "checklists/xss/d50f8df61c4e.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "3b2d147852ed",
+      "title": "How I Bypassed Authentication on a Fintech Platform Using a Broken Password Reset Flow (Bug Bounty…",
+      "category": "authentication",
+      "path": "checklists/authentication/3b2d147852ed.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "b58ca0e09fe2",
+      "title": "The Premium Feature That Was Only One API Request Away",
+      "category": "business-logic",
+      "path": "checklists/business-logic/b58ca0e09fe2.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "216b210bc457",
+      "title": "Zero-Trust OPSEC for a Fresh Kali Install: What You Must Do and What You Should",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/216b210bc457.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "0a11e87ae762",
+      "title": "Bypassing a “Safe” Input Field: Reflected XSS via Unescaped HTML Attribute Injection",
+      "category": "xss",
+      "path": "checklists/xss/0a11e87ae762.md",
+      "publication_date": "2026-08-05"
+    },
+    {
+      "id": "ee816e2e48e9",
+      "title": "Meterpreter Cheat Sheet (Part 2)",
+      "category": "privilege-escalation",
+      "path": "checklists/privilege-escalation/ee816e2e48e9.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "12536ed4747b",
+      "title": "Two package Keys, One Valid Signature, and One Protected Report",
+      "category": "business-logic",
+      "path": "checklists/business-logic/12536ed4747b.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "ace8713b2122",
+      "title": "Canonically Yours — Intigriti July 2026 Challenge (0726)",
+      "category": "business-logic",
+      "path": "checklists/business-logic/ace8713b2122.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "428f5ff155b8",
+      "title": "I Found an Unauthenticated WebSocket Leaking Live Customer Data",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/428f5ff155b8.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "ae7ff339b442",
+      "title": "The Coldcard Catastrophe: How a Single Line of Code Let Attackers Drain $100M+ from “Unhackable”…",
+      "category": "information-disclosure",
+      "path": "checklists/information-disclosure/ae7ff339b442.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "7e54b49c1356",
+      "title": "Clickjacking & Bypass Techniques: A Practical Methodology for Security Testing",
+      "category": "methodology-tooling",
+      "path": "checklists/methodology-tooling/7e54b49c1356.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "73f10094c98d",
+      "title": "Breaking API Gateway Isolation with Path Traversal and URL Parsing Discrepancies",
+      "category": "path-traversal",
+      "path": "checklists/path-traversal/73f10094c98d.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "124212a9958b",
+      "title": "The Invitation Was Gone… But I Could Still Join",
+      "category": "business-logic",
+      "path": "checklists/business-logic/124212a9958b.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "d38deb90a840",
+      "title": "How I Found a Critical Bug That Exposed Every User’s PII With a Free Account",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/d38deb90a840.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "3cc67646e153",
+      "title": "Learning CORS the Right Way: Understanding the Browser Before the Attack",
+      "category": "cors",
+      "path": "checklists/cors/3cc67646e153.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "85ee34cc0e48",
+      "title": "The Debug Flag That Opened the Door: A Journey From Django Debug Mode to Critical RCE",
+      "category": "rce",
+      "path": "checklists/rce/85ee34cc0e48.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "cf6704ca00ec",
+      "title": "How I Found a $250 BOLA in a Government Transport App’s Real-Time API",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/cf6704ca00ec.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "dcf8b1db20f6",
+      "title": "100 High-Value Files & Paths Every Bug Hunter Should Check During Recon",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/dcf8b1db20f6.md",
+      "publication_date": "2026-08-04"
+    },
+    {
+      "id": "6b7eb6d14d10",
+      "title": "The Bug Bounty Playbook: OAuth Callback and Redirect Manipulation",
+      "category": "oauth-sso",
+      "path": "checklists/oauth-sso/6b7eb6d14d10.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "4c2217c334a6",
+      "title": "How to Get Your First Bug Bounty Hall of Fame (Yes, Even with Low-Severity Bugs!)",
+      "category": "business-logic",
+      "path": "checklists/business-logic/4c2217c334a6.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "d9c970549813",
+      "title": "How a Single SVG File Almost Handed Hackers Microsoft’s Servers",
+      "category": "rce",
+      "path": "checklists/rce/d9c970549813.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "67c251a99397",
+      "title": "WebDev Hardcore Pentest | Advanced Web Application Security Testing",
+      "category": "file-upload-stored-xss",
+      "path": "checklists/file-upload-stored-xss/67c251a99397.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "73bc3f63543f",
+      "title": "Server-2: Vulnerable OnlyPhone— VulnerabilityWeb Walkthrough (4 Flags)",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/73bc3f63543f.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "ee3d3935b119",
+      "title": "Vulnerability Assessment for Penetration Testing & Bug Bounty (Part 2): Deep Recon, Endpoint…",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/ee3d3935b119.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "4c98ef7e5645",
+      "title": "When Your Terminal Lies: Exploiting ANSI Escape Sequences in HTTPie",
+      "category": "injection",
+      "path": "checklists/injection/4c98ef7e5645.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "84c2859bcf81",
+      "title": "How I Found a Bug That Could Let Anyone Hijack Your Account — Without Touching Your Email",
+      "category": "authentication",
+      "path": "checklists/authentication/84c2859bcf81.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "0d10e2e006b1",
+      "title": "Broken Link Hijacking: How I “Became” a Government Agency on LinkedIn (Legally, Sort Of)",
+      "category": "general-web",
+      "path": "checklists/general-web/0d10e2e006b1.md",
+      "publication_date": "2026-08-03"
+    },
+    {
+      "id": "6b8e547820f1",
+      "title": "Bug Bounty Hacking Recon Automation Bug Bounty Methodology",
+      "category": "idor",
+      "path": "checklists/idor/6b8e547820f1.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "f6bf8d4bd710",
+      "title": "Sqli-Header-Lab",
+      "category": "injection",
+      "path": "checklists/injection/f6bf8d4bd710.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "6d964323c178",
+      "title": "Escalating a Blind Upload to RCE via Path Traversal into Cron and DNS-Restricted Callback Bypass",
+      "category": "rce",
+      "path": "checklists/rce/6d964323c178.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "722e551f5de6",
+      "title": "Broken Access Control: Guest User Could Modify Global Project View Settings",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/722e551f5de6.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "4bbcbb86931f",
+      "title": "Business Logic Flaws in AI Assistant Feature",
+      "category": "business-logic",
+      "path": "checklists/business-logic/4bbcbb86931f.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "e3b746b6de7f",
+      "title": "How I Found a Serious Security Problem in Magadh University’s Website and Why I Had to Contact the…",
+      "category": "authentication",
+      "path": "checklists/authentication/e3b746b6de7f.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "d2fb3833888f",
+      "title": "Writing Custom Exploits: From Vulnerability Discovery to Working PoC",
+      "category": "idor",
+      "path": "checklists/idor/d2fb3833888f.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "16e6c56f1e83",
+      "title": "Deep-Dive Technical Write-up by Huynh Kien Minh: CVE-2026–13158 — Everest Toolkit Admin+ Arbitrary…",
+      "category": "rce",
+      "path": "checklists/rce/16e6c56f1e83.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "8cd005281d20",
+      "title": "When Usernames Give Away Too Much: Weak Username Policies and Predictable Accounts",
+      "category": "authentication",
+      "path": "checklists/authentication/8cd005281d20.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "272a80e1a022",
+      "title": "How I Turned a “Not Sensitive Enough” Bug Into a Confirmed IDOR",
+      "category": "idor",
+      "path": "checklists/idor/272a80e1a022.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "2eb37fda73a2",
+      "title": "Abusing Samsung Find’s Notification API to Send Trusted Emails to Arbitrary Recipients",
+      "category": "api-security",
+      "path": "checklists/api-security/2eb37fda73a2.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "d333be1e4139",
+      "title": "Overhead at Breakfast — TryHackMe OSINT Writeup",
+      "category": "recon-osint",
+      "path": "checklists/recon-osint/d333be1e4139.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "a8810edafebb",
+      "title": "Why HTTP QUERY Changes API Security Forever",
+      "category": "api-security",
+      "path": "checklists/api-security/a8810edafebb.md",
+      "publication_date": "2026-08-02"
+    },
+    {
+      "id": "b16e8df7c060",
+      "title": "How I Found a Critical Race Condition on Kruidvat — A Step-by-Step Bug Bounty Walkthrough",
+      "category": "race-condition",
+      "path": "checklists/race-condition/b16e8df7c060.md",
+      "publication_date": "2026-08-01"
+    },
+    {
+      "id": "7ca0307e7296",
+      "title": "Revisiting JWT Token Forgery Attack on Recent Bounty Target",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/7ca0307e7296.md",
+      "publication_date": "2026-08-01"
+    },
+    {
+      "id": "7e798176ca7a",
+      "title": "Discovering an IDOR in Hoppscotch: A Deep Dive into Broken Access Control",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/7e798176ca7a.md",
+      "publication_date": "2026-08-01"
+    },
+    {
+      "id": "33e04bfd4009",
+      "title": "When the Lock Comes With the Key: Bypassing Client-Side Encryption to Find an IDOR",
+      "category": "broken-access-control",
+      "path": "checklists/broken-access-control/33e04bfd4009.md",
+      "publication_date": "2026-08-01"
     }
   ]
 }

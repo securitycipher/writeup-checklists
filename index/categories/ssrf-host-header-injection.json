@@ -1,0 +1,23 @@
+{
+  "category": "ssrf-host-header-injection",
+  "category_label": "SSRF, Host Header Injection",
+  "count": 1,
+  "items": [
+    {
+      "id": "b0a8c8749eb7",
+      "title": "Exploiting AI Agents via Indirect Prompt Injection",
+      "author": "Brigitta Nyári",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "artificial-intelligence",
+        "bug-bounty",
+        "cybersecurity",
+        "prompt-engineering",
+        "web-security"
+      ],
+      "path": "checklists/ssrf-host-header-injection/b0a8c8749eb7.md",
+      "source_url": "https://medium.com/@nyrbrg/exploiting-ai-agents-via-indirect-prompt-injection-2856dcc2d20d",
+      "quick_test": "Test for SSRF vulnerabilities by identifying user-controlled parameters that allow internal service requests and attempt to manipulate them to access sensitive endpoints."
+    }
+  ]
+}

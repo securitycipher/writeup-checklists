@@ -1,0 +1,54 @@
+{
+  "category": "file-upload-stored-xss",
+  "category_label": "File Upload / Stored XSS",
+  "count": 3,
+  "items": [
+    {
+      "id": "13e5ca76c31e",
+      "title": "From Unauthenticated Upload to Stored XSS: Breaking a Production S3 Upload Flow",
+      "author": "redhunter01",
+      "publication_date": "2026-08-20",
+      "tags": [
+        "stored-xss",
+        "web-security",
+        "bug-bounty",
+        "file-upload-vulnerability"
+      ],
+      "path": "checklists/file-upload-stored-xss/13e5ca76c31e.md",
+      "source_url": "https://medium.com/@redhunter01/from-unauthenticated-upload-to-stored-xss-breaking-a-production-s3-upload-flow-ca585c920407",
+      "quick_test": "Test file upload functionality by checking if unauthenticated users can upload SVG files and if those files are served with the correct content-type headers."
+    },
+    {
+      "id": "2cb1ec0d9e74",
+      "title": "How a $100 Profile Picture Glitch Turned Into a $9,000 Zero-Day Reward",
+      "author": "T4nv1",
+      "publication_date": "2026-08-11",
+      "tags": [
+        "pentesting",
+        "cybersecurity",
+        "bug-bounty",
+        "security",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/file-upload-stored-xss/2cb1ec0d9e74.md",
+      "source_url": "https://medium.com/@t3nv1/how-a-100-profile-picture-glitch-turned-into-a-9-000-zero-day-reward-e82bb8c084e8",
+      "quick_test": "Test file upload features by attempting to upload SVG files with embedded JavaScript payloads."
+    },
+    {
+      "id": "67c251a99397",
+      "title": "WebDev Hardcore Pentest | Advanced Web Application Security Testing",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-03",
+      "tags": [
+        "cybersecurity",
+        "web-development",
+        "artificial-intelligence",
+        "hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/file-upload-stored-xss/67c251a99397.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/webdev-hardcore-pentest-advanced-web-application-security-testing-52fe8eda3333",
+      "quick_test": "Check if the WebDAV service allows file uploads and if it can be exploited to upload a PHP shell."
+    }
+  ]
+}

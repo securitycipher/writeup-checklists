@@ -1,11 +1,54 @@
 # Broken Access Control / IDOR
 
-10 checklist card(s).
+53 checklist card(s).
 
 - [I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover](./3ac9b680a6fb.md) - Rajdip Chavan
 - [I Found a Critical BOLA Vulnerability in a Cybersecurity AI Platform — Here’s Exactly How](./ea9cf3b71385.md) - Divakarvasani
 - [I Ranked 252 Disclosed IDOR Reports by Bounty. Severity Barely Mattered.](./bca3e9dc9ccc.md) - Raj Namdev
 - [How I Hacked A Telecom Company](./dd8790784500.md) - the_phreak
+- [The bug that survived three years of code review](./ccb776ccba8c.md) - Mayssare
+- [How a “Draft Auto-Save” Feature Exposed Confidential Enterprise Board Documents leading to $4,500…](./81d394c17259.md) - T4nv1
+- [How a Simple IDOR Led to Full Account Takeover](./cd637b550d7a.md) - Adem_Zayani
+- [Google Classroom IDOR Vulnerability POC Video](./d6ebabad187d.md) - Marrij Ali Khan
+- [Improper Access Control in Decathlon’s Booxi Integration Leads to Unauthorized Access to Internal…](./869ac999e7ff.md) - 403_forbidd3n
+- [A 400 Is Not a Dead End — My First Bug Bounty (€250)](./b5e0225f684a.md) - HariHax
+- [Broken Access Control: A Practical Walkthrough of 13 PortSwigger Labs](./7663e270d762.md) - Nitish Mukhiya
+- [No Login. No Cookie. Just a UUID — Breaking DHL’s Shipment Authorization](./773706585fce.md) - Zuksh
+- [Never Trust a 403 — The Access-Control Bypass Toolkit](./5aaf929d7269.md) - Nitin yadav
+- [API Hacking — Part 1](./b90f2116d8cc.md) - Muhab A.
+- [Unauthenticated Access to Internal Employee Content Through Unprotected API Endpoints](./be584590d58c.md) - redhunter01
+- [How to Find IDOR Vulnerabilities in Bug Bounty](./b818f17be311.md) - b0dj0x
+- [Chaining IDOR to Privilege Escalation: A $$$$ Microsoft Bug Bounty](./140e8309b423.md) - cryptoshant
+- [How I Ran a Company’s Own Internal Workflows With a Free Account](./c8138d5353e6.md) - 0x-elfateh
+- [The Cache That Trusted Too Much](./0923c137eb6e.md) - lolidkmyname
+- [Bug Bounty: When a “Random” UUID Wasn’t Random Enough — Cross-Tenant Credential Leak in an ATS…](./28c3e9a20d1c.md) - Pulga (bettercallme)
+- [When Client-Side Encryption Becomes a Security Blanket](./346d576f1c34.md) - hackerdevil
+- [Bug Bounty: A Beginner’s Guide to Finding Bugs the Right Way](./dff804fe3d10.md) - Easika Neupane
+- [How a Simple File Download Bug Turned Into an S3 Signing Oracle](./808e9cfafe01.md) - redhunter01
+- [I Wasn’t Invited to the Project, But the Backend Let Me In](./3cb12af8d129.md) - 0xMo7areb
+- [One Invitation, Three Vulnerabilities: Breaking RBAC Across Two Applications](./eb1506d16b87.md) - OWL
+- [Microsoft Bounty Hunt: From Contacts to Invoices via Guest User Misconfigurations](./981f8d9dcd85.md) - Mustafa Mohamed (d3sca)
+- [I Read the Top 20 IDOR Reports on HackerOne.](./2e6f5c32d92a.md) - Abhishek meena
+- [Active Directory Explained: The Backbone of Enterprise Access Control (And Why Attackers Love It)](./af4e95971380.md) - b0dj0x
+- [Stop Memorizing HTTP Methods:](./b88f8c75f170.md) - ElAmine Bousbaa
+- [My First Valid Bug: A Broken Object Level Authorization (BOLA) in Customer API](./347cd2385d7a.md) - Abobakrmohamed
+- [How to Find Your First Bug Bounty Vulnerability in 2026 (The Beginner Method That Actually Pays)](./8d13a827634e.md) - b0dj0x
+- [One IDOR, Three Leaks, $3K in Payouts](./b388c4e9f754.md) - Ferdus Alam
+- [GraphQL API Vulnerabilities in Web App Penetration Testing](./2f90c86049be.md) - Karthikeyan Nagaraj
+- [Bug Bounty for Beginners 2026 — Earn Your First $100 with Ethical Hacking](./a791359b6ff8.md) - R.H Rizvi
+- [Reading a Website Like a Pentester: What to Test in Every Functionality](./b380e0f04378.md) - Shruti Vijay Shinde
+- [How I Escalated Privileges by Manipulating a Client-Side Permission Matrix](./bf811ee39da3.md) - Dev
+- [Unauthenticated Mass Data Deletion: When DELETE Has No Auth Check](./06e21f3b3779.md) - Divakarvasani
+- [IDOR via Comma-Injection: How Concatenating Two IDs Leaked Cross-Tenant PII](./013d93631c20.md) - s0ufm3l
+- [How a Synced Data Copy Leaked 544,000 Users’ PII](./729fcf653310.md) - anshh.bohara
+- [Chaining a Session Leak and Broken Access Control in Revive Adserver 6.0.7 Program Hackerone](./c461fdf2e37d.md) - Kenjisubagja
+- [I Found an Unauthenticated WebSocket Leaking Live Customer Data](./428f5ff155b8.md) - 0xJad
+- [How I Found a Critical Bug That Exposed Every User’s PII With a Free Account](./d38deb90a840.md) - Abhishek meena
+- [How I Found a $250 BOLA in a Government Transport App’s Real-Time API](./cf6704ca00ec.md) - anshh.bohara
+- [Broken Access Control: Guest User Could Modify Global Project View Settings](./722e551f5de6.md) - Mahmoudelsadany
+- [Revisiting JWT Token Forgery Attack on Recent Bounty Target](./7ca0307e7296.md) - Alvin Ferdiansyah
+- [Discovering an IDOR in Hoppscotch: A Deep Dive into Broken Access Control](./7e798176ca7a.md) - Ajith Prabhu
+- [When the Lock Comes With the Key: Bypassing Client-Side Encryption to Find an IDOR](./33e04bfd4009.md) - Jobson
 - [Project 2510: Bug Bounty Challenge — Day 13/25](./32b9be78a585.md) - Wallotry
 - [Idor That allowed me to get access to sensitive users files and share them -.-](./e0cf34d47a93.md) - Hamzadzworm
 - [Google VRP -[IDOR] Deleted Victim Data & Leaked](./6075812a6b56.md) - Gilang Romadon

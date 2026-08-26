@@ -1,8 +1,261 @@
 {
   "category": "xss",
   "category_label": "XSS",
-  "count": 3,
+  "count": 19,
   "items": [
+    {
+      "id": "058d0042b7ac",
+      "title": "Cloudflare WAF Bypass → DOM-Based XSS via Unsanitized iframe.src",
+      "author": "redhunter01",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "cybersecurity",
+        "penetration-testing",
+        "ethical-hacking",
+        "xss-attack",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/058d0042b7ac.md",
+      "source_url": "https://medium.com/@redhunter01/cloudflare-waf-bypass-dom-based-xss-via-unsanitized-iframe-src-27a1520caac5",
+      "quick_test": "Test if user-controlled input can be assigned to an iframe's src attribute without proper validation."
+    },
+    {
+      "id": "35ecf338d196",
+      "title": "How an Unsanitized SVG Upload Led to Cross-Site Scripting (XSS) and a $3,500 Bounty",
+      "author": "T4nv1",
+      "publication_date": "2026-08-26",
+      "tags": [
+        "pentesting",
+        "bug-bounty-writeup",
+        "cybersecurity",
+        "security",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/35ecf338d196.md",
+      "source_url": "https://medium.com/@t4nv1/how-an-unsanitized-svg-upload-led-to-cross-site-scripting-xss-and-a-3-500-bounty-3fa6b97c3efc",
+      "quick_test": "Test file upload fields for SVG files without proper sanitization to identify potential XSS vulnerabilities."
+    },
+    {
+      "id": "dbf61dad8584",
+      "title": "CVE-2026-75932 & CVE-2026-75933: Jet Admin Tenant Isolation Failure and Stored XSS",
+      "author": "Mahmoud Elkhaligy",
+      "publication_date": "2026-08-25",
+      "tags": [
+        "bug-bounty",
+        "web-security",
+        "cve",
+        "cybersecurity",
+        "low-code"
+      ],
+      "path": "checklists/xss/dbf61dad8584.md",
+      "source_url": "https://medium.com/@melkhaligy77/cve-2026-75932-cve-2026-75933-jet-admin-tenant-isolation-failure-and-stored-xss-8b8ae68e1737",
+      "quick_test": "Test for tenant isolation failures by attempting to claim a custom domain already in use by another workspace and check for unauthorized access to OAuth configurations."
+    },
+    {
+      "id": "e3d37028bd41",
+      "title": "Reading JS Files Like an Attacker",
+      "author": "Marduk I Am",
+      "publication_date": "2026-08-22",
+      "tags": [
+        "cybersecurity",
+        "javascript",
+        "bug-bounty",
+        "web-security",
+        "xss-attack"
+      ],
+      "path": "checklists/xss/e3d37028bd41.md",
+      "source_url": "https://medium.com/@marduk.i.am/reading-js-files-like-an-attacker-5402e26351ee",
+      "quick_test": "Check if the application uses document.referrer, window.name, or window.postMessage without proper sanitization before writing to the DOM."
+    },
+    {
+      "id": "de0c2bf7ba53",
+      "title": "Analyzing the Application",
+      "author": "Ph",
+      "publication_date": "2026-08-19",
+      "tags": [
+        "bug-hunter",
+        "bug-bounty",
+        "web-development",
+        "ethical-hacking",
+        "cybersecurity"
+      ],
+      "path": "checklists/xss/de0c2bf7ba53.md",
+      "source_url": "https://medium.com/@ph620095/analyzing-the-application-1d864c2a866e",
+      "quick_test": "Always test HTTP headers like Referer and User-Agent for potential XSS vulnerabilities by injecting script payloads."
+    },
+    {
+      "id": "1b9646acedeb",
+      "title": "Web Encoding for Beginners: URL, HTML, Unicode, Base64 & Hex",
+      "author": "Ph",
+      "publication_date": "2026-08-15",
+      "tags": [
+        "hacking",
+        "web-development",
+        "bug-bounty",
+        "hacker",
+        "cybersecurity"
+      ],
+      "path": "checklists/xss/1b9646acedeb.md",
+      "source_url": "https://medium.com/@ph620095/web-encoding-for-beginners-url-html-unicode-base64-hex-e944bff8fcf5",
+      "quick_test": "Always ensure user input is contextually encoded based on where it will be displayed (HTML, attribute, JS, URL, CSS) to prevent XSS vulnerabilities."
+    },
+    {
+      "id": "aaef3962049e",
+      "title": "How I Systematically Find XSS Bugs in Bug Bounty Programs (Step-by-Step Method)",
+      "author": "b0dj0x",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty-hunter",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "bug-bounty",
+        "bug-bounty-writeup"
+      ],
+      "path": "checklists/xss/aaef3962049e.md",
+      "source_url": "https://medium.com/@b0dj0x/how-i-systematically-find-xss-bugs-in-bug-bounty-programs-step-by-step-method-9bcb5a829f7d",
+      "quick_test": "Map all user input points and test for XSS by sending unique payloads to identify reflection points."
+    },
+    {
+      "id": "416f511e3d11",
+      "title": "Bypassing Keyword and Character Filters to Achieve Reflected XSS",
+      "author": "Bahmed Boumriga",
+      "publication_date": "2026-08-13",
+      "tags": [
+        "bug-bounty",
+        "penetration-testing",
+        "xss-attack",
+        "web-security",
+        "cybersecurity"
+      ],
+      "path": "checklists/xss/416f511e3d11.md",
+      "source_url": "https://medium.com/@boumriga.bahmed/bypassing-keyword-and-character-filters-to-achieve-reflected-xss-c9be7fcac748",
+      "quick_test": "Test for reflected XSS by injecting payloads into user input fields and observing the response for execution."
+    },
+    {
+      "id": "20322410afdc",
+      "title": "DOM XSS: The Bug Your WAF Will Never Catch",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "infosec",
+        "xss-attack",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/20322410afdc.md",
+      "source_url": "https://kd-200.medium.com/dom-xss-the-bug-your-waf-will-never-catch-84bf9dda96bb",
+      "quick_test": "Check for unsanitized data flow from sources like location.hash to sinks like element.innerHTML in modern web applications."
+    },
+    {
+      "id": "f50a784de0cd",
+      "title": "DOM Invader on a Real Bug Bounty Target",
+      "author": "Marduk I Am",
+      "publication_date": "2026-08-12",
+      "tags": [
+        "cybersecurity",
+        "dom-xss",
+        "web-security",
+        "cross-site-scripting",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/f50a784de0cd.md",
+      "source_url": "https://medium.com/@marduk.i.am/dom-invader-on-a-real-bug-bounty-target-99b12a45ade7",
+      "quick_test": "Use Burp Suite's DOM Invader to identify and categorize potential DOM XSS sinks in web applications that reflect user input."
+    },
+    {
+      "id": "1752686aede5",
+      "title": "How a $5,000 “Low Severity” Bug Turned Into the Ultimate Admin Trap",
+      "author": "T4nv1",
+      "publication_date": "2026-08-10",
+      "tags": [
+        "bug-bounty-writeup",
+        "pentesting",
+        "cybersecurity",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/1752686aede5.md",
+      "source_url": "https://medium.com/@t3nv1/how-a-5-000-low-severity-bug-turned-into-the-ultimate-admin-trap-86d9bd01d40d",
+      "quick_test": "Test user input fields for HTML injection by submitting HTML tags and checking if they are rendered in outputs such as PDFs or web pages."
+    },
+    {
+      "id": "c893cc647c34",
+      "title": "Why Your Best XSS Is on a Param You Can’t See",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-09",
+      "tags": [
+        "ethical-hacking",
+        "infosec",
+        "cybersecurity",
+        "bug-bounty",
+        "hacking"
+      ],
+      "path": "checklists/xss/c893cc647c34.md",
+      "source_url": "https://kd-200.medium.com/why-your-best-xss-is-on-a-param-you-cant-see-2a6e31034f5c",
+      "quick_test": "Inspect all parameters in requests, including hidden ones, and test them with XSS payloads."
+    },
+    {
+      "id": "144087f18e5e",
+      "title": "Search Has Escaped",
+      "author": "Leonardo R Cavalcante",
+      "publication_date": "2026-08-08",
+      "tags": [
+        "pentesting",
+        "pentest",
+        "cybersecurity",
+        "bug-bounty",
+        "web-app-pentesting"
+      ],
+      "path": "checklists/xss/144087f18e5e.md",
+      "source_url": "https://leonardo-cavalcantee.medium.com/search-has-escaped-6c9de20544e5",
+      "quick_test": "Test if user-controlled input from URL parameters is directly inserted into the DOM without proper sanitization."
+    },
+    {
+      "id": "47e8d4c0dbb3",
+      "title": "A Bank’s HR Team Was Hacking Themselves Every Time They Opened My Job Application",
+      "author": "tushar",
+      "publication_date": "2026-08-07",
+      "tags": [
+        "cyber-security-awareness",
+        "web-security",
+        "cybersecurity",
+        "xs",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/47e8d4c0dbb3.md",
+      "source_url": "https://medium.com/@tushar.from.cyber/a-banks-hr-team-was-hacking-themselves-every-time-they-opened-my-job-application-b95610ee6ff3",
+      "quick_test": "Test file upload fields for XSS by using crafted file names that include HTML tags and JavaScript events."
+    },
+    {
+      "id": "d50f8df61c4e",
+      "title": "I Found Basic XSS + Open Redirect in a Hidden Endpoint (And Got $100 For It)",
+      "author": "Roshdy Zain",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/d50f8df61c4e.md",
+      "source_url": "https://0x3rab.medium.com/i-found-basic-xss-open-redirect-in-a-hidden-endpoint-and-got-100-for-it-3bf5a968d58f",
+      "quick_test": "Test hidden endpoints for XSS vulnerabilities by manipulating authentication error responses."
+    },
+    {
+      "id": "0a11e87ae762",
+      "title": "Bypassing a “Safe” Input Field: Reflected XSS via Unescaped HTML Attribute Injection",
+      "author": "Reza",
+      "publication_date": "2026-08-05",
+      "tags": [
+        "application-security",
+        "penetration-testing",
+        "cybersecurity",
+        "xss-attack",
+        "bug-bounty"
+      ],
+      "path": "checklists/xss/0a11e87ae762.md",
+      "source_url": "https://medium.com/@rs67iran/bypassing-a-safe-input-field-reflected-xss-via-unescaped-html-attribute-injection-009e1f6e99d7",
+      "quick_test": "Test all reflected parameters in different contexts (GET, POST) to identify potential attribute injection vulnerabilities."
+    },
     {
       "id": "0ee24488d408",
       "title": "Dastardly — Web Application Security Scanner — CI/CD",

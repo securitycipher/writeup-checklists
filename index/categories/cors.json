@@ -1,7 +1,7 @@
 {
   "category": "cors",
   "category_label": "CORS Misconfiguration",
-  "count": 1,
+  "count": 3,
   "items": [
     {
       "id": "4129e3da82aa",
@@ -18,6 +18,38 @@
       "path": "checklists/cors/4129e3da82aa.md",
       "source_url": "https://kd-200.medium.com/the-two-headers-that-turn-cors-into-account-data-theft-92112046e12b",
       "quick_test": "Test for CORS misconfiguration by sending requests with a custom Origin header to sensitive endpoints and checking the Access-Control-Allow-Origin response."
+    },
+    {
+      "id": "95f35603f353",
+      "title": "From a Single WAF Bypass to 58,000+ Exposed Media Objects",
+      "author": "Tarek ElDemerdash",
+      "publication_date": "2026-08-14",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "web-application-security",
+        "penetration-testing",
+        "information-security"
+      ],
+      "path": "checklists/cors/95f35603f353.md",
+      "source_url": "https://medium.com/@tarekeldemerdash/from-a-single-waf-bypass-to-58-000-exposed-media-objects-ad5efc34640b",
+      "quick_test": "Test for WAF bypass by checking locale-prefixed API routes and verify CORS policy for unauthenticated endpoints."
+    },
+    {
+      "id": "3cc67646e153",
+      "title": "Learning CORS the Right Way: Understanding the Browser Before the Attack",
+      "author": "Anandhu Kannan",
+      "publication_date": "2026-08-04",
+      "tags": [
+        "portswigger",
+        "ethical-hacking",
+        "javascript",
+        "bug-bounty",
+        "cors"
+      ],
+      "path": "checklists/cors/3cc67646e153.md",
+      "source_url": "https://medium.com/@anandhukannan/learning-cors-the-right-way-understanding-the-browser-before-the-attack-3d0089c65979",
+      "quick_test": "Test if the server reflects arbitrary origins in the Access-Control-Allow-Origin header, allowing cross-origin requests with credentials."
     }
   ]
 }

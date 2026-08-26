@@ -1,7 +1,7 @@
 {
   "category": "subdomain-takeover",
   "category_label": "Subdomain Takeover",
-  "count": 1,
+  "count": 3,
   "items": [
     {
       "id": "11cd53d892dd",
@@ -18,6 +18,38 @@
       "path": "checklists/subdomain-takeover/11cd53d892dd.md",
       "source_url": "https://kd-200.medium.com/the-bug-you-exploit-by-clicking-create-390cf3e86abb",
       "quick_test": "Run subdomain enumeration tools to identify dangling CNAME records and check their status for potential takeover."
+    },
+    {
+      "id": "d7484fe4f935",
+      "title": "Card Declined? So Was Your Subdomain | Featurebase as an Undercovered Subdomain Takeover Vector",
+      "author": "Delta",
+      "publication_date": "2026-08-21",
+      "tags": [
+        "bug-bounty",
+        "web-development",
+        "cybersecurity",
+        "subdomain-takeover",
+        "hacking"
+      ],
+      "path": "checklists/subdomain-takeover/d7484fe4f935.md",
+      "source_url": "https://medium.com/@delta101/card-declined-so-was-your-subdomain-featurebase-as-an-undercovered-subdomain-takeover-vector-b3efdd5cf189",
+      "quick_test": "Verify if a service allows custom subdomains without ownership verification and check for dangling CNAME records."
+    },
+    {
+      "id": "6e64b054b72b",
+      "title": "Subdomain Takeover: A Real Bug I Found️",
+      "author": "Kido",
+      "publication_date": "2026-08-16",
+      "tags": [
+        "dns",
+        "subdomain-takeover",
+        "cybersecurity",
+        "bug-bounty",
+        "infosec"
+      ],
+      "path": "checklists/subdomain-takeover/6e64b054b72b.md",
+      "source_url": "https://kidosec.medium.com/subdomain-takeover-a-real-bug-i-found-%EF%B8%8F-d3cab15709d9",
+      "quick_test": "Check for subdomains that point to decommissioned services and attempt to claim them to test for potential takeover vulnerabilities."
     }
   ]
 }

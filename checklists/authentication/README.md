@@ -1,9 +1,38 @@
 # Authentication / Password Reset
 
-9 checklist card(s).
+38 checklist card(s).
 
 - [IntroToBurp — picoCTF Writeup](./ebedc43cd2aa.md) - mayhack
 - [From a Password Reset Form to Unauthenticated Database Access](./6562a67bf13a.md) - redhunter01
+- [This Is How a Hacker Hacks: Part 5 — The Central Database, the Cleanup, and What It All Means](./b790b9f94675.md) - CypherNova1337
+- [Broken Authentication: A Bug Bounty Hunter’s Guide to Finding and Bypassing It](./caa11908d42b.md) - Muhammad Kashif
+- [Auth Bypass : A Story of LinkedIn's Sneaky Session Update Bypass](./b3cd5d10ca07.md) - Torious
+- [2FA Bypass: The Patterns That Keep Coming Back](./e7ae4e65cebc.md) - Nitin yadav
+- [This Is How a Hacker Hacks: Part 1 — Finding the Door](./886a7e4a63d2.md) - CypherNova1337
+- [Email Security Testing Explained | Complete Penetration Testing Walkthrough](./ced9ab08c682.md) - Pentester Club
+- [Modern Authentication Attacks Explained](./be3a36ffbcb3.md) - Rakesh Joshi
+- [PortSwigger Lab: Password reset broken logic](./3b55183f5c50.md) - sa0k0
+- [Password Reset Vulnerability — Full Bug Bounty Walkthrough](./139c2b455504.md) - Z3DX
+- [A $1,337 bug let anyone forge a session - if they already knew a UUID and a login was live](./72ca7bcdd667.md) - Pawan Jaiswal
+- [Two-Factor Authentication Bypass on *** — Access Token Issued Before Second Factor Is Ever Checked](./269dfdac2c24.md) - Joko Purwanto
+- [He Sent 200,000 Reset Codes to Instagram in 10 Minutes. Instagram Paid Him $30,000.](./1b38fa1ce660.md) - Vivek PS
+- [How I Found an Authentication Bypass in a Target’s MCP Server](./67f58d2dd132.md) - CypherNova1337
+- [When the CDN Was Secure but the Origin Wasn’t: Bypassing SSO Through Direct-to-Origin Access](./4b2595282c19.md) - redhunter01
+- [How I Took Over Any Employee Account With Just a Username](./4552240fb344.md) - reox17
+- [Bypassing MFA: 10 Real Techniques Used in 2026 (with Step-by-Step Examples)](./b56aa184c7b0.md) - Very Lazy Tech
+- [How to Exploit JWT Authentication & Authorization Bypasses](./9fef02384d75.md) - Haroon Shahid
+- [How a Forgot-Password “Feature” Let Me Impersonate Any Executive for a $5,500 Bounty](./30f20f2358cd.md) - T4nv1
+- [I Legally Hacked My Own WiFi in Under an Hour — Here’s Exactly How (2026 Guide)](./dfa628c244e3.md) - b0dj0x
+- [Walkthrough: PortSwigger — Password Reset Broken Logic](./c487f8dd035f.md) - Ayeshaaghafoor
+- [The Ghost Email: How I Took Over Any Account With a Missing Check](./83924ffa56f4.md) - SudoHunt
+- [GitLab account takeover, no clicks required — $35,000 bounty](./4b040d418112.md) - Pawan Jaiswal
+- [JWT Algorithm Confusion → Admin Account Takeover](./92abe8a5636f.md) - Mehrankiya
+- [CAPTCHA Bypass Bug on a Bug Bounty Program](./52120920ffd2.md) - Mohamed Naser
+- [How I Almost Made $1,000 with a Pre-Account Takeover](./62ee476b2a78.md) - Ahmad Farel Pratama
+- [How I Bypassed Authentication on a Fintech Platform Using a Broken Password Reset Flow (Bug Bounty…](./3b2d147852ed.md) - T4nv1
+- [How I Found a Bug That Could Let Anyone Hijack Your Account — Without Touching Your Email](./84c2859bcf81.md) - Rahul Masal
+- [How I Found a Serious Security Problem in Magadh University’s Website and Why I Had to Contact the…](./e3b746b6de7f.md) - Mayank Kumar
+- [When Usernames Give Away Too Much: Weak Username Policies and Predictable Accounts](./8cd005281d20.md) - Z3r0D4y
 - [Default Credentials, P1 with $$$$ Reward in a Bug Bounty Program](./c7f13698913f.md) - jedus0r
 - [Easy Admin Access — RVDP](./c058d67beb3e.md) - hackerdevil
 - [#4 Session Fixation — Secure Code Explain](./9d47614152c4.md) - Piyush Kumawat (securitycipher)
