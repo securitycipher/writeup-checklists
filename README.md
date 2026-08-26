@@ -1,175 +1,128 @@
 # Writeup Checklists
 
-> Real bug bounty writeups → copy-paste security checklists.
-
-Every week hunters publish Medium / InfoSecWriteups posts about IDOR, race conditions, auth bypass, and business logic. Most of them die in your reading list.
-
-**This repo turns those writeups into actionable checklist cards** you can run on your next target: quick test, steps, commands, tools, and a link back to the original article.
-
-Built by [SecurityCipher](https://securitycipher.com) · sibling of [security-checklists](https://github.com/securitycipher/security-checklists)
+<p align="center">
+  <strong>Bug bounty writeups → copy-paste testing checklists</strong><br/>
+  <a href="https://securitycipher.com/writeup-checklists/">Open the live UI</a>
+  ·
+  <a href="https://securitycipher.com">SecurityCipher</a>
+  ·
+  <a href="https://github.com/securitycipher/security-checklists">Security Checklists</a>
+</p>
 
 ---
 
-## Why this exists
+Real hunters publish writeups every day. This repo turns those findings into short, actionable checklist cards you can reuse on your next in-scope target.
 
-| Generic checklists | Writeup checklists |
+Each card has a quick test, step-by-step checks, commands when available, tools, and a link back to the original writeup.
+
+### Live browser
+
+Prefer clicking over cloning?
+
+**→ [securitycipher.com/writeup-checklists](https://securitycipher.com/writeup-checklists/)**
+
+Search, filter by category, expand a card, copy the markdown.
+
+---
+
+## At a glance
+
+| | |
 |---|---|
-| "Test for IDOR" | "Swap `user_id` on password-reset → mass ATO (from a real \$ bounty writeup)" |
-| Abstract OWASP bullets | Exact steps + commands extracted from hunter writeups |
-| Rarely updated | Fed from daily bounty writeups |
+| Checklist cards | **73** |
+| Categories | **22** |
+| Last updated | **26 Aug 2026** |
+| Format | One Markdown file per card |
+| Live UI | [securitycipher.com/writeup-checklists](https://securitycipher.com/writeup-checklists/) |
 
-Steal the technique. Credit the author. Ship the finding.
+Growing as new writeups are curated. Expect this number to keep climbing.
 
 ---
 
-## Quick peek
+## Categories
+
+| Category | Cards |
+|----------|------:|
+| [Broken Access Control / IDOR](./checklists/broken-access-control/) | 10 |
+| [Authentication / Password Reset](./checklists/authentication/) | 9 |
+| [Injection (SQL / NoSQL)](./checklists/injection/) | 7 |
+| [General Web Security](./checklists/general-web/) | 7 |
+| [Methodology / Tooling](./checklists/methodology-tooling/) | 7 |
+| [Mobile / JS Bridge](./checklists/mobile/) | 4 |
+| [RCE / Code Execution](./checklists/rce/) | 4 |
+| [Recon / OSINT](./checklists/recon-osint/) | 4 |
+| [XSS](./checklists/xss/) | 3 |
+| [API Security](./checklists/api-security/) | 2 |
+| [Business Logic](./checklists/business-logic/) | 2 |
+| [Information Disclosure](./checklists/information-disclosure/) | 2 |
+| [OAuth / SSO](./checklists/oauth-sso/) | 2 |
+| [Race Condition](./checklists/race-condition/) | 2 |
+| [Cache Poisoning](./checklists/cache-poisoning/) | 1 |
+| [CORS](./checklists/cors/) | 1 |
+| [Path Traversal](./checklists/path-traversal/) | 1 |
+| [Privilege Escalation](./checklists/privilege-escalation/) | 1 |
+| [Prompt Injection / AI](./checklists/prompt-injection/) | 1 |
+| [SSRF](./checklists/ssrf/) | 1 |
+| [Subdomain Takeover](./checklists/subdomain-takeover/) | 1 |
+| [XXE / XML](./checklists/xxe/) | 1 |
+
+Full folder list: [`checklists/`](./checklists/)
+
+---
+
+## How the data is organized
+
+Simple layout so the repo stays readable as it grows:
 
 ```text
-Category: Broken Access Control / IDOR
-Quick test: Change User_Id on password reset without auth
-Steps: 6 · Commands: Burp Repeater · Source: writeup
+checklists/
+  broken-access-control/
+    <id>.md          ← one checklist card
+  authentication/
+    <id>.md
+  ...
+
+index/
+  catalog.json       ← all card summaries (for the live UI)
+  categories/        ← per-category summaries
+  manifest.json      ← totals + category list
 ```
 
-Browse by category under [`checklists/`](./checklists). Each card is **one Markdown file** - not a giant dump.
+- **Source of truth:** Markdown files under `checklists/`
+- **Each file:** frontmatter (title, author, tags, quick test) + steps + commands
+- **Indexes:** lightweight JSON for search/UI - not a dump of full article text
+
+Example card: [`examples/sample-checklist.md`](./examples/sample-checklist.md)
 
 ---
 
-## Repo layout (built for scale)
+## What you will find (and what you will not)
 
-Do **not** store everything in one `checklists.json`. At 10k–100k+ cards that file becomes unreadable, unreviewable, and unusable in any UI.
+**Included**
+- Practical test steps from public writeups
+- Commands / request snippets when the writeup has them
+- Author credit + link to the original post
 
-```text
-writeup-checklists/
-├── README.md
-├── LICENSE
-├── schema/
-│   └── checklist.schema.json      # shape of one card
-├── checklists/                    # SOURCE OF TRUTH (one file per card)
-│   ├── broken-access-control/
-│   │   └── 9d4d4e15e022.md
-│   ├── authentication/
-│   │   └── dc88ae0abf32.md
-│   ├── race-condition/
-│   ├── injection/
-│   └── ...
-├── index/                         # LIGHTWEIGHT indexes for UIs / search
-│   ├── manifest.json              # counts, category list, last updated
-│   ├── categories/
-│   │   └── broken-access-control.json   # id, title, tags, path only
-│   └── by-month/
-│       └── 2026-08.json
-└── examples/
-    └── sample-checklist.md
-```
+**Not included**
+- Full Medium article text
+- Paywalled content
+- Junk / journey posts with no actionable test
 
-### Rules that keep this manageable
-
-1. **One checklist = one Markdown file** (YAML frontmatter + body).
-2. **Filename = short fingerprint** (hash of canonical URL) so renames/dedupe stay stable.
-3. **Folder = category slug** (`broken-access-control`, `race-condition`, …).
-4. **`index/` is generated**, never hand-edited. Rebuild with a script after adds.
-5. **UI never loads every card.** Load `index/manifest.json` → one category shard → fetch a single `.md` on open.
-6. **Skipped / junk writeups stay out of git.** Only curated, actionable cards land here.
-
----
-
-## Checklist card format
-
-```markdown
----
-id: 9d4d4e15e022
-title: "I Changed One User_Id and the API Said Sure"
-source_url: https://infosecwriteups.com/...
-author: Rajdip Chavan
-publication_date: 2026-08-24
-category: broken-access-control
-content_type: vuln_writeup
-steps_source: extracted
-tags: [idor, password-reset, ato, bug-bounty]
-tools: [Burp Repeater]
-quick_test: "Test password reset for IDOR by swapping User_Id."
----
-
-## Use case
-
-Password reset accepted another user's id without auth checks...
-
-## Steps to test
-
-1. ...
-2. ...
-
-## Commands
-
-    POST /api/password-reset HTTP/1.1
-    Host: target.example
-    {"user_id":"VICTIM_ID"}
-```
-
-Full JSON Schema: [`schema/checklist.schema.json`](./schema/checklist.schema.json)  
-Full example: [`examples/sample-checklist.md`](./examples/sample-checklist.md)
-
----
-
-## How the UI should consume this (even at 100k+ cards)
-
-```text
-┌─────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│ manifest.json│ ──► │ category shard   │ ──► │ single .md card │
-│ (~few KB)    │     │ (titles only)    │     │ (lazy on open)  │
-└─────────────┘     └──────────────────┘     └─────────────────┘
-```
-
-- **List view:** virtualized table/list over the category JSON (thousands of rows, fine).
-- **Search:** build a tiny search index in CI (`id`, `title`, `tags`, `category`) - do not grep every Markdown file in the browser.
-- **Filters:** category + tags + month shards under `index/by-month/`.
-- **WordPress / SecurityCipher:** sync only the index + requested cards; never embed the whole repo in a page.
-
-If you ever outgrow git as a store (multi-hundred-thousand cards), keep Markdown as export/source and add a read replica (SQLite / Typesense). Until then, **sharded indexes + one-file-per-card is enough**.
-
----
-
-## What we will / will not store
-
-| In repo | Out of repo |
-|---|---|
-| Actionable steps + commands | Full Medium article text |
-| Attribution + source URL | Paywalled content pasted in |
-| Category, tags, tools | Raw scrape HTML / caches |
-| Curated cards only | Noise, journey posts, dead links |
-
-Ethics: these are **testing checklists for authorized targets** (bug bounty / pentest scope). Not exploit packs for random sites.
-
----
-
-## Status
-
-**73 checklist cards** in `22` categories (updated 2026-08-26).
-
-Live UI: [securitycipher.com/writeup-checklists](https://securitycipher.com/writeup-checklists/)
-
-Browse [`checklists/`](./checklists) or load [`index/catalog.json`](./index/catalog.json) for UI integrations.
-
-Coming next:
-
-- [x] Seed first batch from Daily Bug Bounty Writeups extract
-- [x] Fast catalog index for live site loading
-- [x] Site page on [securitycipher.com](https://securitycipher.com) that reads `index/`
-- [ ] Index builder CI
+For authorized testing only (bug bounty / pentest scope).
 
 ---
 
 ## Related
 
-- Live checklists UI: [securitycipher.com/security-checklists](https://securitycipher.com/security-checklists/)
-- Daily bounty writeups: [securitycipher.com/bounty-writeups](https://securitycipher.com/bounty-writeups/)
-- Interactive assessments: [github.com/securitycipher/security-checklists](https://github.com/securitycipher/security-checklists)
+- [Live Writeup Checklists UI](https://securitycipher.com/writeup-checklists/)
+- [Daily Bug Bounty Writeups](https://securitycipher.com/bounty-writeups/)
+- [Interactive Security Checklists](https://securitycipher.com/security-checklists/)
+- [security-checklists on GitHub](https://github.com/securitycipher/security-checklists)
 
 ---
 
 ## License
 
-Content in this repo is for educational / authorized security testing.  
-Original writeup copyright stays with each author - we only store derived checklist steps and link back.
+MIT for the repo tooling/layout. Derived checklist wording links back to original authors - we do not republish full writeups.
 
-If you are an author and want a card removed or corrected, open an issue.
+Want a card fixed or removed? Open an issue.
