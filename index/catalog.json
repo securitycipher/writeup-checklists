@@ -1,0 +1,1623 @@
+{
+  "updated": "2026-08-26",
+  "count": 73,
+  "items": [
+    {
+      "id": "3d66f939419d",
+      "title": "Fixing a Dead Upstream URL in OpenPrinting: A Small but Important Contribution",
+      "author": "Ayush Singh",
+      "publication_date": "2026-08-24",
+      "category": "ssrf",
+      "category_label": "SSRF",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "linux",
+        "github",
+        "bug-bounty",
+        "software-engineering",
+        "gsoc"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/ssrf/3d66f939419d.md",
+      "source_url": "https://singhcod3r.medium.com/fixing-a-dead-upstream-url-in-openprinting-a-small-but-important-contribution-e07f94526d09",
+      "quick_test": "Verify that all upstream URLs in metadata files are accessible and point to valid resources."
+    },
+    {
+      "id": "3ac9b680a6fb",
+      "title": "I Changed One “User_Id” and the API Said “Sure” — From Password Reset to Mass Account Takeover",
+      "author": "Rajdip Chavan",
+      "publication_date": "2026-08-24",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty-writeup",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Burp Repeater"
+      ],
+      "path": "checklists/broken-access-control/3ac9b680a6fb.md",
+      "source_url": "https://infosecwriteups.com/i-changed-one-user-id-and-the-api-said-sure-from-password-reset-to-mass-account-takeover-9d4d4e15e022",
+      "quick_test": "Test password reset endpoints for IDOR by changing the User_Id parameter to another user's ID without authentication."
+    },
+    {
+      "id": "ea9cf3b71385",
+      "title": "I Found a Critical BOLA Vulnerability in a Cybersecurity AI Platform — Here’s Exactly How",
+      "author": "Divakarvasani",
+      "publication_date": "2026-08-24",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Hydra",
+        "curl"
+      ],
+      "path": "checklists/broken-access-control/ea9cf3b71385.md",
+      "source_url": "https://medium.com/@divakarvasani3938/i-found-a-critical-bola-vulnerability-in-a-cybersecurity-ai-platform-heres-exactly-how-ba84332bbb9d",
+      "quick_test": "Test if authenticated users can access and modify each other's resources by using their session tokens and known resource identifiers."
+    },
+    {
+      "id": "1bbb7ab6090a",
+      "title": "Unauthenticated Strapi Relational-Filter Leak → Super-Admin Takeover → Server-Side Code Execution",
+      "author": "redhunter01",
+      "publication_date": "2026-08-24",
+      "category": "rce",
+      "category_label": "RCE / Code Execution",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "ethical-hacking",
+        "api-security",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/rce/1bbb7ab6090a.md",
+      "source_url": "https://medium.com/@redhunter01/unauthenticated-strapi-relational-filter-leak-super-admin-takeover-server-side-code-execution-34fb5822e5b2",
+      "quick_test": "Test public API endpoints for relational filters that may disclose sensitive admin fields and exploit them to recover authentication tokens."
+    },
+    {
+      "id": "28807661b255",
+      "title": "How a $12,000 Bounty Was Earned via Broken Logic in Payment Webhooks",
+      "author": "T4nv1",
+      "publication_date": "2026-08-24",
+      "category": "business-logic",
+      "category_label": "Business Logic",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hacking",
+        "bug-bounty",
+        "pentesting",
+        "security",
+        "cybersecurity"
+      ],
+      "tools": [],
+      "path": "checklists/business-logic/28807661b255.md",
+      "source_url": "https://medium.com/@t4nv1/how-a-12-000-bounty-was-earned-via-broken-logic-in-payment-webhooks-0845dde48dd3",
+      "quick_test": "Test webhook endpoints for payment processing by sending manipulated payment status notifications to check for logic bypass vulnerabilities."
+    },
+    {
+      "id": "4129e3da82aa",
+      "title": "The Two Headers That Turn CORS Into Account Data Theft",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-24",
+      "category": "cors",
+      "category_label": "CORS Misconfiguration",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "infosec",
+        "cybersecurity",
+        "info-sec-writeups",
+        "bug-bounty",
+        "bug-bounty-tips"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/cors/4129e3da82aa.md",
+      "source_url": "https://kd-200.medium.com/the-two-headers-that-turn-cors-into-account-data-theft-92112046e12b",
+      "quick_test": "Test for CORS misconfiguration by sending requests with a custom Origin header to sensitive endpoints and checking the Access-Control-Allow-Origin response."
+    },
+    {
+      "id": "2ce5903abf71",
+      "title": "PDF Exploit Scanner & Patcher | Detect Malicious PDFs + Block Threats",
+      "author": "Pentester Club",
+      "publication_date": "2026-08-24",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "artificial-intelligence",
+        "bug-bounty",
+        "cybersecurity",
+        "hacking",
+        "android"
+      ],
+      "tools": [],
+      "path": "checklists/methodology-tooling/2ce5903abf71.md",
+      "source_url": "https://medium.com/@pentesterclubpvtltd/pdf-exploit-scanner-patcher-detect-malicious-pdfs-block-threats-9ba86004e1a3",
+      "quick_test": "Always hash and analyze PDF documents for suspicious features before opening them in a production environment."
+    },
+    {
+      "id": "6ba482eb3315",
+      "title": "I WATCHED AN APP LIE TO ME — AND FOUND THE BUG NO SCANNER WOULD EVER SEE",
+      "author": "CypherNova1337",
+      "publication_date": "2026-08-24",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hacking",
+        "cybersecurity",
+        "pentesting",
+        "infosec",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Mitmproxy"
+      ],
+      "path": "checklists/methodology-tooling/6ba482eb3315.md",
+      "source_url": "https://cyphernova1337.medium.com/i-watched-an-app-lie-to-me-and-found-the-bug-no-scanner-would-ever-see-2c366feedc7a",
+      "quick_test": "Intercept mobile app traffic using mitmproxy to identify undocumented API endpoints and manipulate requests for testing."
+    },
+    {
+      "id": "1058b4ea7899",
+      "title": "Getting Started in Bug Bounty Hunting",
+      "author": "Bearded Viking",
+      "publication_date": "2026-08-24",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "practical_guide",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hacking",
+        "careers",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Apktool",
+        "Burp Suite",
+        "Frida",
+        "Hashcat",
+        "Jadx",
+        "Metasploit",
+        "Nmap",
+        "Sqlmap",
+        "curl",
+        "nmap",
+        "sqlmap"
+      ],
+      "path": "checklists/methodology-tooling/1058b4ea7899.md",
+      "source_url": "https://beardedviking.medium.com/getting-started-in-bug-bounty-hunting-5a2da7978813",
+      "quick_test": "Today, set up a bug bounty account and start testing a target application using Burp Suite to identify and document vulnerabilities."
+    },
+    {
+      "id": "ebedc43cd2aa",
+      "title": "IntroToBurp — picoCTF Writeup",
+      "author": "mayhack",
+      "publication_date": "2026-08-24",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "bug-bounty",
+        "ctf"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/authentication/ebedc43cd2aa.md",
+      "source_url": "https://medium.com/@may.hack/introtoburp-picoctf-writeup-573152971547",
+      "quick_test": "Test for improper server-side validation by intercepting requests and modifying required parameters like OTP to check for authentication bypass."
+    },
+    {
+      "id": "718517b70573",
+      "title": "The art of Race Condition:how a simple race condition can leads to ATO!",
+      "author": "Tomahawk",
+      "publication_date": "2026-08-24",
+      "category": "race-condition",
+      "category_label": "Race Condition",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty-tips",
+        "tips",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/race-condition/718517b70573.md",
+      "source_url": "https://medium.com/@tomahawk0ctf/the-art-of-race-condition-how-a-simple-race-condition-can-leads-to-ato-f02157210897",
+      "quick_test": "Test for race conditions in OTP generation by sending concurrent requests to the password reset endpoint and validating multiple OTPs."
+    },
+    {
+      "id": "bca3e9dc9ccc",
+      "title": "I Ranked 252 Disclosed IDOR Reports by Bounty. Severity Barely Mattered.",
+      "author": "Raj Namdev",
+      "publication_date": "2026-08-23",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "cybersecurity",
+        "web-security",
+        "bug-bounty",
+        "ethical-hacking",
+        "idor"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/bca3e9dc9ccc.md",
+      "source_url": "https://medium.com/@rajnamdev/i-ranked-252-disclosed-idor-reports-by-bounty-severity-barely-mattered-3ba306bfa595",
+      "quick_test": "Test for IDOR by swapping user identifiers in API requests to access unauthorized data."
+    },
+    {
+      "id": "dd8790784500",
+      "title": "How I Hacked A Telecom Company",
+      "author": "the_phreak",
+      "publication_date": "2026-08-23",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "pentesting",
+        "penetration-testing",
+        "bug-bounty",
+        "bug-hunting",
+        "bug-bounty-writeup"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/dd8790784500.md",
+      "source_url": "https://medium.com/@the_phreak/how-i-hacked-a-telecom-company-edc5455e4443",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating user identifiers in account-related requests to access unauthorized data."
+    },
+    {
+      "id": "0cc8aada8fcd",
+      "title": "Is It Possible to Get an $850 Subscription Plan With Only $0?",
+      "author": "0xMo7areb",
+      "publication_date": "2026-08-23",
+      "category": "business-logic",
+      "category_label": "Business Logic",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "technology",
+        "penetration-testing",
+        "writing",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Burp Intruder"
+      ],
+      "path": "checklists/business-logic/0cc8aada8fcd.md",
+      "source_url": "https://medium.com/@0xMo7areb/is-it-possible-to-get-an-850-subscription-plan-with-only-0-e175200b6549",
+      "quick_test": "Test for hidden subscription IDs by manipulating the subscriptionId parameter during the payment process."
+    },
+    {
+      "id": "b603580f4ad4",
+      "title": "Burp Repeater, Decoder, and Comparer: Resend, Re-encode, and Diff Requests",
+      "author": "Muneebahmedkhan",
+      "publication_date": "2026-08-23",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "practical_guide",
+      "steps_source": "extracted",
+      "tags": [
+        "tutorial",
+        "web-security",
+        "cybersecurity",
+        "burpsuite",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Burp Repeater",
+        "Burp Suite"
+      ],
+      "path": "checklists/methodology-tooling/b603580f4ad4.md",
+      "source_url": "https://medium.com/@muneebahmedkhan0903/burp-repeater-decoder-and-comparer-resend-re-encode-and-diff-requests-2ee34d992aa8",
+      "quick_test": "Use Burp Repeater to modify and resend HTTP requests to identify differences in responses, focusing on authentication headers and URL paths."
+    },
+    {
+      "id": "6562a67bf13a",
+      "title": "From a Password Reset Form to Unauthenticated Database Access",
+      "author": "redhunter01",
+      "publication_date": "2026-08-23",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "sql-injection",
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security"
+      ],
+      "tools": [
+        "Frida"
+      ],
+      "path": "checklists/authentication/6562a67bf13a.md",
+      "source_url": "https://medium.com/@redhunter01/from-a-password-reset-form-to-unauthenticated-database-access-dc88ae0abf32",
+      "quick_test": "Test password reset endpoints for SQL injection by manipulating the email parameter and observing response behavior."
+    },
+    {
+      "id": "e8f8a7f03cd0",
+      "title": "Hijacking Web3 Extensions: Unvalidated Storage & TOCTOU Patch Bypass in Coin98",
+      "author": "raz-uh",
+      "publication_date": "2026-08-23",
+      "category": "race-condition",
+      "category_label": "Race Condition",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "web3",
+        "chrome-extension",
+        "ethereum",
+        "javascript"
+      ],
+      "tools": [],
+      "path": "checklists/race-condition/e8f8a7f03cd0.md",
+      "source_url": "https://infosecwriteups.com/hijacking-web3-extensions-unvalidated-storage-toctou-patch-bypass-in-coin98-b8a655f793d4",
+      "quick_test": "Test for unvalidated localStorage access in Web3 extensions by injecting scripts that manipulate localStorage before the extension initializes."
+    },
+    {
+      "id": "965da22b2c97",
+      "title": "AgentGG Found 100+ Zero-Days in Open Source Software",
+      "author": "Philip Garabandic",
+      "publication_date": "2026-08-23",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "open-source",
+        "application-security",
+        "ai",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "tools": [],
+      "path": "checklists/injection/965da22b2c97.md",
+      "source_url": "https://infosecwriteups.com/agentgg-cli-found-100-zero-days-in-open-source-software-5269463d2e40",
+      "quick_test": "Run a targeted scan for SQL injection vulnerabilities on open source geospatial projects using AgentGG."
+    },
+    {
+      "id": "7cd3e02c1dd3",
+      "title": "A GeoServer Zero-Day That Went From Private Report to Public Exploit",
+      "author": "Philip Garabandic",
+      "publication_date": "2026-08-23",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "vulnerability",
+        "application-security",
+        "cybersecurity",
+        "open-source",
+        "bug-bounty"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/injection/7cd3e02c1dd3.md",
+      "source_url": "https://infosecwriteups.com/a-geoserver-zero-day-that-went-from-private-report-to-public-exploit-in-six-weeks-0fc3724f22d7",
+      "quick_test": "Test public GeoServer instances for unauthenticated SQL injection via the jsonArrayContains filter by sending crafted WFS or WMS requests."
+    },
+    {
+      "id": "1ebb1c10cf1f",
+      "title": "NetBIOS & SMB Enumeration :",
+      "author": "Divyanshu Chaudhary",
+      "publication_date": "2026-08-23",
+      "category": "recon-osint",
+      "category_label": "Recon / OSINT",
+      "content_type": "practical_guide",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "enumeration",
+        "cybersecurity",
+        "reconnaissance"
+      ],
+      "tools": [
+        "nmap"
+      ],
+      "path": "checklists/recon-osint/1ebb1c10cf1f.md",
+      "source_url": "https://medium.com/@divyanshukr4246/netbios-smb-enumeration-50f2cc82f6b2",
+      "quick_test": "Run nmap and nbtscan against the target to identify open NetBIOS and SMB services."
+    },
+    {
+      "id": "63e76b2c30ed",
+      "title": "How an Unsanitized Header Generated a $6,000 Bounty via Cache Poisoning",
+      "author": "T4nv1",
+      "publication_date": "2026-08-23",
+      "category": "cache-poisoning",
+      "category_label": "Cache Poisoning",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "pentesting",
+        "bug-bounty-writeup",
+        "security"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/cache-poisoning/63e76b2c30ed.md",
+      "source_url": "https://medium.com/@t4nv1/how-an-unsanitized-header-generated-a-6-000-bounty-via-cache-poisoning-da7757cc6f18",
+      "quick_test": "Test for unkeyed headers in cacheable responses by manipulating header values and verifying if the changes persist across requests."
+    },
+    {
+      "id": "11cd53d892dd",
+      "title": "The Bug You Exploit by Clicking “Create”",
+      "author": "Nitin yadav",
+      "publication_date": "2026-08-23",
+      "category": "subdomain-takeover",
+      "category_label": "Subdomain Takeover",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "info-sec-writeups",
+        "infosec",
+        "cybersecurity",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Amass",
+        "Subfinder",
+        "curl"
+      ],
+      "path": "checklists/subdomain-takeover/11cd53d892dd.md",
+      "source_url": "https://kd-200.medium.com/the-bug-you-exploit-by-clicking-create-390cf3e86abb",
+      "quick_test": "Run subdomain enumeration tools to identify dangling CNAME records and check their status for potential takeover."
+    },
+    {
+      "id": "fd0cda5bfb10",
+      "title": "How Broken OAuth Flows Turn Into One-Click Account Takeovers",
+      "author": "cyber security",
+      "publication_date": "2026-08-23",
+      "category": "oauth-sso",
+      "category_label": "OAuth / SSO",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/oauth-sso/fd0cda5bfb10.md",
+      "source_url": "https://medium.com/@tanvir.infosec/how-broken-oauth-flows-turn-into-one-click-account-takeovers-a13a67aa36c0",
+      "quick_test": "Verify that the OAuth implementation includes state and PKCE to bind the authorization response to the original login transaction."
+    },
+    {
+      "id": "7acf705d6703",
+      "title": "The Server Had No Secrets — A Complete Guide to Path Traversal",
+      "author": "// l1m1nal_3ntr0py",
+      "publication_date": "2026-08-23",
+      "category": "path-traversal",
+      "category_label": "Path Traversal / Arbitrary File Read",
+      "content_type": "practical_guide",
+      "steps_source": "extracted",
+      "tags": [
+        "penetration-testing",
+        "cybersecurity",
+        "ethical-hacking",
+        "bug-bounty",
+        "web-security"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/path-traversal/7acf705d6703.md",
+      "source_url": "https://medium.com/@l1m1nal_3ntr0py/the-server-had-no-secrets-a-complete-guide-to-path-traversal-fcf5c1377f72",
+      "quick_test": "Test any file path parameters with traversal payloads to check for arbitrary file read vulnerabilities."
+    },
+    {
+      "id": "f61bd56ccee4",
+      "title": "One .contains() Away From a Full JavaScript Bridge Takeover",
+      "author": "Hussein Ayoub",
+      "publication_date": "2026-08-23",
+      "category": "mobile",
+      "category_label": "Mobile / JS Bridge",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "android-security",
+        "ai-agent",
+        "bug-bounty-writeup"
+      ],
+      "tools": [
+        "Apktool",
+        "Jadx"
+      ],
+      "path": "checklists/mobile/f61bd56ccee4.md",
+      "source_url": "https://medium.com/@husein.ayoub/one-contains-away-from-a-full-javascript-bridge-takeover-e0c05eb066f8",
+      "quick_test": "Check for exported activities in Android apps that use a WebView with a JavaScript bridge and validate the host using substring matching instead of strict equality."
+    },
+    {
+      "id": "d7cdfdbbed08",
+      "title": "The Story of How I Hacked one of the online payment system website",
+      "author": "Jonathan Christian",
+      "publication_date": "2023-11-20",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty-writeup",
+        "programming",
+        "technology",
+        "cybersecurity",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/injection/d7cdfdbbed08.md",
+      "source_url": "https://christmex.medium.com/the-story-of-how-i-hacked-one-of-the-online-payment-system-website-twice-b0ba48ed13db",
+      "quick_test": "Test for SQL injection on login pages of subdomains and check for default credentials."
+    },
+    {
+      "id": "0b468ba9a1a1",
+      "title": "SSTI bypass using CRLF (1337 UP CTF — Smarty Pants)",
+      "author": "TheWolf Sec",
+      "publication_date": "2023-11-19",
+      "category": "rce",
+      "category_label": "RCE / Code Execution",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "intigriti",
+        "ssti",
+        "bug-bounty",
+        "ctf",
+        "php-developers"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/rce/0b468ba9a1a1.md",
+      "source_url": "https://medium.com/@thewolfsec/ssti-bypass-using-crlf-1337-up-ctf-smarty-pants-4ee8e1a72f98",
+      "quick_test": "Test for SSTI by injecting payloads with new line characters in user input fields that process Smarty templates."
+    },
+    {
+      "id": "90823aefdde8",
+      "title": "#2 Different Burp Suite Tools — Guide for Burp Suite",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-19",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "security",
+        "cybersecurity",
+        "news"
+      ],
+      "tools": [
+        "Burp Collaborator",
+        "Burp Intruder",
+        "Burp Repeater",
+        "Burp Suite"
+      ],
+      "path": "checklists/methodology-tooling/90823aefdde8.md",
+      "source_url": "https://securitycipher.medium.com/2-different-burp-suite-tools-guide-for-burp-suite-7c5aa2ad05ed",
+      "quick_test": "Test the application by using Burp Suite's Proxy and Repeater tools to manipulate and resend requests, checking for unexpected behavior."
+    },
+    {
+      "id": "4fd6d185c879",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 3",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-19",
+      "category": "mobile",
+      "category_label": "Mobile / JS Bridge",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "android",
+        "android-pentesting",
+        "penetration-testing",
+        "hacking",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Jadx"
+      ],
+      "path": "checklists/mobile/4fd6d185c879.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-3-99e86d021190",
+      "quick_test": "Check the AndroidManifest.xml for allowBackup, debuggable, and usesCleartextTraffic attributes to ensure secure configurations."
+    },
+    {
+      "id": "99d0bb813cde",
+      "title": "Privilege Escalation: Unauthorized Low-Privilege Users Creating Feature Bundles",
+      "author": "Abhi Sharma",
+      "publication_date": "2023-11-19",
+      "category": "privilege-escalation",
+      "category_label": "Privilege Escalation",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "programming",
+        "cybersecurity",
+        "hacking",
+        "api"
+      ],
+      "tools": [],
+      "path": "checklists/privilege-escalation/99d0bb813cde.md",
+      "source_url": "https://medium.com/@a13h1/privilege-escalation-unauthorized-low-privilege-users-creating-feature-bundles-75f6125eec78",
+      "quick_test": "Test if low-privilege users can create feature bundles by submitting a request to the feature bundle creation endpoint."
+    },
+    {
+      "id": "32b9be78a585",
+      "title": "Project 2510: Bug Bounty Challenge — Day 13/25",
+      "author": "Wallotry",
+      "publication_date": "2023-11-18",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-hunter",
+        "bug-bounty-hunting",
+        "bug-bounty-tips"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/32b9be78a585.md",
+      "source_url": "https://wallotry.medium.com/project-2510-bug-bounty-challenge-day-13-25-f6e21379749b",
+      "quick_test": "Test file upload and address retrieval functionalities for IDOR and RCE vulnerabilities by manipulating file uploads and address IDs."
+    },
+    {
+      "id": "c7f13698913f",
+      "title": "Default Credentials, P1 with $$$$ Reward in a Bug Bounty Program",
+      "author": "jedus0r",
+      "publication_date": "2023-11-18",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "security-research",
+        "bug-bounty",
+        "bug-bounty-tips",
+        "bug-bounty-writeup",
+        "bug-bounty-hunter"
+      ],
+      "tools": [
+        "Ffuf",
+        "curl"
+      ],
+      "path": "checklists/authentication/c7f13698913f.md",
+      "source_url": "https://medium.com/@jedus0r/default-credentials-p1-with-reward-in-a-bug-bounty-program-1aad9c008619",
+      "quick_test": "Check for default credentials on admin panels by attempting common default username/password combinations."
+    },
+    {
+      "id": "158e19171837",
+      "title": "eWPTX Prepare Resources",
+      "author": "0UN390",
+      "publication_date": "2023-11-18",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "web-security",
+        "penetration-testing"
+      ],
+      "tools": [
+        "Sqlmap",
+        "sqlmap"
+      ],
+      "path": "checklists/injection/158e19171837.md",
+      "source_url": "https://medium.com/@0UN390/ewptx-prepare-resources-a741220cf145",
+      "quick_test": "Test all user input fields for SQL injection by injecting a single quote and using Sqlmap for automated exploitation."
+    },
+    {
+      "id": "737c86cd0d1c",
+      "title": "AppSec Tales XXIII | XPathI",
+      "author": "Karol Mazurek",
+      "publication_date": "2023-11-18",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "information-technology",
+        "cybersecurity",
+        "application-security",
+        "bug-bounty",
+        "penetration-testing"
+      ],
+      "tools": [],
+      "path": "checklists/injection/737c86cd0d1c.md",
+      "source_url": "https://karol-mazurek95.medium.com/appsec-tales-xxiii-xpathi-ca6171826d2a",
+      "quick_test": "Test user input fields that interact with XML data for XPath Injection by injecting crafted XPath queries."
+    },
+    {
+      "id": "69ba032f8110",
+      "title": "#Day6 Bug Bounty Recon Part 2: ( Subdomains and S3 buckets )",
+      "author": "OBSIDIAN",
+      "publication_date": "2023-11-18",
+      "category": "recon-osint",
+      "category_label": "Recon / OSINT",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "programming",
+        "technology",
+        "bug-bounty",
+        "ethical-hacking",
+        "cybersecurity"
+      ],
+      "tools": [
+        "Amass",
+        "Shodan",
+        "Subfinder",
+        "Virustotal",
+        "curl",
+        "python"
+      ],
+      "path": "checklists/recon-osint/69ba032f8110.md",
+      "source_url": "https://medium.com/codingninjablogs/day6-bug-bounty-recon-part-2-subdomains-and-s3-buckets-1a01780e6908",
+      "quick_test": "Run automated tools like Sublist3r and Amass to enumerate subdomains for a target domain today."
+    },
+    {
+      "id": "7952407903cc",
+      "title": "Hacking Microsoft IIS : Enumerating IIS for V",
+      "author": "Mudasser Hussain",
+      "publication_date": "2023-11-18",
+      "category": "recon-osint",
+      "category_label": "Recon / OSINT",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "infosec-write-ups",
+        "cybersecurity",
+        "hacking",
+        "microsoft",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Ffuf",
+        "Nmap",
+        "Nuclei",
+        "Shodan",
+        "ffuf",
+        "nmap"
+      ],
+      "path": "checklists/recon-osint/7952407903cc.md",
+      "source_url": "https://medium.com/@mudasserhussain1111/hacking-microsoft-iis-enumerating-iis-for-v-39de5a27f101",
+      "quick_test": "Enumerate IIS servers for short file names and version information using Shodan and Nmap."
+    },
+    {
+      "id": "b13b950d40b7",
+      "title": "OAuth Misconfiguration Leads To Pre-Account Takeover(snapchat)",
+      "author": "Ahmed Mahmoued",
+      "publication_date": "2023-11-18",
+      "category": "oauth-sso",
+      "category_label": "OAuth / SSO",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hacking",
+        "bug-bounty-tips",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/oauth-sso/b13b950d40b7.md",
+      "source_url": "https://medium.com/@a7med.ctf/oauth-misconfiguration-leads-to-pre-account-takeover-snapchat-129b118661f6",
+      "quick_test": "Test if signing up with the same email via different OAuth providers allows access to the same account."
+    },
+    {
+      "id": "c7bd7ae8eeb1",
+      "title": "CVE-2023–36025: An In-Depth Analysis of Circumventing Windows SmartScreen Security",
+      "author": "Security Lit Limited",
+      "publication_date": "2023-11-18",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "penetration-testing",
+        "threat-intelligence",
+        "cybersecurity",
+        "microsoft",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/c7bd7ae8eeb1.md",
+      "source_url": "https://infosecwriteups.com/cve-2023-36025-an-in-depth-analysis-of-circumventing-windows-smartscreen-security-6ff05c8b69d0",
+      "quick_test": "Test if crafted .URL files can bypass Windows SmartScreen warnings by creating and delivering a malicious Internet Shortcut file."
+    },
+    {
+      "id": "993bf3370ad5",
+      "title": "CVE-2023–35078 Unveiled: Ethical Vulnerability Discovery and Reporting By Me and My Hunting Buddy…",
+      "author": "Rj07",
+      "publication_date": "2023-11-18",
+      "category": "api-security",
+      "category_label": "API Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "responsible-disclosure",
+        "information-technology",
+        "zero-day",
+        "bug-bounty",
+        "information-security"
+      ],
+      "tools": [
+        "Shodan",
+        "python"
+      ],
+      "path": "checklists/api-security/993bf3370ad5.md",
+      "source_url": "https://medium.com/@jaini.rutvik/cve-2023-35078-unveiled-ethical-vulnerability-discovery-and-reporting-by-me-and-my-hunting-buddy-507582baf5c3",
+      "quick_test": "Run a Shodan search for devices with known vulnerable software versions and attempt to exploit using a tailored script."
+    },
+    {
+      "id": "7e3f042441ff",
+      "title": "How to find vulnerabilities in a web page in 10 minutes",
+      "author": "127.0.0.1 is safe.⚠️",
+      "publication_date": "2023-11-17",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "red-team",
+        "bug-bounty",
+        "error-message",
+        "cybersecurity",
+        "hacking"
+      ],
+      "tools": [
+        "Sqlmap",
+        "sqlmap"
+      ],
+      "path": "checklists/injection/7e3f042441ff.md",
+      "source_url": "https://medium.com/@l0calh0st/how-to-find-vulnerabilities-in-a-web-page-in-10-minutes-66cd052b4fbc",
+      "quick_test": "Check for SQL injection vulnerabilities by testing user input parameters with common SQL payloads and using sqlmap for enumeration."
+    },
+    {
+      "id": "70a241a21d64",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 2",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-17",
+      "category": "mobile",
+      "category_label": "Mobile / JS Bridge",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "android-pentesting",
+        "android",
+        "penetration-testing",
+        "hacking",
+        "bug-bounty"
+      ],
+      "tools": [
+        "Apktool",
+        "Burp Suite",
+        "Frida",
+        "Jadx"
+      ],
+      "path": "checklists/mobile/70a241a21d64.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-2-9c33c319a696",
+      "quick_test": "Inject a Frida script into the target application to test for insecure JavaScript interfaces."
+    },
+    {
+      "id": "0ee24488d408",
+      "title": "Dastardly — Web Application Security Scanner — CI/CD",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-17",
+      "category": "xss",
+      "category_label": "XSS",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "technology",
+        "security",
+        "bug-bounty",
+        "cybersecurity",
+        "penetration-testing"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/xss/0ee24488d408.md",
+      "source_url": "https://securitycipher.medium.com/dastardly-web-application-security-scanner-ci-cd-3a4eea08719a",
+      "quick_test": "Test for reflected XSS by injecting payloads into user input fields and checking if they are executed in the response."
+    },
+    {
+      "id": "0418e2242b6c",
+      "title": "#1 Introduction to Burp Suite — Guide for Burp Suite",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-16",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "penetration-testing",
+        "bug-bounty",
+        "cybersecurity",
+        "technology",
+        "security"
+      ],
+      "tools": [
+        "Burp Suite",
+        "Owasp Zap"
+      ],
+      "path": "checklists/methodology-tooling/0418e2242b6c.md",
+      "source_url": "https://securitycipher.medium.com/1-introduction-to-burp-suite-guide-for-burp-suite-4054b64f10a0",
+      "quick_test": "Set up Burp Suite as a proxy to intercept and analyze HTTP traffic for vulnerabilities in web applications."
+    },
+    {
+      "id": "c058d67beb3e",
+      "title": "Easy Admin Access — RVDP",
+      "author": "hackerdevil",
+      "publication_date": "2023-11-16",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty-tips",
+        "web-app-security",
+        "bug-bounty",
+        "bug-bounty-writeup",
+        "vulnerability-assessment"
+      ],
+      "tools": [
+        "Httpx",
+        "curl",
+        "httpx"
+      ],
+      "path": "checklists/authentication/c058d67beb3e.md",
+      "source_url": "https://infosecwriteups.com/easy-admin-access-rvdp-d1eb2c97cb3e",
+      "quick_test": "Check for hidden admin portals on subdomains and test for default credentials."
+    },
+    {
+      "id": "e387c76aa30c",
+      "title": "How I got a $500 reward for finding an unacclaimed bucket on GitHub",
+      "author": "André Pontes",
+      "publication_date": "2023-11-16",
+      "category": "recon-osint",
+      "category_label": "Recon / OSINT",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "aws-s3",
+        "hackerone",
+        "bug-bounty",
+        "aws"
+      ],
+      "tools": [],
+      "path": "checklists/recon-osint/e387c76aa30c.md",
+      "source_url": "https://medium.com/@andre.pontes7/how-i-got-a-500-reward-for-finding-an-unacclaimed-bucket-on-github-57623c386515",
+      "quick_test": "Search GitHub for unacclaimed S3 buckets using specific dorks and verify their accessibility."
+    },
+    {
+      "id": "3aed592a0002",
+      "title": "Diving Deep: A Comprehensive Guide to Android Penetration Testing — Part 1",
+      "author": "Hacker's Dump",
+      "publication_date": "2023-11-16",
+      "category": "mobile",
+      "category_label": "Mobile / JS Bridge",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "android-pentesting",
+        "hacking",
+        "android",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/mobile/3aed592a0002.md",
+      "source_url": "https://medium.com/@hackersdump0/diving-deep-a-comprehensive-guide-to-android-penetration-testing-part-1-392cf9abf93f",
+      "quick_test": "Check for insecure JavaScript bridges in mobile applications by hooking into the app and testing for unauthorized access to sensitive methods."
+    },
+    {
+      "id": "118b2a563182",
+      "title": "AuditOne Roundtable with Alexey from Aurora and Guido Vranken",
+      "author": "AuditOne",
+      "publication_date": "2023-11-16",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "defi",
+        "web3",
+        "aurora",
+        "fuzzing"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/general-web/118b2a563182.md",
+      "source_url": "https://medium.com/@auditone.io/auditone-roundtable-with-alexey-from-aurora-and-guido-vranken-3d7c709289c0",
+      "quick_test": "Inspect smart contract functions for vulnerabilities by using fuzzing techniques to identify unexpected behaviors."
+    },
+    {
+      "id": "426c1411a997",
+      "title": "Introducing Bug Bounty Boosts: Supercharging Security With Timebound Events",
+      "author": "Immunefi Editor",
+      "publication_date": "2023-11-16",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "web3",
+        "immunefi",
+        "cybersecurity",
+        "degate"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/426c1411a997.md",
+      "source_url": "https://medium.com/immunefi/introducing-bug-bounty-boosts-supercharging-security-with-timebound-events-51e3a1f208c3",
+      "quick_test": "Join a bug bounty program that offers boosted rewards and actively search for vulnerabilities in newly released code."
+    },
+    {
+      "id": "107114ab65ba",
+      "title": "$1000 Bounty: How I scaled a Self-Redirect to an XSS in a web 3.0 system at Hackenproof",
+      "author": "Erick Fernando",
+      "publication_date": "2023-11-16",
+      "category": "xss",
+      "category_label": "XSS",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "hackenproof",
+        "open-redirect",
+        "xss-bypass"
+      ],
+      "tools": [],
+      "path": "checklists/xss/107114ab65ba.md",
+      "source_url": "https://erickfernandox.medium.com/1000-bounty-how-i-scaled-a-self-redirect-to-an-xss-in-a-web-3-0-system-at-hackenproof-37380f701892",
+      "quick_test": "Test for self-redirect vulnerabilities by injecting JavaScript payloads into URL parameters and observing if they execute."
+    },
+    {
+      "id": "21a615380bdc",
+      "title": "Exploiting Blind XXE: Going Out of Band",
+      "author": "Mohamed Taha",
+      "publication_date": "2023-11-16",
+      "category": "xxe",
+      "category_label": "XXE / XML",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "security",
+        "penetration-testing",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/xxe/21a615380bdc.md",
+      "source_url": "https://medium.com/@mohamedtaha_42562/exploiting-blind-xxe-going-out-of-band-f04e3c1ea7ef",
+      "quick_test": "Test XML endpoints for blind XXE by sending payloads that reference external DTDs to retrieve sensitive data."
+    },
+    {
+      "id": "e0cf34d47a93",
+      "title": "Idor That allowed me to get access to sensitive users files and share them -.-",
+      "author": "Hamzadzworm",
+      "publication_date": "2023-11-15",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bugbounty-writeup",
+        "bug-bounty-tips",
+        "hackerone",
+        "bug-bounty",
+        "cybersecurity"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/broken-access-control/e0cf34d47a93.md",
+      "source_url": "https://hamzadzworm.medium.com/idor-that-allowed-me-to-get-access-to-sensitive-users-files-and-share-them-f7da741e9f63",
+      "quick_test": "Test for IDOR by manipulating itemid and ownerid parameters in share requests to access files from other user accounts."
+    },
+    {
+      "id": "909c0300ef91",
+      "title": "DNS C2 — When Malware Goes Incognito!",
+      "author": "Paritosh",
+      "publication_date": "2023-11-15",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "cybersecurity",
+        "bug-bounty",
+        "information-security",
+        "dns",
+        "hacking"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/909c0300ef91.md",
+      "source_url": "https://medium.com/@paritoshblogs/dns-c2-when-malware-goes-incognito-03fdc2e82057",
+      "quick_test": "Monitor DNS traffic for unusual queries and responses that may indicate DNS-based command and control communication."
+    },
+    {
+      "id": "93ed5a507ead",
+      "title": "HackerOne Surpasses $300 Million in Rewards for Ethical Hackers",
+      "author": "ZeroSecurity",
+      "publication_date": "2023-11-15",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/93ed5a507ead.md",
+      "source_url": "https://medium.com/@zerosecurity/hackerone-surpasses-300-million-in-rewards-for-ethical-hackers-eba7be4f106c",
+      "quick_test": "Identify and exploit common vulnerabilities in web applications to assess their security posture and report findings through a bug bounty program."
+    },
+    {
+      "id": "076ee0f4bedc",
+      "title": "LandRocker Bug Bounty Program",
+      "author": "LandRocker",
+      "publication_date": "2023-11-15",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "bitcoin",
+        "cryptocurrency-investment",
+        "token-sale",
+        "web3"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/076ee0f4bedc.md",
+      "source_url": "https://landrocker.medium.com/landrocker-bug-bounty-program-aa2f55f47297",
+      "quick_test": "Test the token purchase and bug reporting features for input validation vulnerabilities by submitting unexpected payloads."
+    },
+    {
+      "id": "0a9be624b29a",
+      "title": "Unveiling Sensitive Information Exposure: IIS Tilde Enumeration Vulnerability",
+      "author": "Nas",
+      "publication_date": "2023-11-15",
+      "category": "information-disclosure",
+      "category_label": "Information Disclosure",
+      "content_type": "practical_guide",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "hacking",
+        "cybersecurity",
+        "bug-bounty-writeup"
+      ],
+      "tools": [
+        "Burp Intruder"
+      ],
+      "path": "checklists/information-disclosure/0a9be624b29a.md",
+      "source_url": "https://medium.com/@mohammed0anas/unveiling-sensitive-information-exposure-iis-tilde-enumeration-vulnerability-ffe034073288",
+      "quick_test": "Test for IIS tilde enumeration by appending '~1\\' to known paths and observing the response for unauthorized access."
+    },
+    {
+      "id": "f25e16b5582a",
+      "title": "Hackathon : KPU.GO.ID",
+      "author": "Angry Oval Egg",
+      "publication_date": "2023-11-14",
+      "category": "rce",
+      "category_label": "RCE / Code Execution",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hackathons",
+        "indo-hacker",
+        "bug-bounty",
+        "kpu",
+        "pemilu"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/rce/f25e16b5582a.md",
+      "source_url": "https://medium.com/@angryovalegg/hackathon-kpu-go-id-8fb6f3ce0d61",
+      "quick_test": "Test for remote code execution by manipulating file inclusion parameters to include external or sensitive local files."
+    },
+    {
+      "id": "7b09a85829ea",
+      "title": "Escalating Blind SSRF to a Remote Code Execution",
+      "author": "Mukilan Baskaran",
+      "publication_date": "2023-11-14",
+      "category": "rce",
+      "category_label": "RCE / Code Execution",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "infosec",
+        "ssrf",
+        "cybersecurity",
+        "bug-bounty",
+        "hacking"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/rce/7b09a85829ea.md",
+      "source_url": "https://mukibas37.medium.com/escalating-blind-ssrf-to-a-remote-code-execution-be65ed9a7d0f",
+      "quick_test": "Test for Blind SSRF by manipulating User-Agent or Referer headers to execute commands on internal services."
+    },
+    {
+      "id": "9d47614152c4",
+      "title": "#4 Session Fixation — Secure Code Explain",
+      "author": "Piyush Kumawat (securitycipher)",
+      "publication_date": "2023-11-14",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "cybersecurity",
+        "technology",
+        "bug-bounty",
+        "vulnerability",
+        "coding"
+      ],
+      "tools": [],
+      "path": "checklists/authentication/9d47614152c4.md",
+      "source_url": "https://securitycipher.medium.com/4-session-fixation-secure-code-explain-7d9567f25f38",
+      "quick_test": "Test if the application allows setting a custom session ID via a parameter during authentication."
+    },
+    {
+      "id": "6075812a6b56",
+      "title": "Google VRP -[IDOR] Deleted Victim Data & Leaked",
+      "author": "Gilang Romadon",
+      "publication_date": "2023-11-13",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "idor-vulnerability",
+        "bug-bounty-tips",
+        "ggilangromadon",
+        "google-vrp"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/broken-access-control/6075812a6b56.md",
+      "source_url": "https://medium.com/@ggilang1135/google-vrp-idor-deleted-victim-data-leaked-0b3cba8e3f7a",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating identifiers in API requests to access or delete unauthorized data."
+    },
+    {
+      "id": "8db9dd410089",
+      "title": "SSL Search — A tool to identify infrastructure and discover attack surfaces.",
+      "author": "Harsh Varagiya",
+      "publication_date": "2023-11-13",
+      "category": "methodology-tooling",
+      "category_label": "Methodology / Tooling",
+      "content_type": "practical_guide",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "gcp",
+        "ssl-certificate",
+        "aws",
+        "internet"
+      ],
+      "tools": [],
+      "path": "checklists/methodology-tooling/8db9dd410089.md",
+      "source_url": "https://medium.com/@harsh8v/ssl-search-a-tool-to-identify-infrastructure-and-discover-attack-surfaces-449c83269574",
+      "quick_test": "Run SSL Search to identify and assess the public attack surface of a target's infrastructure using SSL certificate scanning."
+    },
+    {
+      "id": "1500a9e037fa",
+      "title": "Announcing IWCON 2023 Speakers Second Batch",
+      "author": "InfoSec Write-ups",
+      "publication_date": "2023-11-13",
+      "category": "prompt-injection",
+      "category_label": "Prompt Injection / AI Agent",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "infosec",
+        "security",
+        "bug-bounty",
+        "conference",
+        "hacking"
+      ],
+      "tools": [],
+      "path": "checklists/prompt-injection/1500a9e037fa.md",
+      "source_url": "https://infosecwriteups.com/announcing-iwcon-2023-speakers-second-batch-26762dc93491",
+      "quick_test": "Test AI applications for prompt injection by submitting crafted inputs to see if you can manipulate the output."
+    },
+    {
+      "id": "7b0fe2725803",
+      "title": "I created posts on the newsletter page dedicated to the program administrator",
+      "author": "Hossam Hamada",
+      "publication_date": "2023-11-12",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "penetration-testing",
+        "idor",
+        "idor-vulnerability",
+        "bug-hunting"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/7b0fe2725803.md",
+      "source_url": "https://medium.com/@hossam_hamada/i-created-posts-on-the-newsletter-page-dedicated-to-the-program-administrator-aa271980aa53",
+      "quick_test": "Test for IDOR vulnerabilities by manipulating section identifiers in post requests to verify unauthorized access to restricted features."
+    },
+    {
+      "id": "6e8c9b9a6e43",
+      "title": "1200$ IDOR Flaw: Allow Attacker To Approve Project Time Tracking",
+      "author": "Abhi Sharma",
+      "publication_date": "2023-11-12",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "programming",
+        "hacking",
+        "information-security",
+        "cybersecurity"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/6e8c9b9a6e43.md",
+      "source_url": "https://medium.com/@a13h1/1200-idor-flaw-allow-attacker-to-approve-project-time-tracking-a9f64c06732a",
+      "quick_test": "Test for IDOR by manipulating object identifiers in requests to sensitive endpoints."
+    },
+    {
+      "id": "63b278100da9",
+      "title": "Authentication Vulnerabilities- Lab #8 2FA (Two Factor Authentication) broken logic",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-12",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "portswigger",
+        "cybersecurity",
+        "2fa-hacking",
+        "web-security",
+        "bug-bounty"
+      ],
+      "tools": [],
+      "path": "checklists/authentication/63b278100da9.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-8-2fa-two-factor-authentication-broken-logic-b3c6cd8923b9",
+      "quick_test": "Test if changing the verify cookie allows bypassing 2FA by manipulating the mfa-code parameter."
+    },
+    {
+      "id": "71f5e8c217ac",
+      "title": "Crafting XSS (Cross-Site Scripting) payloads",
+      "author": "Security Lit Limited",
+      "publication_date": "2023-11-12",
+      "category": "xss",
+      "category_label": "XSS",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "xss-vulnerability",
+        "bug-bounty",
+        "xss-attack",
+        "technology",
+        "cybersecurity"
+      ],
+      "tools": [],
+      "path": "checklists/xss/71f5e8c217ac.md",
+      "source_url": "https://infosecwriteups.com/crafting-xss-cross-site-scripting-payloads-919f62171bd0",
+      "quick_test": "Test all user input fields for XSS by injecting common payloads and observing for execution."
+    },
+    {
+      "id": "7884d430997a",
+      "title": "Project 2510: Bug Bounty Challenge — Day 6/25",
+      "author": "Wallotry",
+      "publication_date": "2023-11-11",
+      "category": "broken-access-control",
+      "category_label": "Broken Access Control / IDOR",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "bug-bounty",
+        "bug-bounty-hunter",
+        "bug-bounty-tips",
+        "bug-bounty-hunting"
+      ],
+      "tools": [],
+      "path": "checklists/broken-access-control/7884d430997a.md",
+      "source_url": "https://wallotry.medium.com/project-2510-bug-bounty-challenge-day-6-25-fe340a54386c",
+      "quick_test": "Test for unauthorized access to admin endpoints by manipulating authentication tokens or session IDs."
+    },
+    {
+      "id": "b80bd98ecc59",
+      "title": "Authentication Vulnerabilities- Lab #6 Broken brute-force protection, IP block",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-11",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "brute-force",
+        "web-security",
+        "cybersecurity",
+        "bug-bounty",
+        "portswigger"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/authentication/b80bd98ecc59.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-6-broken-brute-force-protection-ip-block-b3afca0a2ea7",
+      "quick_test": "Test for broken brute-force protection by attempting to insert a valid login request between incorrect password attempts."
+    },
+    {
+      "id": "0444d750666e",
+      "title": "AppSec Tales XXII | LDAPI",
+      "author": "Karol Mazurek",
+      "publication_date": "2023-11-11",
+      "category": "injection",
+      "category_label": "Injection (SQL / NoSQL)",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "information-technology",
+        "bug-bounty",
+        "cybersecurity",
+        "information-security",
+        "penetration-testing"
+      ],
+      "tools": [],
+      "path": "checklists/injection/0444d750666e.md",
+      "source_url": "https://karol-mazurek95.medium.com/appsec-tales-xxii-ldapi-fcef1f40e9b2",
+      "quick_test": "Test input fields for LDAP injection by submitting crafted LDAP query strings and observing the application's response."
+    },
+    {
+      "id": "329c139dda2b",
+      "title": "Downloading files using POST request (unorthodox method)",
+      "author": "Paritosh",
+      "publication_date": "2023-11-11",
+      "category": "general-web",
+      "category_label": "General Web Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "cybersecurity",
+        "programming",
+        "bug-bounty",
+        "hacking",
+        "html"
+      ],
+      "tools": [],
+      "path": "checklists/general-web/329c139dda2b.md",
+      "source_url": "https://medium.com/@paritoshblogs/downloading-files-using-post-request-unorthodox-method-d042bb06c1ce",
+      "quick_test": "Test if files can be downloaded using a POST request by sending a request to the download endpoint with file parameters."
+    },
+    {
+      "id": "e50f1ff70242",
+      "title": "Introduction to API Hacking: A Free Course to Level Up Your Skills",
+      "author": "Maisam Noyan",
+      "publication_date": "2023-11-11",
+      "category": "api-security",
+      "category_label": "API Security",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "hacking",
+        "bug-bounty",
+        "free-course",
+        "api",
+        "course"
+      ],
+      "tools": [],
+      "path": "checklists/api-security/e50f1ff70242.md",
+      "source_url": "https://medium.com/@maisamnoyan/introduction-to-api-hacking-a-free-course-to-level-up-your-skills-537bfc70180d",
+      "quick_test": "Test API endpoints for authentication vulnerabilities by manipulating login parameters and observing responses."
+    },
+    {
+      "id": "dd19dde7f284",
+      "title": "Authentication Vulnerabilities- Lab #3 Password reset broken logic",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-10",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "extracted",
+      "tags": [
+        "bug-bounty",
+        "cybersecurity",
+        "portswigger",
+        "web-security",
+        "password-reset"
+      ],
+      "tools": [
+        "Burp Suite"
+      ],
+      "path": "checklists/authentication/dd19dde7f284.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-3-password-reset-broken-logic-95bc62a7b92a",
+      "quick_test": "Test the password reset functionality by manipulating the username parameter to see if it allows resetting another user's password."
+    },
+    {
+      "id": "901fcaa707e3",
+      "title": "Authentication Vulnerabilities- Lab #2 2FA simple bypass",
+      "author": "dollarboysushil",
+      "publication_date": "2023-11-10",
+      "category": "authentication",
+      "category_label": "Authentication / Password Reset",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "web-security",
+        "cybersecurity",
+        "bug-bounty",
+        "portswigger",
+        "two-factor-authentication"
+      ],
+      "tools": [],
+      "path": "checklists/authentication/901fcaa707e3.md",
+      "source_url": "https://dollarboysushil.medium.com/authentication-vulnerabilities-lab-2-2fa-simple-bypass-6bd390cf92bc",
+      "quick_test": "Test if the application enforces 2FA by attempting to access protected resources directly after login without providing the 2FA code."
+    },
+    {
+      "id": "72eca79b00e3",
+      "title": "How I stopped a Wallet Hack and Got Almost Nothing.",
+      "author": "Muhammad Abdullah",
+      "publication_date": "2023-11-10",
+      "category": "information-disclosure",
+      "category_label": "Information Disclosure",
+      "content_type": "vuln_writeup",
+      "steps_source": "ai_inferred",
+      "tags": [
+        "web3",
+        "blockchain",
+        "bug-bounty",
+        "security"
+      ],
+      "tools": [
+        "curl"
+      ],
+      "path": "checklists/information-disclosure/72eca79b00e3.md",
+      "source_url": "https://medium.com/@mahitman1/how-i-stopped-a-wallet-hack-and-got-almost-nothing-68babd824854",
+      "quick_test": "Test for plaintext sensitive information being logged in third-party services during user interactions with wallet applications."
+    }
+  ]
+}
